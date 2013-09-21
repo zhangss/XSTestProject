@@ -1,0 +1,27 @@
+在iOS6中，viewDidUnload回调方法被Deprecated掉了。
+
+在iOS4和iOS5系统中，当内存不足，应用收到Memory warning时，系统会自动调用当前没在界面上的ViewController的viewDidUnload方法。 通常情况下，这些未显示在界面上的ViewController是UINavigationController Push栈中未在栈顶的ViewController，以及UITabBarViewController中未显示的子ViewController。这些View Controller都会在Memory Warning事件发生时，被系统自动调用viewDidUnload方法。
+
+在iOS6中，由于viewDidUnload事件在iOS6下任何情况都不会被触发，所以苹果在文档中建议，应该将回收内存的相关操作移到另一个回调函数：didReceiveMemoryWarning 中。
+
+iOS6不推荐你将view置为nil
+UIView有一个CALayer的成员变量，CALayer是具体用于将自己画到屏幕上的。
+CALayer是一个bitmap图象的容器类，当UIView调用自身的drawRect时，CALayer才会创建这个bitmap图象类。
+
+具体占内存的其实是一个bitmap图象类，CALayer只占48bytes, UIView只占96bytes。而一个iPad的全屏UIView的bitmap类会占到12M的大小！
+
+在iOS6时，当系统发出MemoryWarning时，系统会自动回收bitmap类。但是不回收UIView和CALayer类。这样即回收了大部分内存，又能在需要bitmap类时，通过调用UIView的drawRect: 方法重建。
+
+
+内存优化
+另外文章中还提到苹果的操作系统对此做的一个内存优化技巧，解释如下：
+
+当一段内存被分配时，它会被标记成“In use“, 以防止被重复使用。当内存被释放时，这段内存会被标记成”Not in use”，这样，在有新的内存申请时，这块内存就可能被分配给其它变量。
+
+CALayer包括的具体的bitmap内容的私有成员变量类型为CABackingStore， 当收到MemroyWarning时， CABackingStore类型的内存区会被标记成volatile类型（这里的volatile和 C以及Java语言的volatile不是一个意思），volatile表示，这块内存可能被再次被原变量重用。
+
+这样，有了上面的优化后，当收到Memoy Warning时，虽然所有的CALayer所包含的bitmap内存都被标记成volatile了，但是只要这块内存没有再次被复用，那么当需要重建bitmap内存时， 它就可以直接被复用，而避免了再次调用 UIView的 drawRect: 方法。
+
+总结
+
+所以，简单来说，对于iOS6，你不需要做任何以前viewDidUnload的事情，更不需要把以前viewDidUnload的代码移动到 didReceiveMemoryWarning方法中。

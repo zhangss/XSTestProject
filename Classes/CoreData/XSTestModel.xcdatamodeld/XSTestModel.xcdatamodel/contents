@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12E55" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Name" representedClassName="Name" syncable="YES">
+        <attribute name="userName" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="person" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="personName" inverseEntity="Person" syncable="YES"/>
+    </entity>
+    <entity name="Person" representedClassName="Person" syncable="YES">
+        <relationship name="personName" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Name" inverseName="person" inverseEntity="Name" syncable="YES"/>
+        <relationship name="personNumber" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="PhoneNumber" inverseName="person" inverseEntity="PhoneNumber" syncable="YES"/>
+    </entity>
+    <entity name="PhoneNumber" representedClassName="PhoneNumber" syncable="YES">
+        <attribute name="cellPhone" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="homePhone" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="workPhone" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="person" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="personNumber" inverseEntity="Person" syncable="YES"/>
+    </entity>
+    <entity name="TestData" representedClassName="TestData" syncable="YES">
+        <attribute name="creatTime" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="subTitle" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="TestData" positionX="198" positionY="242" width="128" height="88"/>
+        <element name="Name" positionX="43" positionY="171" width="128" height="73"/>
+        <element name="Person" positionX="-117" positionY="305" width="128" height="73"/>
+        <element name="PhoneNumber" positionX="151" positionY="396" width="128" height="103"/>
+    </elements>
+</model>

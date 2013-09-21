@@ -1,0 +1,47 @@
+//
+// Prefix header for all source files of the 'XSTestProject' target in the 'XSTestProject' project
+//
+
+/*
+ 预编译头文件作用
+ 1.主要作用:减少文件编译时间,加快编译速度.
+ 2.引用常用但是不经常修改的文件,否则会需要编译此文件,此文件编译比较费时.
+   <1>宏定义文件需要分为两类:固定宏定义文件及常常修改的宏定义文件.固定宏定义可以直接存放在这里。
+   <2>引用的第三方类库头文件.
+   <3>
+ 3.减少头文件引用:
+   常用的头文件在此引用一次之后即可,其他地方可以不再引用.
+ */
+
+#import <Availability.h>
+//版本支持???:为什么不能跳转
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+
+#ifdef __OBJC__
+//编译Frame库的所有头文件
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+    #import <CoreData/CoreData.h>
+
+//编译工程中的固定文件
+
+//版本信息 及 一些编译开关
+
+/*
+ 日志开关
+ 在"Target > Build Settings > Preprocessor Macros > Debug"增加DEGUG=1;即打开调试开关，打开日志。
+ 特别的:可以设置DEBGU_SONGSONG = 1;标示SONGSONG打印的日志。
+ */
+#ifdef DEBUG
+#define debugLog(...) NSLog(__VA_ARGS__)
+#define debugMethod() NSLog(@"%s", __func__)
+#else
+#define debugLog(...)
+#define debugMethod()
+
+#endif
+
+#endif

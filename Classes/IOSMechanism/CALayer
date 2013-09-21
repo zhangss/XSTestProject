@@ -1,0 +1,21 @@
+CALayer(Core Animation Layer)
+    每一个UIView内部都默认关联着一个CALayer，我们可以称这个Layer为Root Layer（根层）,View上所有的视觉效果都是在layer上进行的。
+    所有的非Root Layer，也就是手动创建的对象，都存在着隐式动画。其大部分的属性都可以实现动画效果
+    
+UIView与CALayer的不同
+    UIView继承自UIResponser然后继承自NSObject.属于UIKit框架，侧重于负责显示内容的管理，属于容器类。UIView是基于CALayer的高高层封装。UIView更像是一个管理Layer的容器
+    CALayer继承自NSOjbect，无法响应用户事件。属于Quartz.Core框架(负责IOS中内容的绘制)，侧重于内容的绘制。
+    Layer较View来说更适合做动画，layer很多属性都可以用来做动画，不同的layer还可以做关联动画。    
+
+Animatable Properties
+    当对非Root Layer的部分属性进行相应修改时，默认会自动产生一些动画效果，这些属性称为 Animatable Properties（可动画属性）。
+    列举几个常见的Animatable Properties：
+    bounds：用于设置CALayer的宽度和高度，修改这个属性会产生缩放动画。
+    backgroundColor：用于设置CALayer的背景颜色，修改这个属性会产生背景色渐变的动画。
+    position：用于设置CALayer的位置，修改这个属性会产生平移动画。
+    
+
+Position 和 AnchorPoint 
+    position 和 anchorPoint 的属性都是CGPoint类型的。
+    position可以用来设置CALayer在父层中的位置，它是以父层的左上角为坐标原点（0，0）
+    anchorPoint 称为“定位点”。它决定着CALayer身上的那个点会在position属性所指的位置。它的x，y取值范围都是0~1，默认值为（0.5，0.5）。

@@ -1,0 +1,12 @@
+Key-Value Observing 简称KVO，当指定的对象的属性被修改时，允许指定的对象接收到通知的机制。即每当对象的某一属性被修改时，KVO会通知相应的观察者。
+
+研究使用!! 详情待学习
+
+1.对象拥有property sendtype
+2.注册观察者
+    [self addObserver:self forKeyPath:@"sendTpye" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:NULL];
+3.实现相应方法
+-(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
+{
+//code...
+}

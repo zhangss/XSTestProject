@@ -1,0 +1,60 @@
+//问题列表
+2012-2-28
+1.文件的嵌套引用 A引用B,B引用C,A需不需要引用C？
+2.#import"" 与 #import<>的区别
+3.NSUserDefault
+2012-11-21
+1.程序名称的国际化
+2.程序Icon问题
+
+2012-11-24
+//程序无法启动
+1.Failed to launch simulated application: SpringBoard 无法启动应用程序（错误：7）
+Failed to launch simulated application: “iOS 模拟器”未能安装此应用程序。
+解决:
+Bundle display name = ${PRODUCT_NAME}; //使用Target-Packaging-ProjectName
+Bundle identifier = com.yourcompany.${PRODUCT_NAME} //这两个内容必须一致
+
+2-12-11-27
+//程序读取不到图片 利用图片给frame赋值崩溃
+2012-11-27 15:05:11.385 XSTestProject[27156:9203] *** Terminating app due to uncaught exception 'CALayerInvalidGeometry', reason: 'CALayer position contains NaN: [160 nan]'
+*** Call stack at first throw:
+(
+	0   CoreFoundation                      0x015c2be9 __exceptionPreprocess + 185
+	1   libobjc.A.dylib                     0x017175c2 objc_exception_throw + 47
+	2   CoreFoundation                      0x0157b628 +[NSException raise:format:arguments:] + 136
+	3   CoreFoundation                      0x0157b59a +[NSException raise:format:] + 58
+	4   QuartzCore                          0x00f1296a _ZL18CALayerSetPositionP7CALayerRKN2CA4Vec2IdEEb + 177
+	5   QuartzCore                          0x00f128b5 -[CALayer setPosition:] + 42
+	6   QuartzCore                          0x00f127cc -[CALayer setFrame:] + 763
+	7   UIKit                               0x0055a307 -[UIView(Geometry) setFrame:] + 255
+	8   UIKit                               0x005ee3aa -[UIImageView setFrame:] + 167
+	9   XSTestProject                       0x00028d14 -[UIImageViewInfoViewController viewDidLoad] + 504
+	10  UIKit                               0x005d265e -[UIViewController view] + 179
+	11  UIKit                               0x005d0a57 -[UIViewController contentScrollView] + 42
+	12  UIKit                               0x005e1201 -[UINavigationController _computeAndApplyScrollContentInsetDeltaForViewController:] + 48
+	13  UIKit                               0x005df831 -[UINavigationController _layoutViewController:] + 43
+	14  UIKit                               0x005e0b4c -[UINavigationController _startTransition:fromViewController:toViewController:] + 524
+	15  UIKit                               0x005db606 -[UINavigationController _startDeferredTransitionIfNeeded] + 266
+	16  UIKit                               0x005e283e -[UINavigationController pushViewController:transition:forceImmediate:] + 932
+	17  UIKit                               0x005db4a0 -[UINavigationController pushViewController:animated:] + 62
+	18  XSTestProject                       0x0001c388 -[UIViewInfoController tableView:didSelectRowAtIndexPath:] + 434
+	19  UIKit                               0x0059a794 -[UITableView _selectRowAtIndexPath:animated:scrollPosition:notifyDelegate:] + 1140
+	20  UIKit                               0x00590d50 -[UITableView _userSelectRowAtPendingSelectionIndexPath:] + 219
+	21  Foundation                          0x002a37f6 __NSFireDelayedPerform + 441
+	22  CoreFoundation                      0x015a3fe3 __CFRUNLOOP_IS_CALLING_OUT_TO_A_TIMER_CALLBACK_FUNCTION__ + 19
+	23  CoreFoundation                      0x015a5594 __CFRunLoopDoTimer + 1220
+	24  CoreFoundation                      0x01501cc9 __CFRunLoopRun + 1817
+	25  CoreFoundation                      0x01501240 CFRunLoopRunSpecific + 208
+	26  CoreFoundation                      0x01501161 CFRunLoopRunInMode + 97
+	27  GraphicsServices                    0x01b21268 GSEventRunModal + 217
+	28  GraphicsServices                    0x01b2132d GSEventRun + 115
+	29  UIKit                               0x0053342e UIApplicationMain + 1160
+	30  XSTestProject                       0x00001e84 main + 102
+	31  XSTestProject                       0x00001e15 start + 53
+)
+terminate called throwing an exception
+//解决方法
+那就是如果在iPhone程序里读取资源，但资源名大小写弄错了，那么在iPhone模拟器上是可以读到的，但iPhone真机上就读不出来了，同时在Interface Builder上其实也是显示不出来的。
+还是一个问题，一些图片用UIImage的imageNamed方法在iPhone4上就可以读取，但在3上就不能，最后才发现原来是我没写图片的后缀名，而在4上是可以不写后缀名的，但之前的版本必须写。同时4上不写后缀名还有显示高清图片的考虑，这个就不说了。
+//原始图片不带后缀名(jpeg) 手动添加(png)之后 跑模拟器没问题 真机会崩溃

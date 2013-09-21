@@ -1,0 +1,58 @@
+IOS静态库之封装lib.a,总结2种方式
+
+基本知识
+    在实际的编程过程中，通常会把一些公用函数制成函数库，供其它程序使用，一则提搞了代码的复用；二则提搞了核心技术的保密程度。所以在实际的项目开发中，经常会使用到函数库，函数库分为静态库和动态库两种。和多数人所熟悉的动态语言和静态语言一样，这里的所谓静态和动态是相对编译期和运行期的：静态库在程序编译时会被链接到目标代码中，程序运行时将不再需要改静态库；而动态库在程序编译时并不会被链接到目标代码中，只是在程序运行时才被载入，因为在程序运行期间还需要动态库的存在。(动态库不是很理解)
+    对iPhone平台来说，iPhone官方只支持静态库联编。
+
+
+第一种方式：
+     直接封装lib.a,向使用者提供头文件列表。使用者引用头文件并且使用其中方法，但是看不到实现文件的内容。这种方式每当静态库函数需要修改时就必须重新生成lib.a提供给使用者更换，比较麻烦，但有助于保密。
+
+     制作静态库
+     New Project -> IOS Library ->Cocoa touch Static Library 这样就新建了一个静态库的工程,将你要打包成lib的.m,.h放到class目录下面,然后build就可以了. 打包的时候要分清楚是debug,release.
+
+     使用静态库
+     在需要调用静态库的工程的目录下通过右键点 Frameworks->Add->Existing Files..添加之前创建的.a静态库文件，然后在需要调用静态库的函数的.h文件里，import进来和静态库中.m对应的.h头文件，并且声明静态库里的类名头文件，这样就可以使用静态库里的函数了。(此处可以做一个头文件包含静态库中所有的头文件，只需声明这一个头文件就可以使用所有的相应头文件的方法)
+
+     问题及注意事项
+     0. .a文件路径:/Users/zhangss/Library/Developer/Xcode/DerivedData/Print-dgfkluumuexoxhcapzidtsmdgqcj/Build/Products/
+      不同模式下可以生成不同类型的.a文件 真机/模拟器与Debug/Release选项公交叉成4种.a文件
+    
+     1.打包分清楚是debug与Release的。
+      选择debug与Release在Xcode工具栏的Product选项现则Scheme->Edit Scheme.然后为各个运行模式选择选项。
+    
+     2.分清楚lib是i386(真机)或者ArmV7(模拟器)模式
+      终端下使用命令 lipo -info libPrint.a 可以查看.a的属性。如结果：libPrint.a is architecture(构建): armv7
+      
+     3.引用lib库。
+      把.a及.h文件加入到测试工程中，然后就可以使用相关的代码方法了。
+      
+     4.把真机运行和模拟器运行的.a文件合并生成通用的.a文件,完成通用的静态库
+      终端使用命令 lipo -create 真机.a路径 模拟器.a路径 -output 目标路径(如/users/zhangss/desktop/***.a)
+      然后info查看合并后.a的信息就会发现它已经同时具备了armv7和i386的条件
+
+     5.在Build Phases->Compile Source中的文件，表示这些代码会被编译进lib中，你可以删掉你不希望被编译的。
+
+
+第二种方式:
+     静态库与工程关联，做成联调静态库，可以参考Xcode的Cross-Project Reference跨平台项目参考。
+     
+     创建联调工程   
+     1.在工程的Targets上右键.Add -> New Target -> Static Library 比如我们建了一个example的target
+     <1步骤>也可以新创建一个lib工程，工程中add Existing File..增加已经存在的lib工程进来(不要选择copy to folder)。
+     2.增加你需要加入的.h.m文件，然后查看在Build Phases->Compile Source中的文件，表示这些代码会被编译进lib中，你可以删掉你不希望被编译的，增加你想要编译进去的文件。
+    <3>在工程的target上双击,targets->Build Phases里面Target Dependencies里面增加lib工程的target,这样编译工程时也会编译lib工程生成lib.a文件。
+     4.引用lib头文件：在项目文件工程文件的target的build Setting->Header Search Paths中增加头文件路径(../文件名(lib工程文件名/ 例如../MyLibPrint/)，这个路径适应于lib工程与项目工程在同一目录)，选择成递归类型。
+     然后再工程的某个文件中引用一下lib工程的头文件，如果不报错说明头文件引用成功。然后就可以使用头文件中的声明的方法了。
+
+
+//错误处理
+1.undefine symbols for architecture i386 错误。
+其实这个错误原因很简单，就是因为，我们用错了编译出来的libUITab.a lib，
+在模拟器里面，我们需要的是基于i386构架编译的static lib，但是这个a文件，大家还记得前面说的arm6 arm7构架的么。这个a其实是在iphone这个arm构架上运行的代码。
+那如何编译i386的库呢？运行之前选择Print>IOS Device,将这个iOS Device修改成iPhone5.0 Simulator。在进行编译，这样就可以编译出i386下面的库。
+下面最多有四个文件夹分别命名为:Debug-iphoneos/Debug-iphonesimulator/Release-iphoneos/Release-iphonesimulator这四条目录每个目录下同样也有一个libPrint.a文件。
+Release-iphoneos里面的是基于arm6 arm7编译出来的库文件。Release-iphonesimulator文件夹下面的是基于i386编译出来的文件。
+
+2.在编译RegexKitLite的时候，报错如下：
+在项目的编译设置中找到Other Linker Flags，然后在后面字段空白处双击，添加“-licucore”就可以了,引用正则框架必须打开此开关。-licucore，注意不要打错，打错了会报错误:clang: error: no such file or directory: '－licucore'
