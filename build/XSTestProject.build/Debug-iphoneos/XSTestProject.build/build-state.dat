@@ -1,1954 +1,0 @@
-TXSTestProject
-v7
-r0
-t377764742.299193
-cCheck dependencies
-cCpResource build/Debug-iphoneos/XSTestProject.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/Info.plist XSTestProject-Info.plist
-cCompileXIB /Users/zyl/Desktop/资料/XSTestProject/MainWindow.xib
-cCpResource build/Debug-iphoneos/XSTestProject.app/Problem&Plan Problem/Problem&Plan
-cCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/loadingbutton.png Image/Audio/loadingbutton.png
-cCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/pausebutton.png Image/Audio/pausebutton.png
-cCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/playbutton.png Image/Audio/playbutton.png
-cCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/stopbutton.png Image/Audio/stopbutton.png
-cCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/viose_icon.png Image/Audio/viose_icon.png
-cCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/viose_stop.png Image/Audio/viose_stop.png
-cCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/bg_image.png Image/PNG_JPG/bg_image.png
-cCpResource build/Debug-iphoneos/XSTestProject.app/bg_image@2x.jpg Image/PNG_JPG/bg_image@2x.jpg
-cCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/bg_image@2x.png Image/PNG_JPG/bg_image@2x.png
-cCpResource build/Debug-iphoneos/XSTestProject.app/bg_image.jpg Image/PNG_JPG/bg_image.jpg
-cCpResource build/Debug-iphoneos/XSTestProject.app/infoplist infoPlist/infoplist
-cCpResource build/Debug-iphoneos/XSTestProject.app/RegexKitLite ThirdParty/UILabel/RegexKitLite
-cCpResource build/Debug-iphoneos/XSTestProject.app/sampleIamge@2x.jpeg Image/sampleIamge@2x.jpeg
-cCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_back_sel.png Image/ico_showbigphoto_back_sel.png
-cCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_back_sel@2x.png Image/ico_showbigphoto_back_sel@2x.png
-cCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_back.png Image/ico_showbigphoto_back.png
-cCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_back@2x.png Image/ico_showbigphoto_back@2x.png
-cCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_save_sel.png Image/ico_showbigphoto_save_sel.png
-cCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_save_sel@2x.png Image/ico_showbigphoto_save_sel@2x.png
-cCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_save.png Image/ico_showbigphoto_save.png
-cCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_save@2x.png Image/ico_showbigphoto_save@2x.png
-cCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_toolbar.png Image/ico_showbigphoto_toolbar.png
-cCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_toolbar@2x.png Image/ico_showbigphoto_toolbar@2x.png
-cCpResource build/Debug-iphoneos/XSTestProject.app/sampleIamge1@2x.jpeg Image/sampleIamge1@2x.jpeg
-cCpResource build/Debug-iphoneos/XSTestProject.app/sampleIamge2@2x.jpg Image/sampleIamge2@2x.jpg
-cCpResource build/Debug-iphoneos/XSTestProject.app/sampleIamge3@2x.jpeg Image/sampleIamge3@2x.jpeg
-cCpResource build/Debug-iphoneos/XSTestProject.app/sampleIamge4@2x.jpeg Image/sampleIamge4@2x.jpeg
-cProcessPCH /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch.gch XSTestProject_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/main.o /Users/zyl/Desktop/资料/XSTestProject/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/XSTestProjectAppDelegate.o /Users/zyl/Desktop/资料/XSTestProject/Classes/XSTestProjectAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/TestViewController.o /Users/zyl/Desktop/资料/XSTestProject/Classes/TestViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/TestTableViewController.o /Users/zyl/Desktop/资料/XSTestProject/Classes/TestTableViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UILabel+Extra.o /Users/zyl/Desktop/资料/XSTestProject/Usually/UILabel+Extra.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/XSTestUtils.o /Users/zyl/Desktop/资料/XSTestProject/Usually/XSTestUtils.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/ThemeManager.o /Users/zyl/Desktop/资料/XSTestProject/Usually/ThemeManager.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/BaseController.o /Users/zyl/Desktop/资料/XSTestProject/Usually/BaseController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/LocalSettings.o /Users/zyl/Desktop/资料/XSTestProject/Usually/LocalSettings.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/NSData+Base64.o /Users/zyl/Desktop/资料/XSTestProject/Usually/NSData+Base64.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/AudioPlayerView.o /Users/zyl/Desktop/资料/XSTestProject/Media/AudioPlayerView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/AudioSliderView.o /Users/zyl/Desktop/资料/XSTestProject/Media/AudioSliderView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/AudioStreamer.o /Users/zyl/Desktop/资料/XSTestProject/Media/AudioStreamer.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIDevice+Hardware.o /Users/zyl/Desktop/资料/XSTestProject/Media/UIDevice+Hardware.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/AudioViewController.o /Users/zyl/Desktop/资料/XSTestProject/Media/AudioViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/MediaViewController.o /Users/zyl/Desktop/资料/XSTestProject/Media/MediaViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/OtherViewController.o /Users/zyl/Desktop/资料/XSTestProject/Other/OtherViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/DateFormatViewController.o /Users/zyl/Desktop/资料/XSTestProject/Other/DateFormatViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/QuestionViewController.o /Users/zyl/Desktop/资料/XSTestProject/Question/QuestionViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/PNGViewController.o /Users/zyl/Desktop/资料/XSTestProject/Other/JPG/PNGViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIButtonViewController.o /Users/zyl/Desktop/资料/XSTestProject/Other/UIButtonViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIViewInfoController.o /Users/zyl/Desktop/资料/XSTestProject/UIView/UIViewInfoController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIlabelInfoViewController.o /Users/zyl/Desktop/资料/XSTestProject/UIView/UIlabelInfoViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/OHAttributedLabel.o /Users/zyl/Desktop/资料/XSTestProject/ThirdParty/UILabel/OHAttributedLabel.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/NSAttributedString+Attributes.o /Users/zyl/Desktop/资料/XSTestProject/ThirdParty/UILabel/NSAttributedString+Attributes.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/RegexKitLite.o /Users/zyl/Desktop/资料/XSTestProject/ThirdParty/UILabel/RegexKitLite.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIImageViewInfoViewController.o /Users/zyl/Desktop/资料/XSTestProject/UIView/UIImageViewInfoViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIBigImageView.o /Users/zyl/Desktop/资料/XSTestProject/UIView/UIBigImageView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIImageViewForTouch.o /Users/zyl/Desktop/资料/XSTestProject/UIView/UIImageViewForTouch.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/BigImageViewController.o /Users/zyl/Desktop/资料/XSTestProject/UIView/BigImageViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/XSTestProject normal armv6
-cGenerateDSYMFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app.dSYM /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/XSTestProject
-cProcessProductPackaging "/Users/zyl/Library/MobileDevice/Provisioning Profiles/433BCB31-7720-4B9B-8A07-E915125F91F1.mobileprovision" /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/embedded.mobileprovision
-cTouch /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.xcent
-cCodeSign /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
-c00000000504DCA260000000000000110
-t1347275302
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
-c000000004CB3DFCF00000000000001A7
-t1286856655
-s423
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-c000000004CB3DFCF00000000000001E5
-t1286856655
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c000000004CC10EF400000000003B8CB0
-t1287720692
-s3902640
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
-c000000004CC10EB60000000000000A23
-t1287720630
-s2595
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-c000000004CC10EEE00000000002C9710
-t1287720686
-s2922256
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
-c000000004CC10EAD00000000000004CF
-t1287720621
-s1231
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFArray.h
-c000000004CC10D700000000000007AC8
-t1287720304
-s31432
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h
-c000000004CC10D7000000000000045F5
-t1287720304
-s17909
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFString.h
-c000000004CC10D70000000000000B765
-t1287720304
-s46949
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC10EF500000000003532B0
-t1287720693
-s3486384
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreText.framework/CoreText
-c000000004CC110D300000000000E49F0
-t1287721171
-s936432
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.h
-c000000004CC110B000000000000008C5
-t1287721136
-s2245
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC10F4700000000003E1F20
-t1287720775
-s4071200
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC10F1C0000000000001466
-t1287720732
-s5222
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h
-c000000004CC10F1C0000000000001B27
-t1287720732
-s6951
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDictionary.h
-c000000004CC10F1C0000000000000E3B
-t1287720732
-s3643
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSError.h
-c000000004CC10F1C0000000000001DE5
-t1287720732
-s7653
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSException.h
-c000000004CC10F1C0000000000002033
-t1287720732
-s8243
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSNotification.h
-c000000004CC10F1C000000000000059D
-t1287720732
-s1437
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h
-c000000004CC10F1C0000000000002D96
-t1287720732
-s11670
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h
-c000000004CC10F1C0000000000000EAD
-t1287720732
-s3757
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
-c000000004CC10F1C000000000000049D
-t1287720732
-s1181
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRunLoop.h
-c000000004CC10F1C0000000000000915
-t1287720732
-s2325
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h
-c000000004CC10F1C0000000000006506
-t1287720732
-s25862
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
-c000000004CC1111C00000000000000C4
-t1287721244
-s196
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC11AE60000000000000AA1
-t1287723750
-s2721
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC11B750000000000C769F0
-t1287723893
-s13068784
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/AvailabilityMacros.h
-c000000004CB3FBB8000000000000673C
-t1286863800
-s26428
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/TargetConditionals.h
-c000000004CB3FBB800000000000031E9
-t1286863800
-s12777
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/dlfcn.h
-c000000004CC104810000000000000B1C
-t1287718017
-s2844
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libkern/OSAtomic.h
-c000000004CB3E4B80000000000002519
-t1286857912
-s9497
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/mach-o/loader.h
-c000000004CC10920000000000000F81C
-t1287719200
-s63516
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/net/if.h
-c000000004CBFACDC00000000000035E3
-t1287630044
-s13795
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/net/if_dl.h
-c000000004CBFACDC00000000000013E6
-t1287630044
-s5094
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/objc/runtime.h
-c000000004CC1098E00000000000053F9
-t1287719310
-s21497
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/pthread.h
-c000000004CB3E4B800000000000038F0
-t1286857912
-s14576
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdio.h
-c000000004CB3E4B800000000000040AC
-t1286857912
-s16556
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdlib.h
-c000000004CB3E4B80000000000002DF5
-t1286857912
-s11765
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/string.h
-c000000004CB3E4B80000000000001731
-t1286857912
-s5937
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/sys/socket.h
-c000000004CBFACD80000000000005A69
-t1287630040
-s23145
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/sys/sysctl.h
-c000000004CBFACD80000000000007974
-t1287630040
-s31092
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/sys/types.h
-c000000004CBFACD90000000000002905
-t1287630041
-s10501
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/lib/gcc/arm-apple-darwin10/4.2.1/include/limits.h
-c000000004C5A56870000000000000C7E
-t1280988807
-s3198
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/lib/gcc/arm-apple-darwin10/4.2.1/include/stdarg.h
-c000000004C5A568700000000000010DD
-t1280988807
-s4317
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/lib/gcc/arm-apple-darwin10/4.2.1/include/stdint.h
-c000000004C5A5787000000000000190C
-t1280989063
-s6412
-
-N/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004FCAA2520000000000438590
-t1338679890
-s4425104
-
-N/Users/zyl/Desktop/资料/XSTestProject/Classes/TestTableViewController.h
-c000000005072965A000000000000016E
-t1349686874
-s366
-i<UIKit/UIKit.h>
-i"BaseController.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/Classes/TestTableViewController.m
-c0000000050C8634200000000000043F1
-t1355309890
-s17393
-i"TestTableViewController.h"
-i"XSTestUtils.h"
-i"MediaViewController.h"
-i"UIViewInfoController.h"
-i"OtherViewController.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/Classes/TestViewController.h
-c000000004F4CC08F0000000000000103
-t1330430095
-s259
-i<UIKit/UIKit.h>
-i"BaseController.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/Classes/TestViewController.m
-c000000004F4C8A9A0000000000000627
-t1330416282
-s1575
-i"TestViewController.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/Classes/XSTestProjectAppDelegate.h
-c000000004FED4DFE0000000000000364
-t1340952062
-s868
-i<UIKit/UIKit.h>
-i<QuartzCore/QuartzCore.h>
-
-N/Users/zyl/Desktop/资料/XSTestProject/Classes/XSTestProjectAppDelegate.m
-c000000004FED4FD90000000000001B74
-t1340952537
-s7028
-i"XSTestProjectAppDelegate.h"
-i"TestTableViewController.h"
-i"TestViewController.h"
-i"UILabel+Extra.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/Image/Audio/loadingbutton.png
-c000000004C5D4D280000000000000AAA
-t1281183016
-s2730
-
-N/Users/zyl/Desktop/资料/XSTestProject/Image/Audio/pausebutton.png
-c000000004C5D4D280000000000000A5D
-t1281183016
-s2653
-
-N/Users/zyl/Desktop/资料/XSTestProject/Image/Audio/playbutton.png
-c000000004C5D4D280000000000001746
-t1281183016
-s5958
-
-N/Users/zyl/Desktop/资料/XSTestProject/Image/Audio/stopbutton.png
-c000000004C5D4D280000000000000A6A
-t1281183016
-s2666
-
-N/Users/zyl/Desktop/资料/XSTestProject/Image/Audio/viose_icon.png
-c000000004FF28F370000000000000871
-t1341296439
-s2161
-
-N/Users/zyl/Desktop/资料/XSTestProject/Image/Audio/viose_stop.png
-c000000004FF28F3700000000000007DD
-t1341296439
-s2013
-
-N/Users/zyl/Desktop/资料/XSTestProject/Image/PNG_JPG/bg_image.jpg
-c0000000050A30FC80000000000011726
-t1352863688
-s71462
-
-N/Users/zyl/Desktop/资料/XSTestProject/Image/PNG_JPG/bg_image.png
-c0000000050A30FDC000000000004EE9A
-t1352863708
-s323226
-
-N/Users/zyl/Desktop/资料/XSTestProject/Image/PNG_JPG/bg_image@2x.jpg
-c0000000050A310160000000000035DBD
-t1352863766
-s220605
-
-N/Users/zyl/Desktop/资料/XSTestProject/Image/PNG_JPG/bg_image@2x.png
-c0000000050A31009000000000010CD39
-t1352863753
-s1101113
-
-N/Users/zyl/Desktop/资料/XSTestProject/Image/ico_showbigphoto_back.png
-c0000000050C06A62000000000000059A
-t1354787426
-s1434
-
-N/Users/zyl/Desktop/资料/XSTestProject/Image/ico_showbigphoto_back@2x.png
-c0000000050C0399C000000000000019A
-t1354774940
-s410
-
-N/Users/zyl/Desktop/资料/XSTestProject/Image/ico_showbigphoto_back_sel.png
-c0000000050C06A580000000000000634
-t1354787416
-s1588
-
-N/Users/zyl/Desktop/资料/XSTestProject/Image/ico_showbigphoto_back_sel@2x.png
-c0000000050C0399C00000000000001AC
-t1354774940
-s428
-
-N/Users/zyl/Desktop/资料/XSTestProject/Image/ico_showbigphoto_save.png
-c0000000050C06A7E00000000000005CA
-t1354787454
-s1482
-
-N/Users/zyl/Desktop/资料/XSTestProject/Image/ico_showbigphoto_save@2x.png
-c0000000050BC4DF700000000000001C4
-t1354518007
-s452
-
-N/Users/zyl/Desktop/资料/XSTestProject/Image/ico_showbigphoto_save_sel.png
-c0000000050C06A7800000000000006A4
-t1354787448
-s1700
-
-N/Users/zyl/Desktop/资料/XSTestProject/Image/ico_showbigphoto_save_sel@2x.png
-c0000000050C0399C00000000000001CA
-t1354774940
-s458
-
-N/Users/zyl/Desktop/资料/XSTestProject/Image/ico_showbigphoto_toolbar.png
-c0000000050C071190000000000000536
-t1354789145
-s1334
-
-N/Users/zyl/Desktop/资料/XSTestProject/Image/ico_showbigphoto_toolbar@2x.png
-c0000000050C070E90000000000000287
-t1354789097
-s647
-
-N/Users/zyl/Desktop/资料/XSTestProject/Image/sampleIamge1@2x.jpeg
-c0000000050B59545000000000000200A
-t1354077509
-s8202
-
-N/Users/zyl/Desktop/资料/XSTestProject/Image/sampleIamge2@2x.jpg
-c000000005090795A00000000000348B4
-t1351645530
-s215220
-
-N/Users/zyl/Desktop/资料/XSTestProject/Image/sampleIamge3@2x.jpeg
-c0000000050B5834A000000000000C4F2
-t1354072906
-s50418
-
-N/Users/zyl/Desktop/资料/XSTestProject/Image/sampleIamge4@2x.jpeg
-c0000000050A9BB7F000000000000A91F
-t1353300863
-s43295
-
-N/Users/zyl/Desktop/资料/XSTestProject/Image/sampleIamge@2x.jpeg
-c00000000507BE99F0000000000005154
-t1350298015
-s20820
-
-N/Users/zyl/Desktop/资料/XSTestProject/MainWindow.xib
-c000000004FF13B5F0000000000004999
-t1341209439
-s18841
-
-N/Users/zyl/Desktop/资料/XSTestProject/Media/AudioPlayerView.h
-c00000000500545620000000000000475
-t1342522722
-s1141
-i<UIKit/UIKit.h>
-i"AudioStreamer.h"
-i"BaseController.h"
-i"AudioSliderView.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/Media/AudioPlayerView.m
-c00000000500D0D6300000000000030EA
-t1343032675
-s12522
-i"AudioPlayerView.h"
-i"XSTestUtils.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/Media/AudioSliderView.h
-c000000004FFE8C3400000000000002CD
-t1342082100
-s717
-i<UIKit/UIKit.h>
-
-N/Users/zyl/Desktop/资料/XSTestProject/Media/AudioSliderView.m
-c00000000500766F600000000000013F3
-t1342662390
-s5107
-i"AudioSliderView.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/Media/AudioStreamer.h
-c000000004FFE45B30000000000001AAC
-t1342064051
-s6828
-i<UIKit/UIKit.h>
-i<Cocoa/Cocoa.h>
-i<pthread.h>
-i<AudioToolbox/AudioToolbox.h>
-
-N/Users/zyl/Desktop/资料/XSTestProject/Media/AudioStreamer.m
-c000000005008B43D000000000000F342
-t1342747709
-s62274
-i"AudioStreamer.h"
-i<CFNetwork/CFNetwork.h>
-i"UIDevice+Hardware.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/Media/AudioViewController.h
-c0000000050729E260000000000000257
-t1349688870
-s599
-i<UIKit/UIKit.h>
-i"BaseController.h"
-i"AudioStreamer.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/Media/AudioViewController.m
-c0000000050729E2B0000000000002E1E
-t1349688875
-s11806
-i"AudioViewController.h"
-i"XSTestUtils.h"
-i<QuartzCore/QuartzCore.h>
-i"AudioPlayerView.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/Media/MediaViewController.h
-c0000000050ACCC860000000000000150
-t1353501830
-s336
-i<UIKit/UIKit.h>
-i"BaseController.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/Media/MediaViewController.m
-c0000000050729E3C0000000000000F59
-t1349688892
-s3929
-i"MediaViewController.h"
-i"XSTestUtils.h"
-i"AudioViewController.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/Media/UIDevice+Hardware.h
-c000000004C5D4D28000000000000116F
-t1281183016
-s4463
-i<UIKit/UIKit.h>
-
-N/Users/zyl/Desktop/资料/XSTestProject/Media/UIDevice+Hardware.m
-c000000004C5D4D280000000000006C0D
-t1281183016
-s27661
-i<sys/socket.h>
-i<sys/sysctl.h>
-i<net/if.h>
-i<net/if_dl.h>
-i"UIDevice+Hardware.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/Other/DateFormatViewController.h
-c000000005072A3240000000000000165
-t1349690148
-s357
-i<UIKit/UIKit.h>
-i"BaseController.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/Other/DateFormatViewController.m
-c00000000509CF7020000000000004A37
-t1352464130
-s18999
-i"DateFormatViewController.h"
-i"XSTestUtils.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/Other/JPG/PNGViewController.h
-c0000000050A3049D00000000000000EA
-t1352860829
-s234
-i<UIKit/UIKit.h>
-
-N/Users/zyl/Desktop/资料/XSTestProject/Other/JPG/PNGViewController.m
-c0000000050A348F70000000000001199
-t1352878327
-s4505
-i"PNGViewController.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/Other/OtherViewController.h
-c0000000050729CC7000000000000015D
-t1349688519
-s349
-i<UIKit/UIKit.h>
-i"BaseController.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/Other/OtherViewController.m
-c0000000050A460F90000000000001871
-t1352950009
-s6257
-i"OtherViewController.h"
-i"XSTestUtils.h"
-i"DateFormatViewController.h"
-i"PNGViewController.h"
-i"UIButtonViewController.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/Other/UIButtonViewController.h
-c0000000050A45D8F00000000000000F4
-t1352949135
-s244
-i<UIKit/UIKit.h>
-
-N/Users/zyl/Desktop/资料/XSTestProject/Other/UIButtonViewController.m
-c0000000050A48DC40000000000001D07
-t1352961476
-s7431
-i"UIButtonViewController.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/Problem/Problem&Plan
-c0000000050B4672900000000000011ED
-t1354000169
-s4589
-
-N/Users/zyl/Desktop/资料/XSTestProject/Question/QuestionViewController.h
-c00000000507D01E8000000000000015A
-t1350369768
-s346
-i<UIKit/UIKit.h>
-i"BaseController.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/Question/QuestionViewController.m
-c00000000507D01BB00000000000013FE
-t1350369723
-s5118
-i"QuestionViewController.h"
-i"XSTestUtils.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/ThirdParty/UILabel/NSAttributedString+Attributes.h
-c000000005097662C0000000000000EDD
-t1352099372
-s3805
-i<Foundation/Foundation.h>
-i<CoreText/CoreText.h>
-i<UIKit/UIKit.h>
-
-N/Users/zyl/Desktop/资料/XSTestProject/ThirdParty/UILabel/NSAttributedString+Attributes.m
-c0000000050B0355B000000000000201D
-t1353725275
-s8221
-i"NSAttributedString+Attributes.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/ThirdParty/UILabel/OHAttributedLabel.h
-c000000005097662C0000000000001128
-t1352099372
-s4392
-i<UIKit/UIKit.h>
-i<CoreText/CoreText.h>
-
-N/Users/zyl/Desktop/资料/XSTestProject/ThirdParty/UILabel/OHAttributedLabel.m
-c0000000050B03651000000000000601E
-t1353725521
-s24606
-i"OHAttributedLabel.h"
-i"NSAttributedString+Attributes.h"
-i"RegexKitLite.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/ThirdParty/UILabel/RegexKitLite
-c0000000050B0384B00000000000007CB
-t1353726027
-s1995
-
-N/Users/zyl/Desktop/资料/XSTestProject/ThirdParty/UILabel/RegexKitLite.h
-c000000005097668B00000000000027D4
-t1352099467
-s10196
-i<Foundation/NSArray.h>
-i<Foundation/NSError.h>
-i<Foundation/NSObjCRuntime.h>
-i<Foundation/NSRange.h>
-i<Foundation/NSString.h>
-i<limits.h>
-i<stdint.h>
-i<sys/types.h>
-i<TargetConditionals.h>
-i<AvailabilityMacros.h>
-
-N/Users/zyl/Desktop/资料/XSTestProject/ThirdParty/UILabel/RegexKitLite.m
-c000000005097668B000000000001B10E
-t1352099467
-s110862
-i<CoreFoundation/CFBase.h>
-i<CoreFoundation/CFArray.h>
-i<CoreFoundation/CFString.h>
-i<Foundation/NSArray.h>
-i<Foundation/NSDictionary.h>
-i<Foundation/NSError.h>
-i<Foundation/NSException.h>
-i<Foundation/NSNotification.h>
-i<Foundation/NSRunLoop.h>
-i<Foundation/NSGarbageCollector.h>
-i<objc/runtime.h>
-i<libkern/OSAtomic.h>
-i<mach-o/loader.h>
-i<AvailabilityMacros.h>
-i<dlfcn.h>
-i<string.h>
-i<stdarg.h>
-i<stdlib.h>
-i<stdio.h>
-i"RegexKitLite.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/UIView/BigImageViewController.h
-c0000000050C858D90000000000000180
-t1355307225
-s384
-i<UIKit/UIKit.h>
-
-N/Users/zyl/Desktop/资料/XSTestProject/UIView/BigImageViewController.m
-c0000000050D400340000000000000BE3
-t1356070964
-s3043
-i"BigImageViewController.h"
-i"UIBigImageView.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/UIView/UIBigImageView.h
-c0000000050D4129400000000000006C9
-t1356075668
-s1737
-i<UIKit/UIKit.h>
-i"UIImageViewForTouch.h"
-i<Foundation/NSObject.h>
-
-N/Users/zyl/Desktop/资料/XSTestProject/UIView/UIBigImageView.m
-c0000000050D4242B0000000000009D5F
-t1356080171
-s40287
-i"UIBigImageView.h"
-i<QuartzCore/QuartzCore.h>
-i"XSTestDefine.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/UIView/UIImageViewForTouch.h
-c0000000050C6FD5A000000000000022E
-t1355218266
-s558
-i<UIKit/UIKit.h>
-i<Foundation/NSObject.h>
-
-N/Users/zyl/Desktop/资料/XSTestProject/UIView/UIImageViewForTouch.m
-c0000000050C1628800000000000001F4
-t1354850952
-s500
-i"UIImageViewForTouch.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/UIView/UIImageViewInfoViewController.h
-c0000000050C8522D00000000000001ED
-t1355305517
-s493
-i<UIKit/UIKit.h>
-i"BaseController.h"
-i"UIBigImageView.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/UIView/UIImageViewInfoViewController.m
-c0000000050D4036E0000000000001CFE
-t1356071790
-s7422
-i"UIImageViewInfoViewController.h"
-i"XSTestDefine.h"
-i"UIBigImageView.h"
-i"BigImageViewController.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/UIView/UIViewInfoController.h
-c0000000050B03392000000000000017C
-t1353724818
-s380
-i<UIKit/UIKit.h>
-i"BaseController.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/UIView/UIViewInfoController.m
-c0000000050B355B100000000000010FB
-t1353930161
-s4347
-i"UIViewInfoController.h"
-i"XSTestUtils.h"
-i"UIlabelInfoViewController.h"
-i"UIImageViewInfoViewController.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/UIView/UIlabelInfoViewController.h
-c0000000050B02F9B0000000000000128
-t1353723803
-s296
-i<UIKit/UIKit.h>
-i"BaseController.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/UIView/UIlabelInfoViewController.m
-c0000000050B08FA60000000000001D5F
-t1353748390
-s7519
-i"UIlabelInfoViewController.h"
-i"XSTestDefine.h"
-i"OHAttributedLabel.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/Usually/BaseController.h
-c0000000050729CE3000000000000018A
-t1349688547
-s394
-i<UIKit/UIKit.h>
-i<QuartzCore/QuartzCore.h>
-i"ThemeManager.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/Usually/BaseController.m
-c0000000050729DE70000000000000845
-t1349688807
-s2117
-i"BaseController.h"
-i"XSTestDefine.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/Usually/LocalSettings.h
-c000000004F4CBD72000000000000041E
-t1330429298
-s1054
-i<Foundation/Foundation.h>
-
-N/Users/zyl/Desktop/资料/XSTestProject/Usually/LocalSettings.m
-c000000004F4CBD620000000000000E3A
-t1330429282
-s3642
-i"LocalSettings.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/Usually/NSData+Base64.h
-c000000004F4CBF770000000000000241
-t1330429815
-s577
-i<Foundation/Foundation.h>
-
-N/Users/zyl/Desktop/资料/XSTestProject/Usually/NSData+Base64.m
-c000000004F4CBF850000000000001E6B
-t1330429829
-s7787
-i"NSData+Base64.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/Usually/ThemeManager.h
-c000000004F4CB4EC00000000000006FD
-t1330427116
-s1789
-i<Foundation/Foundation.h>
-
-N/Users/zyl/Desktop/资料/XSTestProject/Usually/ThemeManager.m
-c000000004F4CBFDC0000000000001591
-t1330429916
-s5521
-i"ThemeManager.h"
-i"LocalSettings.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/Usually/UILabel+Extra.h
-c000000004F4CC05C0000000000000E9F
-t1330430044
-s3743
-i<Foundation/Foundation.h>
-
-N/Users/zyl/Desktop/资料/XSTestProject/Usually/UILabel+Extra.m
-c000000004F4C988800000000000034AD
-t1330419848
-s13485
-i"UILabel+Extra.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/Usually/XSTestDefine.h
-c0000000050D4044E0000000000001A49
-t1356072014
-s6729
-
-N/Users/zyl/Desktop/资料/XSTestProject/Usually/XSTestUtils.h
-c000000004F4CC0310000000000002330
-t1330430001
-s9008
-i<Foundation/Foundation.h>
-
-N/Users/zyl/Desktop/资料/XSTestProject/Usually/XSTestUtils.m
-c000000004F4CC928000000000000B5B4
-t1330432296
-s46516
-i"XSTestUtils.h"
-i"XSTestDefine.h"
-i"UILabel+Extra.h"
-i"NSData+Base64.h"
-
-N/Users/zyl/Desktop/资料/XSTestProject/XSTestProject_Prefix.pch
-c000000004F4C86CD00000000000000C3
-t1330415309
-s195
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app
-t1356071942
-s1258
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app.dSYM
-t1356071942
-s102
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/Info.plist
-t1356071813
-s800
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/MainWindow.nib
-t1356071813
-s990
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/PkgInfo
-t1356071813
-s8
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/Problem&Plan
-t1356071813
-s4589
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/RegexKitLite
-t1356071813
-s1995
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ResourceRules.plist
-t1356071813
-s485
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/XSTestProject
-t1356071942
-s412928
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/bg_image.jpg
-t1356071813
-s71462
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/bg_image.png
-t1356071814
-s325627
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/bg_image@2x.jpg
-t1356071813
-s220605
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/bg_image@2x.png
-t1356071815
-s1129144
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/embedded.mobileprovision
-t1356071818
-s85046
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_back.png
-t1356071813
-s1596
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_back@2x.png
-t1356071813
-s436
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_back_sel.png
-t1356071813
-s1662
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_back_sel@2x.png
-t1356071813
-s461
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_save.png
-t1356071813
-s1785
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_save@2x.png
-t1356071813
-s633
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_save_sel.png
-t1356071813
-s1832
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_save_sel@2x.png
-t1356071813
-s625
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_toolbar.png
-t1356071813
-s1374
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_toolbar@2x.png
-t1356071813
-s721
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/infoplist
-t1356071813
-s4750
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/loadingbutton.png
-t1356071813
-s2601
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/pausebutton.png
-t1356071813
-s3194
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/playbutton.png
-t1356071813
-s6069
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/sampleIamge1@2x.jpeg
-t1356071813
-s8202
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/sampleIamge2@2x.jpg
-t1356071813
-s215220
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/sampleIamge3@2x.jpeg
-t1356071813
-s50418
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/sampleIamge4@2x.jpeg
-t1356071813
-s43295
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/sampleIamge@2x.jpeg
-t1356071813
-s20820
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/stopbutton.png
-t1356071813
-s3079
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/viose_icon.png
-t1356071813
-s2511
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/viose_stop.png
-t1356071813
-s2572
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/AudioPlayerView.o
-t1356071816
-s77616
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/AudioSliderView.o
-t1356071816
-s51948
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/AudioStreamer.o
-t1356071817
-s107328
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/AudioViewController.o
-t1356071816
-s75848
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/BaseController.o
-t1356071941
-s42528
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/BigImageViewController.o
-t1356071817
-s42632
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/DateFormatViewController.o
-t1356071816
-s55216
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/LocalSettings.o
-t1356071816
-s20760
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/MediaViewController.o
-t1356071816
-s56712
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/NSAttributedString+Attributes.o
-t1356071817
-s28048
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/NSData+Base64.o
-t1356071816
-s12452
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/OHAttributedLabel.o
-t1356071817
-s111180
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/OtherViewController.o
-t1356071816
-s53888
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/PNGViewController.o
-t1356071816
-s42676
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/QuestionViewController.o
-t1356071816
-s51880
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/RegexKitLite.o
-t1356071817
-s118008
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/TestTableViewController.o
-t1356071816
-s54748
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/TestViewController.o
-t1356071816
-s38360
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/ThemeManager.o
-t1356071816
-s56908
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIBigImageView.o
-t1356071941
-s118256
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIButtonViewController.o
-t1356071816
-s50456
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIDevice+Hardware.o
-t1356071816
-s33596
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIImageViewForTouch.o
-t1356071817
-s38716
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIImageViewInfoViewController.o
-t1356071941
-s53844
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UILabel+Extra.o
-t1356071816
-s57092
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIViewInfoController.o
-t1356071816
-s52884
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIlabelInfoViewController.o
-t1356071941
-s51592
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/XSTestProject.LinkFileList
-c0000000050D4038500000000000010BC
-t1356071813
-s4284
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/XSTestProjectAppDelegate.o
-t1356071816
-s68300
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/XSTestUtils.o
-t1356071941
-s114200
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/main.o
-t1356071815
-s6448
-
-N/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.xcent
-t1356071818
-s673
-
-N/Users/zyl/Desktop/资料/XSTestProject/infoPlist/infoplist
-c0000000050C83DF2000000000000128E
-t1355300338
-s4750
-
-N/Users/zyl/Desktop/资料/XSTestProject/main.m
-c000000004F4C86CD000000000000016C
-t1330415309
-s364
-i<UIKit/UIKit.h>
-
-N/Users/zyl/Library/MobileDevice/Provisioning Profiles/433BCB31-7720-4B9B-8A07-E915125F91F1.mobileprovision
-c00000000505065190000000000014C36
-t1347446041
-s85046
-
-N/var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch.gch
-t1356069348
-s9983704
-
-NXSTestProject-Info.plist
-c0000000050D40384000000000000036E
-t1356071812
-s878
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies377764741#377764741#0(0"0(0#1#0"4553651520#0"0#
-
-CCodeSign /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app
-s377764742.101378
-e377764742.299134
-r1
-xCodeSign
-x/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app
-lSLF07#2@47"CodeSign build/Debug-iphoneos/XSTestProject.app377764742#377764742#0(0"0(0#0#78"/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app4553649808#680"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: 松松 张 (7925U2HZ9G)" --resource-rules=/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ResourceRules.plist --entitlements /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.xcent /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app0#
-
-CCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/AudioPlayerView.o /Users/zyl/Desktop/资料/XSTestProject/Media/AudioPlayerView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s377764616.174193
-e377764616.392118
-r1
-xCompileC
-xbuild/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/AudioPlayerView.o
-x/Users/zyl/Desktop/资料/XSTestProject/Media/AudioPlayerView.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/zyl/Desktop/资料/XSTestProject/Media/AudioPlayerView.m377764616#377764616#0(0"0(0#0#63"/Users/zyl/Desktop/资料/XSTestProject/Media/AudioPlayerView.m4610064016#1473"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.hmap -F/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject -I/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/include -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources/armv6 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources -include /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch -c /Users/zyl/Desktop/资料/XSTestProject/Media/AudioPlayerView.m -o /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/AudioPlayerView.o0#
-
-CCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/AudioSliderView.o /Users/zyl/Desktop/资料/XSTestProject/Media/AudioSliderView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s377764616.245835
-e377764616.358937
-r1
-xCompileC
-xbuild/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/AudioSliderView.o
-x/Users/zyl/Desktop/资料/XSTestProject/Media/AudioSliderView.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/zyl/Desktop/资料/XSTestProject/Media/AudioSliderView.m377764616#377764616#0(0"0(0#0#63"/Users/zyl/Desktop/资料/XSTestProject/Media/AudioSliderView.m4610064016#1473"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.hmap -F/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject -I/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/include -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources/armv6 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources -include /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch -c /Users/zyl/Desktop/资料/XSTestProject/Media/AudioSliderView.m -o /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/AudioSliderView.o0#
-
-CCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/AudioStreamer.o /Users/zyl/Desktop/资料/XSTestProject/Media/AudioStreamer.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s377764616.269590
-e377764617.142245
-r1
-xCompileC
-xbuild/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/AudioStreamer.o
-x/Users/zyl/Desktop/资料/XSTestProject/Media/AudioStreamer.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/zyl/Desktop/资料/XSTestProject/Media/AudioStreamer.m377764616#377764617#0(0"0(0#0#61"/Users/zyl/Desktop/资料/XSTestProject/Media/AudioStreamer.m4610064016#1469"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.hmap -F/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject -I/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/include -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources/armv6 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources -include /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch -c /Users/zyl/Desktop/资料/XSTestProject/Media/AudioStreamer.m -o /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/AudioStreamer.o0#
-
-CCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/AudioViewController.o /Users/zyl/Desktop/资料/XSTestProject/Media/AudioViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s377764616.399883
-e377764616.738908
-r1
-xCompileC
-xbuild/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/AudioViewController.o
-x/Users/zyl/Desktop/资料/XSTestProject/Media/AudioViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/zyl/Desktop/资料/XSTestProject/Media/AudioViewController.m: In function '-[AudioViewController spinButtonImage]':
-o/Users/zyl/Desktop/资料/XSTestProject/Media/AudioViewController.m:159: warning: 'CATransition' may not respond to '+begin'
-o/Users/zyl/Desktop/资料/XSTestProject/Media/AudioViewController.m:159: warning: (Messages without a matching method signature
-o/Users/zyl/Desktop/资料/XSTestProject/Media/AudioViewController.m:159: warning: will be assumed to return 'id' and accept
-o/Users/zyl/Desktop/资料/XSTestProject/Media/AudioViewController.m:159: warning: '...' as arguments.)
-lSLF07#2@75"Compile /Users/zyl/Desktop/资料/XSTestProject/Media/AudioViewController.m377764616#377764617#0(603"/Users/zyl/Desktop/资料/XSTestProject/Media/AudioViewController.m: In function '-[AudioViewController spinButtonImage]':/Users/zyl/Desktop/资料/XSTestProject/Media/AudioViewController.m:159: warning: 'CATransition' may not respond to '+begin'/Users/zyl/Desktop/资料/XSTestProject/Media/AudioViewController.m:159: warning: (Messages without a matching method signature/Users/zyl/Desktop/资料/XSTestProject/Media/AudioViewController.m:159: warning: will be assumed to return 'id' and accept/Users/zyl/Desktop/资料/XSTestProject/Media/AudioViewController.m:159: warning: '...' as arguments.)2(22@42"'CATransition' may not respond to '+begin'377764616#119#121#0(6@67"/Users/zyl/Desktop/资料/XSTestProject/Media/AudioViewController.m371381675#159#0#159#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)377764616#240#124#0(6@67"/Users/zyl/Desktop/资料/XSTestProject/Media/AudioViewController.m371381675#159#0#159#0#0"0(0#0#67"/Users/zyl/Desktop/资料/XSTestProject/Media/AudioViewController.m4610064016#1481"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.hmap -F/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject -I/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/include -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources/armv6 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources -include /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch -c /Users/zyl/Desktop/资料/XSTestProject/Media/AudioViewController.m -o /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/AudioViewController.o0#
-
-CCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/BaseController.o /Users/zyl/Desktop/资料/XSTestProject/Usually/BaseController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s377764741.637673
-e377764741.719532
-r1
-xCompileC
-xbuild/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/BaseController.o
-x/Users/zyl/Desktop/资料/XSTestProject/Usually/BaseController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@72"Compile /Users/zyl/Desktop/资料/XSTestProject/Usually/BaseController.m377764741#377764741#0(0"0(0#0#64"/Users/zyl/Desktop/资料/XSTestProject/Usually/BaseController.m4553649808#1473"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.hmap -F/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject -I/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/include -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources/armv6 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources -include /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch -c /Users/zyl/Desktop/资料/XSTestProject/Usually/BaseController.m -o /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/BaseController.o0#
-
-CCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/BigImageViewController.o /Users/zyl/Desktop/资料/XSTestProject/UIView/BigImageViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s377764617.385442
-e377764617.448828
-r1
-xCompileC
-xbuild/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/BigImageViewController.o
-x/Users/zyl/Desktop/资料/XSTestProject/UIView/BigImageViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/zyl/Desktop/资料/XSTestProject/UIView/BigImageViewController.m: In function '-[BigImageViewController shouldAutorotateToInterfaceOrientation:]':
-o/Users/zyl/Desktop/资料/XSTestProject/UIView/BigImageViewController.m:65: warning: 'UIBigImageView' may not respond to '-resetSelfBounds:'
-o/Users/zyl/Desktop/资料/XSTestProject/UIView/BigImageViewController.m:65: warning: (Messages without a matching method signature
-o/Users/zyl/Desktop/资料/XSTestProject/UIView/BigImageViewController.m:65: warning: will be assumed to return 'id' and accept
-o/Users/zyl/Desktop/资料/XSTestProject/UIView/BigImageViewController.m:65: warning: '...' as arguments.)
-o/Users/zyl/Desktop/资料/XSTestProject/UIView/BigImageViewController.m:70: warning: 'UIBigImageView' may not respond to '-resetSelfBounds:'
-lSLF07#2@79"Compile /Users/zyl/Desktop/资料/XSTestProject/UIView/BigImageViewController.m377764617#377764617#0(800"/Users/zyl/Desktop/资料/XSTestProject/UIView/BigImageViewController.m: In function '-[BigImageViewController shouldAutorotateToInterfaceOrientation:]':/Users/zyl/Desktop/资料/XSTestProject/UIView/BigImageViewController.m:65: warning: 'UIBigImageView' may not respond to '-resetSelfBounds:'/Users/zyl/Desktop/资料/XSTestProject/UIView/BigImageViewController.m:65: warning: (Messages without a matching method signature/Users/zyl/Desktop/资料/XSTestProject/UIView/BigImageViewController.m:65: warning: will be assumed to return 'id' and accept/Users/zyl/Desktop/资料/XSTestProject/UIView/BigImageViewController.m:65: warning: '...' as arguments.)/Users/zyl/Desktop/资料/XSTestProject/UIView/BigImageViewController.m:70: warning: 'UIBigImageView' may not respond to '-resetSelfBounds:'3(22@55"'UIBigImageView' may not respond to '-resetSelfBounds:'377764617#150#137#0(6@71"/Users/zyl/Desktop/资料/XSTestProject/UIView/BigImageViewController.m377763764#65#0#65#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)377764617#287#127#0(6@71"/Users/zyl/Desktop/资料/XSTestProject/UIView/BigImageViewController.m377763764#65#0#65#0#0"0(22@55"'UIBigImageView' may not respond to '-resetSelfBounds:'377764617#639#137#0(6@71"/Users/zyl/Desktop/资料/XSTestProject/UIView/BigImageViewController.m377763764#70#0#70#0#26"'*' may not respond to '*'0(0#0#71"/Users/zyl/Desktop/资料/XSTestProject/UIView/BigImageViewController.m4610064016#1488"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.hmap -F/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject -I/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/include -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources/armv6 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources -include /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch -c /Users/zyl/Desktop/资料/XSTestProject/UIView/BigImageViewController.m -o /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/BigImageViewController.o0#
-
-CCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/DateFormatViewController.o /Users/zyl/Desktop/资料/XSTestProject/Other/DateFormatViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s377764616.646359
-e377764616.772726
-r1
-xCompileC
-xbuild/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/DateFormatViewController.o
-x/Users/zyl/Desktop/资料/XSTestProject/Other/DateFormatViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/zyl/Desktop/资料/XSTestProject/Other/DateFormatViewController.m: In function '-[DateFormatViewController viewDidLoad]':
-o/Users/zyl/Desktop/资料/XSTestProject/Other/DateFormatViewController.m:54: warning: 'DateFormatViewController' may not respond to '-logNSDate'
-o/Users/zyl/Desktop/资料/XSTestProject/Other/DateFormatViewController.m:54: warning: (Messages without a matching method signature
-o/Users/zyl/Desktop/资料/XSTestProject/Other/DateFormatViewController.m:54: warning: will be assumed to return 'id' and accept
-o/Users/zyl/Desktop/资料/XSTestProject/Other/DateFormatViewController.m:54: warning: '...' as arguments.)
-o/Users/zyl/Desktop/资料/XSTestProject/Other/DateFormatViewController.m:57: warning: 'DateFormatViewController' may not respond to '-logNSLocaleValue:'
-o/Users/zyl/Desktop/资料/XSTestProject/Other/DateFormatViewController.m: In function '-[DateFormatViewController logNSDate]':
-o/Users/zyl/Desktop/资料/XSTestProject/Other/DateFormatViewController.m:238: warning: unused variable 'timeIntervalSinceReferenceDate1'
-lSLF07#2@80"Compile /Users/zyl/Desktop/资料/XSTestProject/Other/DateFormatViewController.m377764616#377764617#0(1058"/Users/zyl/Desktop/资料/XSTestProject/Other/DateFormatViewController.m: In function '-[DateFormatViewController viewDidLoad]':/Users/zyl/Desktop/资料/XSTestProject/Other/DateFormatViewController.m:54: warning: 'DateFormatViewController' may not respond to '-logNSDate'/Users/zyl/Desktop/资料/XSTestProject/Other/DateFormatViewController.m:54: warning: (Messages without a matching method signature/Users/zyl/Desktop/资料/XSTestProject/Other/DateFormatViewController.m:54: warning: will be assumed to return 'id' and accept/Users/zyl/Desktop/资料/XSTestProject/Other/DateFormatViewController.m:54: warning: '...' as arguments.)/Users/zyl/Desktop/资料/XSTestProject/Other/DateFormatViewController.m:57: warning: 'DateFormatViewController' may not respond to '-logNSLocaleValue:'/Users/zyl/Desktop/资料/XSTestProject/Other/DateFormatViewController.m: In function '-[DateFormatViewController logNSDate]':/Users/zyl/Desktop/资料/XSTestProject/Other/DateFormatViewController.m:238: warning: unused variable 'timeIntervalSinceReferenceDate1'4(22@58"'DateFormatViewController' may not respond to '-logNSDate'377764616#125#141#0(6@72"/Users/zyl/Desktop/资料/XSTestProject/Other/DateFormatViewController.m374156930#54#0#54#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)377764616#266#128#0(6@72"/Users/zyl/Desktop/资料/XSTestProject/Other/DateFormatViewController.m374156930#54#0#54#0#0"0(22@66"'DateFormatViewController' may not respond to '-logNSLocaleValue:'377764616#621#149#0(6@72"/Users/zyl/Desktop/资料/XSTestProject/Other/DateFormatViewController.m374156930#57#0#57#0#26"'*' may not respond to '*'0(22@49"Unused variable 'timeIntervalSinceReferenceDate1'377764616#893#133#0(6@72"/Users/zyl/Desktop/资料/XSTestProject/Other/DateFormatViewController.m374156930#238#0#238#0#19"unused variable '*'0(0#0#72"/Users/zyl/Desktop/资料/XSTestProject/Other/DateFormatViewController.m4610064016#1491"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.hmap -F/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject -I/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/include -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources/armv6 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources -include /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch -c /Users/zyl/Desktop/资料/XSTestProject/Other/DateFormatViewController.m -o /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/DateFormatViewController.o0#
-
-CCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/LocalSettings.o /Users/zyl/Desktop/资料/XSTestProject/Usually/LocalSettings.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s377764616.127991
-e377764616.229856
-r1
-xCompileC
-xbuild/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/LocalSettings.o
-x/Users/zyl/Desktop/资料/XSTestProject/Usually/LocalSettings.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/zyl/Desktop/资料/XSTestProject/Usually/LocalSettings.m377764616#377764616#0(0"0(0#0#63"/Users/zyl/Desktop/资料/XSTestProject/Usually/LocalSettings.m4610064016#1471"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.hmap -F/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject -I/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/include -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources/armv6 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources -include /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch -c /Users/zyl/Desktop/资料/XSTestProject/Usually/LocalSettings.m -o /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/LocalSettings.o0#
-
-CCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/MediaViewController.o /Users/zyl/Desktop/资料/XSTestProject/Media/MediaViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s377764616.450851
-e377764616.640544
-r1
-xCompileC
-xbuild/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/MediaViewController.o
-x/Users/zyl/Desktop/资料/XSTestProject/Media/MediaViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/zyl/Desktop/资料/XSTestProject/Media/MediaViewController.m377764616#377764617#0(0"0(0#0#67"/Users/zyl/Desktop/资料/XSTestProject/Media/MediaViewController.m4610064016#1481"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.hmap -F/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject -I/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/include -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources/armv6 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources -include /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch -c /Users/zyl/Desktop/资料/XSTestProject/Media/MediaViewController.m -o /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/MediaViewController.o0#
-
-CCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/NSAttributedString+Attributes.o /Users/zyl/Desktop/资料/XSTestProject/ThirdParty/UILabel/NSAttributedString+Attributes.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s377764616.986568
-e377764617.165421
-r1
-xCompileC
-xbuild/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/NSAttributedString+Attributes.o
-x/Users/zyl/Desktop/资料/XSTestProject/ThirdParty/UILabel/NSAttributedString+Attributes.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@98"Compile /Users/zyl/Desktop/资料/XSTestProject/ThirdParty/UILabel/NSAttributedString+Attributes.m377764616#377764617#0(0"0(0#0#90"/Users/zyl/Desktop/资料/XSTestProject/ThirdParty/UILabel/NSAttributedString+Attributes.m4610064016#1514"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.hmap -F/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject -I/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/include -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources/armv6 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources -include /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch -c /Users/zyl/Desktop/资料/XSTestProject/ThirdParty/UILabel/NSAttributedString+Attributes.m -o /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/NSAttributedString+Attributes.o0#
-
-CCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/NSData+Base64.o /Users/zyl/Desktop/资料/XSTestProject/Usually/NSData+Base64.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s377764616.167269
-e377764616.269464
-r1
-xCompileC
-xbuild/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/NSData+Base64.o
-x/Users/zyl/Desktop/资料/XSTestProject/Usually/NSData+Base64.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/zyl/Desktop/资料/XSTestProject/Usually/NSData+Base64.m377764616#377764616#0(0"0(0#0#63"/Users/zyl/Desktop/资料/XSTestProject/Usually/NSData+Base64.m4610064016#1471"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.hmap -F/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject -I/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/include -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources/armv6 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources -include /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch -c /Users/zyl/Desktop/资料/XSTestProject/Usually/NSData+Base64.m -o /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/NSData+Base64.o0#
-
-CCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/OHAttributedLabel.o /Users/zyl/Desktop/资料/XSTestProject/ThirdParty/UILabel/OHAttributedLabel.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s377764616.931485
-e377764617.387422
-r1
-xCompileC
-xbuild/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/OHAttributedLabel.o
-x/Users/zyl/Desktop/资料/XSTestProject/ThirdParty/UILabel/OHAttributedLabel.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@86"Compile /Users/zyl/Desktop/资料/XSTestProject/ThirdParty/UILabel/OHAttributedLabel.m377764616#377764617#0(0"0(0#0#78"/Users/zyl/Desktop/资料/XSTestProject/ThirdParty/UILabel/OHAttributedLabel.m4610064016#1490"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.hmap -F/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject -I/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/include -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources/armv6 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources -include /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch -c /Users/zyl/Desktop/资料/XSTestProject/ThirdParty/UILabel/OHAttributedLabel.m -o /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/OHAttributedLabel.o0#
-
-CCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/OtherViewController.o /Users/zyl/Desktop/资料/XSTestProject/Other/OtherViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s377764616.606140
-e377764616.739095
-r1
-xCompileC
-xbuild/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/OtherViewController.o
-x/Users/zyl/Desktop/资料/XSTestProject/Other/OtherViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/zyl/Desktop/资料/XSTestProject/Other/OtherViewController.m377764616#377764617#0(0"0(0#0#67"/Users/zyl/Desktop/资料/XSTestProject/Other/OtherViewController.m4610064016#1481"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.hmap -F/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject -I/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/include -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources/armv6 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources -include /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch -c /Users/zyl/Desktop/资料/XSTestProject/Other/OtherViewController.m -o /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/OtherViewController.o0#
-
-CCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/PNGViewController.o /Users/zyl/Desktop/资料/XSTestProject/Other/JPG/PNGViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s377764616.741829
-e377764616.845718
-r1
-xCompileC
-xbuild/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/PNGViewController.o
-x/Users/zyl/Desktop/资料/XSTestProject/Other/JPG/PNGViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/zyl/Desktop/资料/XSTestProject/Other/JPG/PNGViewController.m377764616#377764617#0(0"0(0#0#69"/Users/zyl/Desktop/资料/XSTestProject/Other/JPG/PNGViewController.m4610064016#1481"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.hmap -F/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject -I/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/include -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources/armv6 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources -include /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch -c /Users/zyl/Desktop/资料/XSTestProject/Other/JPG/PNGViewController.m -o /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/PNGViewController.o0#
-
-CCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/QuestionViewController.o /Users/zyl/Desktop/资料/XSTestProject/Question/QuestionViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s377764616.739197
-e377764616.874356
-r1
-xCompileC
-xbuild/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/QuestionViewController.o
-x/Users/zyl/Desktop/资料/XSTestProject/Question/QuestionViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/zyl/Desktop/资料/XSTestProject/Question/QuestionViewController.m377764616#377764617#0(0"0(0#0#73"/Users/zyl/Desktop/资料/XSTestProject/Question/QuestionViewController.m4610064016#1490"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.hmap -F/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject -I/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/include -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources/armv6 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources -include /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch -c /Users/zyl/Desktop/资料/XSTestProject/Question/QuestionViewController.m -o /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/QuestionViewController.o0#
-
-CCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/RegexKitLite.o /Users/zyl/Desktop/资料/XSTestProject/ThirdParty/UILabel/RegexKitLite.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s377764617.057195
-e377764617.596824
-r1
-xCompileC
-xbuild/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/RegexKitLite.o
-x/Users/zyl/Desktop/资料/XSTestProject/ThirdParty/UILabel/RegexKitLite.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/zyl/Desktop/资料/XSTestProject/ThirdParty/UILabel/RegexKitLite.m377764617#377764617#0(0"0(0#0#73"/Users/zyl/Desktop/资料/XSTestProject/ThirdParty/UILabel/RegexKitLite.m4610064016#1480"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.hmap -F/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject -I/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/include -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources/armv6 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources -include /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch -c /Users/zyl/Desktop/资料/XSTestProject/ThirdParty/UILabel/RegexKitLite.m -o /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/RegexKitLite.o0#
-
-CCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/TestTableViewController.o /Users/zyl/Desktop/资料/XSTestProject/Classes/TestTableViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s377764615.458486
-e377764616.021100
-r1
-xCompileC
-xbuild/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/TestTableViewController.o
-x/Users/zyl/Desktop/资料/XSTestProject/Classes/TestTableViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/zyl/Desktop/资料/XSTestProject/Classes/TestTableViewController.m377764615#377764616#0(0"0(0#0#73"/Users/zyl/Desktop/资料/XSTestProject/Classes/TestTableViewController.m4610064016#1491"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.hmap -F/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject -I/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/include -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources/armv6 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources -include /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch -c /Users/zyl/Desktop/资料/XSTestProject/Classes/TestTableViewController.m -o /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/TestTableViewController.o0#
-
-CCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/TestViewController.o /Users/zyl/Desktop/资料/XSTestProject/Classes/TestViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s377764615.457407
-e377764616.020982
-r1
-xCompileC
-xbuild/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/TestViewController.o
-x/Users/zyl/Desktop/资料/XSTestProject/Classes/TestViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/zyl/Desktop/资料/XSTestProject/Classes/TestViewController.m377764615#377764616#0(0"0(0#0#68"/Users/zyl/Desktop/资料/XSTestProject/Classes/TestViewController.m4610064016#1481"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.hmap -F/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject -I/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/include -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources/armv6 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources -include /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch -c /Users/zyl/Desktop/资料/XSTestProject/Classes/TestViewController.m -o /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/TestViewController.o0#
-
-CCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/ThemeManager.o /Users/zyl/Desktop/资料/XSTestProject/Usually/ThemeManager.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s377764616.022265
-e377764616.167140
-r1
-xCompileC
-xbuild/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/ThemeManager.o
-x/Users/zyl/Desktop/资料/XSTestProject/Usually/ThemeManager.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/zyl/Desktop/资料/XSTestProject/Usually/ThemeManager.m377764616#377764616#0(0"0(0#0#62"/Users/zyl/Desktop/资料/XSTestProject/Usually/ThemeManager.m4610064016#1469"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.hmap -F/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject -I/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/include -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources/armv6 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources -include /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch -c /Users/zyl/Desktop/资料/XSTestProject/Usually/ThemeManager.m -o /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/ThemeManager.o0#
-
-CCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIBigImageView.o /Users/zyl/Desktop/资料/XSTestProject/UIView/UIBigImageView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s377764741.719659
-e377764741.976463
-r1
-xCompileC
-xbuild/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIBigImageView.o
-x/Users/zyl/Desktop/资料/XSTestProject/UIView/UIBigImageView.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/zyl/Desktop/资料/XSTestProject/UIView/UIBigImageView.m377764741#377764741#0(0"0(0#0#63"/Users/zyl/Desktop/资料/XSTestProject/UIView/UIBigImageView.m4553649808#1472"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.hmap -F/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject -I/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/include -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources/armv6 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources -include /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch -c /Users/zyl/Desktop/资料/XSTestProject/UIView/UIBigImageView.m -o /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIBigImageView.o0#
-
-CCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIButtonViewController.o /Users/zyl/Desktop/资料/XSTestProject/Other/UIButtonViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s377764616.772855
-e377764616.931357
-r1
-xCompileC
-xbuild/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIButtonViewController.o
-x/Users/zyl/Desktop/资料/XSTestProject/Other/UIButtonViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/zyl/Desktop/资料/XSTestProject/Other/UIButtonViewController.m: In function '-[UIButtonViewController viewDidLoad]':
-o/Users/zyl/Desktop/资料/XSTestProject/Other/UIButtonViewController.m:39: warning: unused variable 'stringLong'
-lSLF07#2@78"Compile /Users/zyl/Desktop/资料/XSTestProject/Other/UIButtonViewController.m377764616#377764617#0(238"/Users/zyl/Desktop/资料/XSTestProject/Other/UIButtonViewController.m: In function '-[UIButtonViewController viewDidLoad]':/Users/zyl/Desktop/资料/XSTestProject/Other/UIButtonViewController.m:39: warning: unused variable 'stringLong'1(22@28"Unused variable 'stringLong'377764616#121#109#0(6@70"/Users/zyl/Desktop/资料/XSTestProject/Other/UIButtonViewController.m374654276#39#0#39#0#19"unused variable '*'0(0#0#70"/Users/zyl/Desktop/资料/XSTestProject/Other/UIButtonViewController.m4610064016#1487"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.hmap -F/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject -I/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/include -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources/armv6 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources -include /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch -c /Users/zyl/Desktop/资料/XSTestProject/Other/UIButtonViewController.m -o /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIButtonViewController.o0#
-
-CCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIDevice+Hardware.o /Users/zyl/Desktop/资料/XSTestProject/Media/UIDevice+Hardware.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s377764616.359072
-e377764616.599879
-r1
-xCompileC
-xbuild/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIDevice+Hardware.o
-x/Users/zyl/Desktop/资料/XSTestProject/Media/UIDevice+Hardware.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/zyl/Desktop/资料/XSTestProject/Media/UIDevice+Hardware.m377764616#377764617#0(0"0(0#0#65"/Users/zyl/Desktop/资料/XSTestProject/Media/UIDevice+Hardware.m4610064016#1477"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.hmap -F/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject -I/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/include -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources/armv6 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources -include /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch -c /Users/zyl/Desktop/资料/XSTestProject/Media/UIDevice+Hardware.m -o /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIDevice+Hardware.o0#
-
-CCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIImageViewForTouch.o /Users/zyl/Desktop/资料/XSTestProject/UIView/UIImageViewForTouch.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s377764617.266986
-e377764617.385316
-r1
-xCompileC
-xbuild/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIImageViewForTouch.o
-x/Users/zyl/Desktop/资料/XSTestProject/UIView/UIImageViewForTouch.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/zyl/Desktop/资料/XSTestProject/UIView/UIImageViewForTouch.m377764617#377764617#0(0"0(0#0#68"/Users/zyl/Desktop/资料/XSTestProject/UIView/UIImageViewForTouch.m4610064016#1482"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.hmap -F/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject -I/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/include -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources/armv6 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources -include /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch -c /Users/zyl/Desktop/资料/XSTestProject/UIView/UIImageViewForTouch.m -o /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIImageViewForTouch.o0#
-
-CCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIImageViewInfoViewController.o /Users/zyl/Desktop/资料/XSTestProject/UIView/UIImageViewInfoViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s377764741.643326
-e377764741.771710
-r1
-xCompileC
-xbuild/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIImageViewInfoViewController.o
-x/Users/zyl/Desktop/资料/XSTestProject/UIView/UIImageViewInfoViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@86"Compile /Users/zyl/Desktop/资料/XSTestProject/UIView/UIImageViewInfoViewController.m377764741#377764741#0(0"0(0#0#78"/Users/zyl/Desktop/资料/XSTestProject/UIView/UIImageViewInfoViewController.m4553649808#1502"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.hmap -F/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject -I/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/include -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources/armv6 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources -include /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch -c /Users/zyl/Desktop/资料/XSTestProject/UIView/UIImageViewInfoViewController.m -o /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIImageViewInfoViewController.o0#
-
-CCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UILabel+Extra.o /Users/zyl/Desktop/资料/XSTestProject/Usually/UILabel+Extra.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s377764616.019859
-e377764616.174064
-r1
-xCompileC
-xbuild/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UILabel+Extra.o
-x/Users/zyl/Desktop/资料/XSTestProject/Usually/UILabel+Extra.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/zyl/Desktop/资料/XSTestProject/Usually/UILabel+Extra.m377764616#377764616#0(0"0(0#0#63"/Users/zyl/Desktop/资料/XSTestProject/Usually/UILabel+Extra.m4610064016#1471"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.hmap -F/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject -I/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/include -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources/armv6 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources -include /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch -c /Users/zyl/Desktop/资料/XSTestProject/Usually/UILabel+Extra.m -o /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UILabel+Extra.o0#
-
-CCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIViewInfoController.o /Users/zyl/Desktop/资料/XSTestProject/UIView/UIViewInfoController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s377764616.845836
-e377764616.986264
-r1
-xCompileC
-xbuild/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIViewInfoController.o
-x/Users/zyl/Desktop/资料/XSTestProject/UIView/UIViewInfoController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/zyl/Desktop/资料/XSTestProject/UIView/UIViewInfoController.m377764616#377764617#0(0"0(0#0#69"/Users/zyl/Desktop/资料/XSTestProject/UIView/UIViewInfoController.m4610064016#1484"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.hmap -F/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject -I/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/include -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources/armv6 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources -include /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch -c /Users/zyl/Desktop/资料/XSTestProject/UIView/UIViewInfoController.m -o /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIViewInfoController.o0#
-
-CCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIlabelInfoViewController.o /Users/zyl/Desktop/资料/XSTestProject/UIView/UIlabelInfoViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s377764741.641108
-e377764741.779817
-r1
-xCompileC
-xbuild/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIlabelInfoViewController.o
-x/Users/zyl/Desktop/资料/XSTestProject/UIView/UIlabelInfoViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/zyl/Desktop/资料/XSTestProject/UIView/UIlabelInfoViewController.m377764741#377764741#0(0"0(0#0#74"/Users/zyl/Desktop/资料/XSTestProject/UIView/UIlabelInfoViewController.m4553649808#1494"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.hmap -F/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject -I/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/include -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources/armv6 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources -include /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch -c /Users/zyl/Desktop/资料/XSTestProject/UIView/UIlabelInfoViewController.m -o /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/UIlabelInfoViewController.o0#
-
-CCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/XSTestProjectAppDelegate.o /Users/zyl/Desktop/资料/XSTestProject/Classes/XSTestProjectAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s377764615.456484
-e377764616.020853
-r1
-xCompileC
-xbuild/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/XSTestProjectAppDelegate.o
-x/Users/zyl/Desktop/资料/XSTestProject/Classes/XSTestProjectAppDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/zyl/Desktop/资料/XSTestProject/Classes/XSTestProjectAppDelegate.m377764615#377764616#0(0"0(0#0#74"/Users/zyl/Desktop/资料/XSTestProject/Classes/XSTestProjectAppDelegate.m4610064016#1493"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.hmap -F/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject -I/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/include -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources/armv6 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources -include /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch -c /Users/zyl/Desktop/资料/XSTestProject/Classes/XSTestProjectAppDelegate.m -o /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/XSTestProjectAppDelegate.o0#
-
-CCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/XSTestUtils.o /Users/zyl/Desktop/资料/XSTestProject/Usually/XSTestUtils.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s377764741.636788
-e377764741.906569
-r1
-xCompileC
-xbuild/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/XSTestUtils.o
-x/Users/zyl/Desktop/资料/XSTestProject/Usually/XSTestUtils.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/zyl/Desktop/资料/XSTestProject/Usually/XSTestUtils.m377764741#377764741#0(0"0(0#0#61"/Users/zyl/Desktop/资料/XSTestProject/Usually/XSTestUtils.m4553649808#1467"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.hmap -F/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject -I/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/include -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources/armv6 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources -include /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch -c /Users/zyl/Desktop/资料/XSTestProject/Usually/XSTestUtils.m -o /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/XSTestUtils.o0#
-
-CCompileC build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/main.o /Users/zyl/Desktop/资料/XSTestProject/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s377764615.455351
-e377764616.019735
-r1
-xCompileC
-xbuild/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/main.o
-x/Users/zyl/Desktop/资料/XSTestProject/main.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@54"Compile /Users/zyl/Desktop/资料/XSTestProject/main.m377764615#377764616#0(0"0(0#0#46"/Users/zyl/Desktop/资料/XSTestProject/main.m4610064016#1445"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.hmap -F/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject -I/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/include -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources/armv6 -I/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/DerivedSources -include /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch -c /Users/zyl/Desktop/资料/XSTestProject/main.m -o /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/main.o0#
-
-CCompileXIB /Users/zyl/Desktop/资料/XSTestProject/MainWindow.xib
-s377764613.110150
-e377764613.506660
-r1
-xCompileXIB
-x/Users/zyl/Desktop/资料/XSTestProject/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib377764613#377764613#0(0"0(0#0#54"/Users/zyl/Desktop/资料/XSTestProject/MainWindow.xib4610064016#551"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/MainWindow.nib /Users/zyl/Desktop/资料/XSTestProject/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
-
-CCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/bg_image.png Image/PNG_JPG/bg_image.png
-s377764613.575497
-e377764614.079575
-r1
-xCopyPNGFile
-x/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/bg_image.png
-xImage/PNG_JPG/bg_image.png
-lSLF07#2@90"CopyPNGFile build/Debug-iphoneos/XSTestProject.app/bg_image.png Image/PNG_JPG/bg_image.png377764613#377764614#0(0"0(0#0#66"/Users/zyl/Desktop/资料/XSTestProject/Image/PNG_JPG/bg_image.png4610064016#587"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/zyl/Desktop/资料/XSTestProject/Image/PNG_JPG/bg_image.png /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/bg_image.png0#
-
-CCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/bg_image@2x.png Image/PNG_JPG/bg_image@2x.png
-s377764613.578198
-e377764615.455072
-r1
-xCopyPNGFile
-x/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/bg_image@2x.png
-xImage/PNG_JPG/bg_image@2x.png
-lSLF07#2@96"CopyPNGFile build/Debug-iphoneos/XSTestProject.app/bg_image@2x.png Image/PNG_JPG/bg_image@2x.png377764613#377764615#0(0"0(0#0#69"/Users/zyl/Desktop/资料/XSTestProject/Image/PNG_JPG/bg_image@2x.png4610064016#593"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/zyl/Desktop/资料/XSTestProject/Image/PNG_JPG/bg_image@2x.png /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/bg_image@2x.png0#
-
-CCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_back.png Image/ico_showbigphoto_back.png
-s377764613.671530
-e377764613.707211
-r1
-xCopyPNGFile
-x/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_back.png
-xImage/ico_showbigphoto_back.png
-lSLF07#2@108"CopyPNGFile build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_back.png Image/ico_showbigphoto_back.png377764613#377764613#0(0"0(0#0#71"/Users/zyl/Desktop/资料/XSTestProject/Image/ico_showbigphoto_back.png4610064016#605"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/zyl/Desktop/资料/XSTestProject/Image/ico_showbigphoto_back.png /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_back.png0#
-
-CCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_back@2x.png Image/ico_showbigphoto_back@2x.png
-s377764613.690166
-e377764613.752198
-r1
-xCopyPNGFile
-x/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_back@2x.png
-xImage/ico_showbigphoto_back@2x.png
-lSLF07#2@114"CopyPNGFile build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_back@2x.png Image/ico_showbigphoto_back@2x.png377764613#377764613#0(0"0(0#0#74"/Users/zyl/Desktop/资料/XSTestProject/Image/ico_showbigphoto_back@2x.png4610064016#611"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/zyl/Desktop/资料/XSTestProject/Image/ico_showbigphoto_back@2x.png /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_back@2x.png0#
-
-CCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_back_sel.png Image/ico_showbigphoto_back_sel.png
-s377764613.627834
-e377764613.671419
-r1
-xCopyPNGFile
-x/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_back_sel.png
-xImage/ico_showbigphoto_back_sel.png
-lSLF07#2@116"CopyPNGFile build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_back_sel.png Image/ico_showbigphoto_back_sel.png377764613#377764613#0(0"0(0#0#75"/Users/zyl/Desktop/资料/XSTestProject/Image/ico_showbigphoto_back_sel.png4610064016#613"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/zyl/Desktop/资料/XSTestProject/Image/ico_showbigphoto_back_sel.png /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_back_sel.png0#
-
-CCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_back_sel@2x.png Image/ico_showbigphoto_back_sel@2x.png
-s377764613.653936
-e377764613.690063
-r1
-xCopyPNGFile
-x/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_back_sel@2x.png
-xImage/ico_showbigphoto_back_sel@2x.png
-lSLF07#2@122"CopyPNGFile build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_back_sel@2x.png Image/ico_showbigphoto_back_sel@2x.png377764613#377764613#0(0"0(0#0#78"/Users/zyl/Desktop/资料/XSTestProject/Image/ico_showbigphoto_back_sel@2x.png4610064016#619"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/zyl/Desktop/资料/XSTestProject/Image/ico_showbigphoto_back_sel@2x.png /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_back_sel@2x.png0#
-
-CCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_save.png Image/ico_showbigphoto_save.png
-s377764613.780700
-e377764613.818083
-r1
-xCopyPNGFile
-x/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_save.png
-xImage/ico_showbigphoto_save.png
-lSLF07#2@108"CopyPNGFile build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_save.png Image/ico_showbigphoto_save.png377764613#377764613#0(0"0(0#0#71"/Users/zyl/Desktop/资料/XSTestProject/Image/ico_showbigphoto_save.png4610064016#605"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/zyl/Desktop/资料/XSTestProject/Image/ico_showbigphoto_save.png /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_save.png0#
-
-CCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_save@2x.png Image/ico_showbigphoto_save@2x.png
-s377764613.804223
-e377764613.841222
-r1
-xCopyPNGFile
-x/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_save@2x.png
-xImage/ico_showbigphoto_save@2x.png
-lSLF07#2@114"CopyPNGFile build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_save@2x.png Image/ico_showbigphoto_save@2x.png377764613#377764613#0(0"0(0#0#74"/Users/zyl/Desktop/资料/XSTestProject/Image/ico_showbigphoto_save@2x.png4610064016#611"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/zyl/Desktop/资料/XSTestProject/Image/ico_showbigphoto_save@2x.png /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_save@2x.png0#
-
-CCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_save_sel.png Image/ico_showbigphoto_save_sel.png
-s377764613.707318
-e377764613.780506
-r1
-xCopyPNGFile
-x/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_save_sel.png
-xImage/ico_showbigphoto_save_sel.png
-lSLF07#2@116"CopyPNGFile build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_save_sel.png Image/ico_showbigphoto_save_sel.png377764613#377764613#0(0"0(0#0#75"/Users/zyl/Desktop/资料/XSTestProject/Image/ico_showbigphoto_save_sel.png4610064016#613"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/zyl/Desktop/资料/XSTestProject/Image/ico_showbigphoto_save_sel.png /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_save_sel.png0#
-
-CCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_save_sel@2x.png Image/ico_showbigphoto_save_sel@2x.png
-s377764613.754302
-e377764613.804119
-r1
-xCopyPNGFile
-x/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_save_sel@2x.png
-xImage/ico_showbigphoto_save_sel@2x.png
-lSLF07#2@122"CopyPNGFile build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_save_sel@2x.png Image/ico_showbigphoto_save_sel@2x.png377764613#377764613#0(0"0(0#0#78"/Users/zyl/Desktop/资料/XSTestProject/Image/ico_showbigphoto_save_sel@2x.png4610064016#619"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/zyl/Desktop/资料/XSTestProject/Image/ico_showbigphoto_save_sel@2x.png /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_save_sel@2x.png0#
-
-CCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_toolbar.png Image/ico_showbigphoto_toolbar.png
-s377764613.818185
-e377764613.856672
-r1
-xCopyPNGFile
-x/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_toolbar.png
-xImage/ico_showbigphoto_toolbar.png
-lSLF07#2@114"CopyPNGFile build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_toolbar.png Image/ico_showbigphoto_toolbar.png377764613#377764613#0(0"0(0#0#74"/Users/zyl/Desktop/资料/XSTestProject/Image/ico_showbigphoto_toolbar.png4610064016#611"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/zyl/Desktop/资料/XSTestProject/Image/ico_showbigphoto_toolbar.png /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_toolbar.png0#
-
-CCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_toolbar@2x.png Image/ico_showbigphoto_toolbar@2x.png
-s377764613.841330
-e377764613.898733
-r1
-xCopyPNGFile
-x/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_toolbar@2x.png
-xImage/ico_showbigphoto_toolbar@2x.png
-lSLF07#2@120"CopyPNGFile build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_toolbar@2x.png Image/ico_showbigphoto_toolbar@2x.png377764613#377764613#0(0"0(0#0#77"/Users/zyl/Desktop/资料/XSTestProject/Image/ico_showbigphoto_toolbar@2x.png4610064016#617"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/zyl/Desktop/资料/XSTestProject/Image/ico_showbigphoto_toolbar@2x.png /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ico_showbigphoto_toolbar@2x.png0#
-
-CCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/loadingbutton.png Image/Audio/loadingbutton.png
-s377764613.111335
-e377764613.572758
-r1
-xCopyPNGFile
-x/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/loadingbutton.png
-xImage/Audio/loadingbutton.png
-lSLF07#2@98"CopyPNGFile build/Debug-iphoneos/XSTestProject.app/loadingbutton.png Image/Audio/loadingbutton.png377764613#377764613#0(0"0(0#0#69"/Users/zyl/Desktop/资料/XSTestProject/Image/Audio/loadingbutton.png4610064016#595"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/zyl/Desktop/资料/XSTestProject/Image/Audio/loadingbutton.png /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/loadingbutton.png0#
-
-CCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/pausebutton.png Image/Audio/pausebutton.png
-s377764613.112063
-e377764613.574445
-r1
-xCopyPNGFile
-x/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/pausebutton.png
-xImage/Audio/pausebutton.png
-lSLF07#2@94"CopyPNGFile build/Debug-iphoneos/XSTestProject.app/pausebutton.png Image/Audio/pausebutton.png377764613#377764613#0(0"0(0#0#67"/Users/zyl/Desktop/资料/XSTestProject/Image/Audio/pausebutton.png4610064016#591"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/zyl/Desktop/资料/XSTestProject/Image/Audio/pausebutton.png /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/pausebutton.png0#
-
-CCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/playbutton.png Image/Audio/playbutton.png
-s377764613.148043
-e377764613.577262
-r1
-xCopyPNGFile
-x/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/playbutton.png
-xImage/Audio/playbutton.png
-lSLF07#2@92"CopyPNGFile build/Debug-iphoneos/XSTestProject.app/playbutton.png Image/Audio/playbutton.png377764613#377764613#0(0"0(0#0#66"/Users/zyl/Desktop/资料/XSTestProject/Image/Audio/playbutton.png4610064016#589"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/zyl/Desktop/资料/XSTestProject/Image/Audio/playbutton.png /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/playbutton.png0#
-
-CCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/stopbutton.png Image/Audio/stopbutton.png
-s377764613.506802
-e377764613.575392
-r1
-xCopyPNGFile
-x/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/stopbutton.png
-xImage/Audio/stopbutton.png
-lSLF07#2@92"CopyPNGFile build/Debug-iphoneos/XSTestProject.app/stopbutton.png Image/Audio/stopbutton.png377764613#377764613#0(0"0(0#0#66"/Users/zyl/Desktop/资料/XSTestProject/Image/Audio/stopbutton.png4610064016#589"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/zyl/Desktop/资料/XSTestProject/Image/Audio/stopbutton.png /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/stopbutton.png0#
-
-CCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/viose_icon.png Image/Audio/viose_icon.png
-s377764613.572872
-e377764613.621920
-r1
-xCopyPNGFile
-x/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/viose_icon.png
-xImage/Audio/viose_icon.png
-lSLF07#2@92"CopyPNGFile build/Debug-iphoneos/XSTestProject.app/viose_icon.png Image/Audio/viose_icon.png377764613#377764613#0(0"0(0#0#66"/Users/zyl/Desktop/资料/XSTestProject/Image/Audio/viose_icon.png4610064016#589"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/zyl/Desktop/资料/XSTestProject/Image/Audio/viose_icon.png /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/viose_icon.png0#
-
-CCopyPNGFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/viose_stop.png Image/Audio/viose_stop.png
-s377764613.574541
-e377764613.629063
-r1
-xCopyPNGFile
-x/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/viose_stop.png
-xImage/Audio/viose_stop.png
-lSLF07#2@92"CopyPNGFile build/Debug-iphoneos/XSTestProject.app/viose_stop.png Image/Audio/viose_stop.png377764613#377764613#0(0"0(0#0#66"/Users/zyl/Desktop/资料/XSTestProject/Image/Audio/viose_stop.png4610064016#589"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/zyl/Desktop/资料/XSTestProject/Image/Audio/viose_stop.png /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/viose_stop.png0#
-
-CCpResource build/Debug-iphoneos/XSTestProject.app/Problem&Plan Problem/Problem&Plan
-s377764613.110819
-e377764613.147808
-r1
-xCpResource
-xbuild/Debug-iphoneos/XSTestProject.app/Problem&Plan
-xProblem/Problem&Plan
-lSLF07#2@25"Copy Problem/Problem&Plan377764613#377764613#0(0"0(0#0#60"/Users/zyl/Desktop/资料/XSTestProject/Problem/Problem&Plan4610064016#473"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zyl/Desktop/资料/XSTestProject/Problem/Problem&Plan /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app0#
-
-CCpResource build/Debug-iphoneos/XSTestProject.app/RegexKitLite ThirdParty/UILabel/RegexKitLite
-s377764613.623943
-e377764613.640947
-r1
-xCpResource
-xbuild/Debug-iphoneos/XSTestProject.app/RegexKitLite
-xThirdParty/UILabel/RegexKitLite
-lSLF07#2@36"Copy ThirdParty/UILabel/RegexKitLite377764613#377764613#0(0"0(0#0#71"/Users/zyl/Desktop/资料/XSTestProject/ThirdParty/UILabel/RegexKitLite4610064016#484"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zyl/Desktop/资料/XSTestProject/ThirdParty/UILabel/RegexKitLite /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app0#
-
-CCpResource build/Debug-iphoneos/XSTestProject.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-s377764613.071250
-e377764613.110056
-r1
-xCpResource
-xbuild/Debug-iphoneos/XSTestProject.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist377764613#377764613#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist4610064016#502"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app0#
-
-CCpResource build/Debug-iphoneos/XSTestProject.app/bg_image.jpg Image/PNG_JPG/bg_image.jpg
-s377764613.622026
-e377764613.635491
-r1
-xCpResource
-xbuild/Debug-iphoneos/XSTestProject.app/bg_image.jpg
-xImage/PNG_JPG/bg_image.jpg
-lSLF07#2@31"Copy Image/PNG_JPG/bg_image.jpg377764613#377764613#0(0"0(0#0#66"/Users/zyl/Desktop/资料/XSTestProject/Image/PNG_JPG/bg_image.jpg4610064016#479"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zyl/Desktop/资料/XSTestProject/Image/PNG_JPG/bg_image.jpg /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app0#
-
-CCpResource build/Debug-iphoneos/XSTestProject.app/bg_image@2x.jpg Image/PNG_JPG/bg_image@2x.jpg
-s377764613.577372
-e377764613.605076
-r1
-xCpResource
-xbuild/Debug-iphoneos/XSTestProject.app/bg_image@2x.jpg
-xImage/PNG_JPG/bg_image@2x.jpg
-lSLF07#2@34"Copy Image/PNG_JPG/bg_image@2x.jpg377764613#377764613#0(0"0(0#0#69"/Users/zyl/Desktop/资料/XSTestProject/Image/PNG_JPG/bg_image@2x.jpg4610064016#482"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zyl/Desktop/资料/XSTestProject/Image/PNG_JPG/bg_image@2x.jpg /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app0#
-
-CCpResource build/Debug-iphoneos/XSTestProject.app/infoplist infoPlist/infoplist
-s377764613.623162
-e377764613.640802
-r1
-xCpResource
-xbuild/Debug-iphoneos/XSTestProject.app/infoplist
-xinfoPlist/infoplist
-lSLF07#2@24"Copy infoPlist/infoplist377764613#377764613#0(0"0(0#0#59"/Users/zyl/Desktop/资料/XSTestProject/infoPlist/infoplist4610064016#472"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zyl/Desktop/资料/XSTestProject/infoPlist/infoplist /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app0#
-
-CCpResource build/Debug-iphoneos/XSTestProject.app/sampleIamge1@2x.jpeg Image/sampleIamge1@2x.jpeg
-s377764613.856773
-e377764613.869726
-r1
-xCpResource
-xbuild/Debug-iphoneos/XSTestProject.app/sampleIamge1@2x.jpeg
-xImage/sampleIamge1@2x.jpeg
-lSLF07#2@31"Copy Image/sampleIamge1@2x.jpeg377764613#377764613#0(0"0(0#0#66"/Users/zyl/Desktop/资料/XSTestProject/Image/sampleIamge1@2x.jpeg4610064016#479"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zyl/Desktop/资料/XSTestProject/Image/sampleIamge1@2x.jpeg /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app0#
-
-CCpResource build/Debug-iphoneos/XSTestProject.app/sampleIamge2@2x.jpg Image/sampleIamge2@2x.jpg
-s377764613.857525
-e377764613.869877
-r1
-xCpResource
-xbuild/Debug-iphoneos/XSTestProject.app/sampleIamge2@2x.jpg
-xImage/sampleIamge2@2x.jpg
-lSLF07#2@30"Copy Image/sampleIamge2@2x.jpg377764613#377764613#0(0"0(0#0#65"/Users/zyl/Desktop/资料/XSTestProject/Image/sampleIamge2@2x.jpg4610064016#478"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zyl/Desktop/资料/XSTestProject/Image/sampleIamge2@2x.jpg /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app0#
-
-CCpResource build/Debug-iphoneos/XSTestProject.app/sampleIamge3@2x.jpeg Image/sampleIamge3@2x.jpeg
-s377764613.858672
-e377764613.876751
-r1
-xCpResource
-xbuild/Debug-iphoneos/XSTestProject.app/sampleIamge3@2x.jpeg
-xImage/sampleIamge3@2x.jpeg
-lSLF07#2@31"Copy Image/sampleIamge3@2x.jpeg377764613#377764613#0(0"0(0#0#66"/Users/zyl/Desktop/资料/XSTestProject/Image/sampleIamge3@2x.jpeg4610064016#479"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zyl/Desktop/资料/XSTestProject/Image/sampleIamge3@2x.jpeg /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app0#
-
-CCpResource build/Debug-iphoneos/XSTestProject.app/sampleIamge4@2x.jpeg Image/sampleIamge4@2x.jpeg
-s377764613.863320
-e377764613.880399
-r1
-xCpResource
-xbuild/Debug-iphoneos/XSTestProject.app/sampleIamge4@2x.jpeg
-xImage/sampleIamge4@2x.jpeg
-lSLF07#2@31"Copy Image/sampleIamge4@2x.jpeg377764613#377764613#0(0"0(0#0#66"/Users/zyl/Desktop/资料/XSTestProject/Image/sampleIamge4@2x.jpeg4610064016#479"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zyl/Desktop/资料/XSTestProject/Image/sampleIamge4@2x.jpeg /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app0#
-
-CCpResource build/Debug-iphoneos/XSTestProject.app/sampleIamge@2x.jpeg Image/sampleIamge@2x.jpeg
-s377764613.624806
-e377764613.653832
-r1
-xCpResource
-xbuild/Debug-iphoneos/XSTestProject.app/sampleIamge@2x.jpeg
-xImage/sampleIamge@2x.jpeg
-lSLF07#2@30"Copy Image/sampleIamge@2x.jpeg377764613#377764613#0(0"0(0#0#65"/Users/zyl/Desktop/资料/XSTestProject/Image/sampleIamge@2x.jpeg4610064016#478"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zyl/Desktop/资料/XSTestProject/Image/sampleIamge@2x.jpeg /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app0#
-
-CGenerateDSYMFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app.dSYM /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/XSTestProject
-s377764742.036340
-e377764742.098669
-r1
-xGenerateDSYMFile
-x/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app.dSYM
-x/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/XSTestProject
-lSLF07#2@113"GenerateDSYMFile build/Debug-iphoneos/XSTestProject.app.dSYM build/Debug-iphoneos/XSTestProject.app/XSTestProject377764742#377764742#0(0"0(0#0#92"/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/XSTestProject4553649808#383"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/XSTestProject -o /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app.dSYM0#
-
-CLd /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/XSTestProject normal armv6
-s377764741.976547
-e377764742.036254
-r1
-xLd
-x/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/XSTestProject
-xnormal
-xarmv6
-lSLF07#2@97"Link /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/XSTestProject377764741#377764742#0(0"0(0#0#0"4553649808#996"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos -F/Users/zyl/Desktop/资料/XSTestProject -filelist /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/Objects-normal/armv6/XSTestProject.LinkFileList -dead_strip -licucore -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -framework CFNetwork -framework AudioToolbox -framework CoreText -o /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/XSTestProject0#
-
-CProcessInfoPlistFile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/Info.plist XSTestProject-Info.plist
-s377764613.073064
-e377764613.096115
-r1
-xProcessInfoPlistFile
-x/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/Info.plist
-xXSTestProject-Info.plist
-lSLF07#2@32"Process XSTestProject-Info.plist377764613#377764613#0(0"0(0#0#64"/Users/zyl/Desktop/资料/XSTestProject/XSTestProject-Info.plist4610064128#590"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility XSTestProject-Info.plist -genpkginfo /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/ResourceRules.plist -o /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/Info.plist0#
-
-CProcessPCH /var/folders/m5/b0nr85151h742gw4nhk_k0x40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/XSTestProject_Prefix-ekrmpwfdgyczjjeiovslawfhqxrb/XSTestProject_Prefix.pch.gch XSTestProject_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CProcessProductPackaging "/Users/zyl/Library/MobileDevice/Provisioning Profiles/433BCB31-7720-4B9B-8A07-E915125F91F1.mobileprovision" /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/embedded.mobileprovision
-s377764618.061654
-e377764618.095003
-r1
-xProcessProductPackaging
-x/Users/zyl/Library/MobileDevice/Provisioning Profiles/433BCB31-7720-4B9B-8A07-E915125F91F1.mobileprovision
-x/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/embedded.mobileprovision
-lSLF07#2@196"ProcessProductPackaging "/Users/zyl/Library/MobileDevice/Provisioning Profiles/433BCB31-7720-4B9B-8A07-E915125F91F1.mobileprovision" build/Debug-iphoneos/XSTestProject.app/embedded.mobileprovision377764618#377764618#0(0"0(0#0#103"/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/embedded.mobileprovision4610064016#429"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/zyl/Library/MobileDevice/Provisioning Profiles/433BCB31-7720-4B9B-8A07-E915125F91F1.mobileprovision" -o /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app/embedded.mobileprovision0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.xcent
-s377764618.116888
-e377764618.135111
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
-x/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.xcent
-lSLF07#2@193"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.xcent377764618#377764618#0(0"0(0#0#120"/Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.xcent4610064016#452"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/zyl/Desktop/资料/XSTestProject/build/XSTestProject.build/Debug-iphoneos/XSTestProject.build/XSTestProject.xcent0#
-
-CTouch /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app
-s377764742.098899
-e377764742.101186
-r1
-xTouch
-x/Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app
-lSLF07#2@84"Touch /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app377764742#377764742#0(0"0(0#0#0"4553649808#272"    cd /Users/zyl/Desktop/资料/XSTestProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/zyl/Desktop/资料/XSTestProject/build/Debug-iphoneos/XSTestProject.app0#
-

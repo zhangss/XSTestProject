@@ -13,9 +13,6 @@
  *  XSTestDefine.h
  *  XSTest
  *
- *  Created by 张松松 on 11-7-22.
- *  Copyright 2011 广州市易杰数码科技有限公司. All rights reserved.
- *
  */
 
 #pragma mark -
