@@ -8,8 +8,6 @@
 
 #import "TestTableViewController.h"
 
-#import "XSTestUtils.h"
-
 #import "MediaViewController.h"
 #import "UIViewInfoController.h"
 #import "OtherViewController.h"

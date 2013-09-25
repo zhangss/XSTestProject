@@ -8,7 +8,6 @@
 
 #import "UIlabelInfoViewController.h"
 
-#import "XSTestDefine.h"
 #import "OHAttributedLabel.h"
 #import "CoreGraphicView.h"
 

@@ -1,0 +1,32 @@
+配置方法
+1.首先加入18个文件:
+   ASIHTTPRequestConfig.h
+   ASIHTTPRequestDelegate.h
+   ASIProgressDelegate.h
+   ASICacheDelegate.h
+   ASIHTTPRequest.h
+   ASIHTTPRequest.m
+       ASIDataCompressor.h
+       ASIDataCompressor.m
+       ASIDataDecompressor.h
+       ASIDataDecompressor.m
+       ASIFormDataRequest.h
+       ASIInputStream.h
+       ASIInputStream.m
+       ASIFormDataRequest.m
+       ASINetworkQueue.h
+       ASINetworkQueue.m
+       ASIDownloadCache.h
+       ASIDownloadCache.m
+2.iPhone 工程还需要:
+   ASIAuthenticationDialog.h
+   ASIAuthenticationDialog.m
+   Reachability.h (在External/Reachability 目录下)
+   Reachability.m (在 External/Reachability 目录下)
+3.库引用：
+   CFNetwork.framework
+   SystemConfiguration.framework
+   MobileCoreServices.framework
+   CoreGraphics.framework
+4.引用及配置libz.dylib和libxml2.dylib
+  libxml2还需要设置连接(Other Link Flags)选项-lxml2 和头文件搜索(Header Search Path)路径/usr/include/libxml2)

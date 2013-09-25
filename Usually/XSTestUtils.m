@@ -922,14 +922,7 @@ static NSDictionary *faceFileNameDic = nil;
 	
     return newImage;
 }
-#pragma mark -- 判断当前设备是否是模拟器
-+ (BOOL)isSimulator {
-	NSString *model = [[UIDevice currentDevice] model];
-	if (NSNotFound != [model rangeOfString:@"Simulator"].location) {
-		return YES;
-	}
-	return NO;
-}
+
 static UIImage * portraitImage=nil;
 #pragma mark --获取系统默认的头像图片
 + (UIImage *) defaultPortraitImage

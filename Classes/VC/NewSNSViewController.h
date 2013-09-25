@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <AVFoundation/AVFoundation.h>
 #import "BaseController.h"
 #import "TopBar.h"
 #import "SNSCheck.h"

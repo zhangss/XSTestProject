@@ -10,7 +10,6 @@
 #import "BaseController.h"
 #import "Constants.h"
 #import "MBProgressHUD.h"
-#import <AVFoundation/AVFoundation.h>
 
 #import "MessageCell.h"
 #import "BaseFriend.h"

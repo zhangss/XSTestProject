@@ -8,9 +8,6 @@
 
 #import "AudioViewController.h"
 
-#import "XSTestUtils.h"
-
-#import <QuartzCore/QuartzCore.h>
 #import "AudioPlayerView.h"
 
 @implementation AudioViewController

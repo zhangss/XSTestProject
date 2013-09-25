@@ -7,7 +7,6 @@
 //
 
 #import "BlockViewController.h"
-#import "XSTestUtils.h"
 
 @interface BlockViewController ()
 

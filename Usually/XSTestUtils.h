@@ -8,9 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-#import "UILabel+Extra.h"
-#import "XSTestDefine.h"
-#import "AVFoundation/AVFoundation.h"
 
 /*统一的常用方法函数 工程中常用的方法或者其他通用方法
  ‘+’是类方法 要通过XSTestUtils调用
@@ -174,9 +171,6 @@
 
 #pragma mark -- 等比例压缩图片
 + (UIImage*)imageWithImage:(UIImage*)image scaledToSize:(CGSize)newSize;
-
-#pragma mark -- 判断当前设备是否是模拟器
-+ (BOOL)isSimulator;
 
 #pragma mark -- 获取系统默认的头像图片
 + (UIImage *) defaultPortraitImage;

@@ -7,7 +7,6 @@
 //
 
 #import "CircleLayoutCell.h"
-#import <QuartzCore/QuartzCore.h>
 
 @implementation CircleLayoutCell
 

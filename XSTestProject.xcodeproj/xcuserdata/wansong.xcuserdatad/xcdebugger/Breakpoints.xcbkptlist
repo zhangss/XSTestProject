@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "UIView/ToogleCollectionViewController.m"
-         timestampString = "400387309.071199"
+         timestampString = "401772587.801041"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "71"
-         endingLineNumber = "71"
+         startingLineNumber = "70"
+         endingLineNumber = "70"
          landmarkName = "-viewDidLoad"
          landmarkType = "5">
       </FileBreakpoint>
@@ -21,24 +21,13 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "UIView/UICollectionViewInfoViewController.m"
-         timestampString = "400387272.319912"
+         timestampString = "401772587.801041"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "118"
-         endingLineNumber = "118"
+         startingLineNumber = "116"
+         endingLineNumber = "116"
          landmarkName = "-tableView:didSelectRowAtIndexPath:"
          landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "Yes"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "PCH/XSTestProject_Prefix.pch"
-         timestampString = "401081953.29737"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "25"
-         endingLineNumber = "25">
       </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>

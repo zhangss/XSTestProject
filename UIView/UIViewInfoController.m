@@ -8,8 +8,6 @@
 
 #import "UIViewInfoController.h"
 
-#import "XSTestUtils.h"
-
 #import "UIlabelInfoViewController.h"
 #import "UIImageViewInfoViewController.h"
 #import "UIRefreshControlInfoViewController.h"

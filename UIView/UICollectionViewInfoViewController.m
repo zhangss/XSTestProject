@@ -7,8 +7,6 @@
 //
 
 #import "UICollectionViewInfoViewController.h"
-#import "XSTestUtils.h"
-
 #import "UILineLayoutViewController.h"
 #import "UICircleLayoutViewController.h"
 #import "ToogleCollectionViewController.h"

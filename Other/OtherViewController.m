@@ -8,8 +8,6 @@
 
 #import "OtherViewController.h"
 
-#import "XSTestUtils.h"
-
 #import "DateFormatViewController.h"
 #import "PNGViewController.h"
 #import "UIButtonViewController.h"

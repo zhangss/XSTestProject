@@ -8,8 +8,6 @@
 
 #import "MediaViewController.h"
 
-#import "XSTestUtils.h"
-
 #import "AudioViewController.h"
 #import "VideoViewController.h"
 

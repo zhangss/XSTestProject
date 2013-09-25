@@ -7,7 +7,6 @@
 //
 
 #import "AudioPlayerView.h"
-#import "XSTestUtils.h"
 
 
 @implementation AudioPlayerView

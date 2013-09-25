@@ -7,7 +7,6 @@
 //
 
 #import "FecthResultsViewController.h"
-#import "XSTestUtils.h"
 #import "XSTestProjectAppDelegate.h"
 #import "TestData.h"
 

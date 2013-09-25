@@ -7,7 +7,6 @@
 //
 
 #import "TestFlightViewController.h"
-#import "XSTestUtils.h"
 
 @interface TestFlightViewController ()
 

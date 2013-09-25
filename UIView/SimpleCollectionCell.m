@@ -7,8 +7,6 @@
 //
 
 #import "SimpleCollectionCell.h"
-#import <QuartzCore/QuartzCore.h>
-#import "XSTestUtils.h"
 
 @implementation SimpleCollectionCell
 

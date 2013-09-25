@@ -11,7 +11,6 @@
 #import "XSSmallLayout.h"
 #import "XSLagerLayout.h"
 #import "ToogleLayoutCell.h"
-#import "XSTestUtils.h"
 
 @interface ToogleCollectionViewController ()
 

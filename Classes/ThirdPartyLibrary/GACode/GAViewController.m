@@ -7,7 +7,6 @@
 //
 
 #import "GAViewController.h"
-#import "XSTestUtils.h"
 
 @interface GAViewController ()
 

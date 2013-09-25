@@ -7,9 +7,9 @@
 //
 
 #import "ThirdPartyLibraryViewController.h"
-#import "XSTestUtils.h"
 #import "GAViewController.h"
 #import "TestFlightViewController.h"
+#import "QQLoginViewController.h"
 
 @interface ThirdPartyLibraryViewController ()
 
@@ -32,6 +32,10 @@
         
         //TestFlight相关介绍
         tempStr = @"Test Flight";
+        [tableData addObject:tempStr];
+        
+        //QQAPI相关介绍
+        tempStr = @"QQ Open API";
         [tableData addObject:tempStr];
     }
     return self;
@@ -114,6 +118,11 @@
     else if (1 == indexPath.row)
     {
         TestFlightViewController *testFlightVC = [[TestFlightViewController alloc] init];
+        viewController = testFlightVC;
+    }
+    else if (2 == indexPath.row)
+    {
+        QQLoginViewController *testFlightVC = [[QQLoginViewController alloc] init];
         viewController = testFlightVC;
     }
     

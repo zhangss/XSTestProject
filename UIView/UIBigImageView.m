@@ -7,8 +7,6 @@
 //
 
 #import "UIBigImageView.h"
-#import <QuartzCore/QuartzCore.h>
-#import "XSTestDefine.h"
 
 #define kImageViewTag 100
 #define kScrollViewTag 1000

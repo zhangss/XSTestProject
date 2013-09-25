@@ -8,8 +8,6 @@
 
 #import "DateFormatViewController.h"
 
-#import "XSTestUtils.h"
-
 #define kNSDateLog @"NSDate:"
 #define kNSDateTimeInterval 30 
 #define kNSLocaleLog @"NSLocale:"

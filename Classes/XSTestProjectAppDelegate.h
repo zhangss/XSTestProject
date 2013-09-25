@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-//Layer 必须添加的头文件 ps还需要添加QuartzCore.framework
-#import <QuartzCore/QuartzCore.h>  
-#import <CoreData/CoreData.h>
-
 @interface XSTestProjectAppDelegate : NSObject <UIApplicationDelegate,UITabBarControllerDelegate> {
     UIWindow *window;
 	UITabBarController *tabbarController;

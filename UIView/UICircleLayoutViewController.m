@@ -7,8 +7,6 @@
 //
 
 #import "UICircleLayoutViewController.h"
-#import "XSTestUtils.h"
-
 #import "XSCircleLayout.h"
 #import "CircleLayoutCell.h"
 

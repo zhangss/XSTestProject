@@ -9,7 +9,6 @@
 #import "UILineLayoutViewController.h"
 #import "XSLineLayout.h"
 #import "SimpleCollectionCell.h"
-#import "XSTestUtils.h"
 
 NSString *cellIndentifier = @"MY_Line_CELL";
 

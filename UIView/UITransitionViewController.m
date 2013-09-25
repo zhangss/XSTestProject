@@ -8,7 +8,6 @@
 
 #import "UITransitionViewController.h"
 
-#import "XSTestUtils.h"
 #import "TransitionFirstViewController.h"
 #import "TransitionSecondViewController.h"
 #import "TransitionThirdViewController.h"

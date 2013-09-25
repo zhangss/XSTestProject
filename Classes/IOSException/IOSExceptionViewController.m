@@ -7,7 +7,6 @@
 //
 
 #import "IOSExceptionViewController.h"
-#import "XSTestUtils.h"
 
 @interface IOSExceptionViewController ()
 

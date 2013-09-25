@@ -7,7 +7,6 @@
 //
 
 #import "UIImageViewInfoViewController.h"
-#import "XSTestDefine.h"
 #import "UIBigImageView.h"
 #import "BigImageViewController.h"
 

@@ -8,8 +8,6 @@
 
 #import "QuestionViewController.h"
 
-#import "XSTestUtils.h"
-
 @implementation QuestionViewController
 
 

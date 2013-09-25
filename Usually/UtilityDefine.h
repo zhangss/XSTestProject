@@ -68,6 +68,13 @@
 #define RGBCOLOR(r,g,b) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
 #define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
 
+#pragma mark -
+#pragma mark 网络参数
+#define HTTP_METHOD_POST @"POST"
+#define HTTP_METHOD_SET  @"SET"
+#define HTTP_METHOD_GET  @"GET"
+#define HTTP_KEY_CONTENTTYPE  @"Content-Type"
+#define HTTP_KEY_DATA  @"data"
 
 
 #pragma mark -

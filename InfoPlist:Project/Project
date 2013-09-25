@@ -1,0 +1,25 @@
+//问题列表
+//1.
+
+
+
+/*
+  工程文件设置中参数介绍 
+  1.前12个键值是主要的 创建工程会附带生成在plist里面
+  */
+  
+1.Run Static Analyzer
+//是否自动静态编译
+  默认NO,设置为YES的话编译时自动做静态检查Analyze.
+
+2.Other Link Flags
+//静态库引入
+  iOS的Framework是共享动态库，不会被打包到app中，非系统Framework静态库都会被打包到app中，所以会产生"Duplicate Symbol(复制/重复的符号)"的错误。
+  在Build Settings->Other link flags中删除所有的-all_load与-force_load, XCode会很smart的去掉"Duplicate Symbol"。
+
+  如<1>正则库需要-licucore
+    <2>ASI需要-lxml2
+
+3.Header Search Path
+//头文件搜索路径
+  如加入ASI需要引入libxml2.lib,需要加入头文件检索路径/user/include/libxml2

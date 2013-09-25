@@ -7,7 +7,6 @@
 //
 
 #import "ImageSplitViewController.h"
-#import "XSTestUtils.h"
 
 @interface ImageSplitViewController ()
 

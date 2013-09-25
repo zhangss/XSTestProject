@@ -7,7 +7,6 @@
 //
 
 #import "UIRefreshControlInfoViewController.h"
-#import "XSTestUtils.h"
 
 @interface UIRefreshControlInfoViewController ()
 

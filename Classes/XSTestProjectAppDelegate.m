@@ -13,8 +13,6 @@
 #import "TestViewController.h"
 #import "GAConfiger.h"
 
-//通用的方法文件
-#import "UILabel+Extra.h"
 //#import "MyPrint.h"
 //#import "MyLibTwo.h"
 #import "TestData.h"

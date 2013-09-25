@@ -25,10 +25,21 @@
     #import <Foundation/Foundation.h>
     #import <UIKit/UIKit.h>
     #import <CoreData/CoreData.h>
+    #import "AVFoundation/AVFoundation.h"
+    /*CoreText*/
+    #import <CoreText/CoreText.h>
+    /*Layer 必须添加的头文件 ps还需要添加QuartzCore.framework*/
+    #import <QuartzCore/QuartzCore.h>   
 
-//编译工程中的固定文件
+//编译工程中的固定文件 如第三方头文件
+    #import "ASIHTTPRequest.h"
+    #import "MBProgressHUD.h"
 
 //版本信息 及 一些编译开关
+    #import "UtilityDefine.h"
+    #import "UILabel+Extra.h"
+    #import "XSTestDefine.h"
+    #import "XSTestUtils.h"
 
 /*
  日志开关
