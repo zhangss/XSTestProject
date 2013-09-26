@@ -59,6 +59,12 @@
 		5001EBD517E7FC3800FA9E22 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5001EBD417E7FC3800FA9E22 /* Default-568h@2x.png */; };
 		5001EBD917E7FCF300FA9E22 /* 预编译头文件.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5001EBD817E7FCF300FA9E22 /* 预编译头文件.txt */; };
 		5008190E17E19E6800B3634A /* CoreGraphicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5008190D17E19E6800B3634A /* CoreGraphicView.m */; };
+		5029FE9317F3C76200760FF8 /* BusinessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5029FE9217F3C76200760FF8 /* BusinessManager.m */; };
+		5029FE9617F3C7DC00760FF8 /* BaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5029FE9517F3C7DC00760FF8 /* BaseManager.m */; };
+		5029FE9917F3C7EC00760FF8 /* BaseProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5029FE9817F3C7EC00760FF8 /* BaseProcessor.m */; };
+		5029FE9C17F3C84200760FF8 /* ReturnCodeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5029FE9B17F3C84200760FF8 /* ReturnCodeModel.m */; };
+		5029FE9F17F3CA2000760FF8 /* ZSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5029FE9E17F3CA1F00760FF8 /* ZSManager.m */; };
+		5029FEA217F3CA2E00760FF8 /* ZSProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5029FEA117F3CA2E00760FF8 /* ZSProcessor.m */; };
 		5095259F17F1B3580027A0C8 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5095258C17F1B3580027A0C8 /* ASIAuthenticationDialog.m */; };
 		509525A017F1B3580027A0C8 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5095258F17F1B3580027A0C8 /* ASIDataCompressor.m */; };
 		509525A117F1B3580027A0C8 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5095259117F1B3580027A0C8 /* ASIDataDecompressor.m */; };
@@ -246,6 +252,18 @@
 		5001EBD817E7FCF300FA9E22 /* 预编译头文件.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "预编译头文件.txt"; sourceTree = "<group>"; };
 		5008190C17E19E6800B3634A /* CoreGraphicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreGraphicView.h; sourceTree = "<group>"; };
 		5008190D17E19E6800B3634A /* CoreGraphicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreGraphicView.m; sourceTree = "<group>"; };
+		5029FE9117F3C76200760FF8 /* BusinessManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessManager.h; sourceTree = "<group>"; };
+		5029FE9217F3C76200760FF8 /* BusinessManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessManager.m; sourceTree = "<group>"; };
+		5029FE9417F3C7DC00760FF8 /* BaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseManager.h; sourceTree = "<group>"; };
+		5029FE9517F3C7DC00760FF8 /* BaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseManager.m; sourceTree = "<group>"; };
+		5029FE9717F3C7EC00760FF8 /* BaseProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseProcessor.h; sourceTree = "<group>"; };
+		5029FE9817F3C7EC00760FF8 /* BaseProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseProcessor.m; sourceTree = "<group>"; };
+		5029FE9A17F3C84100760FF8 /* ReturnCodeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReturnCodeModel.h; sourceTree = "<group>"; };
+		5029FE9B17F3C84200760FF8 /* ReturnCodeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReturnCodeModel.m; sourceTree = "<group>"; };
+		5029FE9D17F3CA1F00760FF8 /* ZSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSManager.h; sourceTree = "<group>"; };
+		5029FE9E17F3CA1F00760FF8 /* ZSManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSManager.m; sourceTree = "<group>"; };
+		5029FEA017F3CA2E00760FF8 /* ZSProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSProcessor.h; sourceTree = "<group>"; };
+		5029FEA117F3CA2E00760FF8 /* ZSProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSProcessor.m; sourceTree = "<group>"; };
 		50397E8417E978ED00486022 /* UtilityDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilityDefine.h; sourceTree = "<group>"; };
 		5095258B17F1B3580027A0C8 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
 		5095258C17F1B3580027A0C8 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
@@ -903,6 +921,18 @@
 				849444BC14FCF666004C679C /* NSData+Base64.m */,
 				8494449414FCF18F004C679C /* XSTestDefine.h */,
 				50397E8417E978ED00486022 /* UtilityDefine.h */,
+				5029FE9117F3C76200760FF8 /* BusinessManager.h */,
+				5029FE9217F3C76200760FF8 /* BusinessManager.m */,
+				5029FE9417F3C7DC00760FF8 /* BaseManager.h */,
+				5029FE9517F3C7DC00760FF8 /* BaseManager.m */,
+				5029FE9717F3C7EC00760FF8 /* BaseProcessor.h */,
+				5029FE9817F3C7EC00760FF8 /* BaseProcessor.m */,
+				5029FE9A17F3C84100760FF8 /* ReturnCodeModel.h */,
+				5029FE9B17F3C84200760FF8 /* ReturnCodeModel.m */,
+				5029FE9D17F3CA1F00760FF8 /* ZSManager.h */,
+				5029FE9E17F3CA1F00760FF8 /* ZSManager.m */,
+				5029FEA017F3CA2E00760FF8 /* ZSProcessor.h */,
+				5029FEA117F3CA2E00760FF8 /* ZSProcessor.m */,
 			);
 			path = Usually;
 			sourceTree = SOURCE_ROOT;
@@ -1502,6 +1532,12 @@
 				50FE4AC217F28878008FDC2D /* RatingView.m in Sources */,
 				50FE4AC517F288FA008FDC2D /* WaitingView.m in Sources */,
 				50FE4AC917F28D22008FDC2D /* MBProgressHUD.m in Sources */,
+				5029FE9317F3C76200760FF8 /* BusinessManager.m in Sources */,
+				5029FE9617F3C7DC00760FF8 /* BaseManager.m in Sources */,
+				5029FE9917F3C7EC00760FF8 /* BaseProcessor.m in Sources */,
+				5029FE9C17F3C84200760FF8 /* ReturnCodeModel.m in Sources */,
+				5029FE9F17F3CA2000760FF8 /* ZSManager.m in Sources */,
+				5029FEA217F3CA2E00760FF8 /* ZSProcessor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

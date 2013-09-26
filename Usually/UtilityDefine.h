@@ -73,7 +73,10 @@
 #define HTTP_METHOD_POST @"POST"
 #define HTTP_METHOD_SET  @"SET"
 #define HTTP_METHOD_GET  @"GET"
+#define HTTP_METHOD_PUT  @"PUT"
 #define HTTP_KEY_CONTENTTYPE  @"Content-Type"
+#define HTTP_KEY_POWEREDBY  @"X-Powered-By"
+#define HTTP_KEY_REFERER  @"Referer"
 #define HTTP_KEY_DATA  @"data"
 
 

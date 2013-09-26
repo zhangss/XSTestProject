@@ -48,9 +48,11 @@
 
 #define HTTP_REQUEST_TIMEOUT  30
 
+#define HTTP_TEST_URL [NSURL URLWithString:@"www.baidu.com"]
 
 #define EMAIL_NOTIFY_NUMBER  @"10086"
 #define UMS_EVENT_EMAIL      @"Administrator@megafon.com"
+
 
 
 /*

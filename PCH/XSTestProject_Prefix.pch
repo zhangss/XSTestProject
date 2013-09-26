@@ -33,6 +33,8 @@
 
 //编译工程中的固定文件 如第三方头文件
     #import "ASIHTTPRequest.h"
+    #import "ASIFormDataRequest.h"
+    #import "ASINetworkQueue.h"
     #import "MBProgressHUD.h"
 
 //版本信息 及 一些编译开关
@@ -40,18 +42,19 @@
     #import "UILabel+Extra.h"
     #import "XSTestDefine.h"
     #import "XSTestUtils.h"
-
+    #import "ReturnCodeModel.h"
+    #import "UtilityDefine.h"
 /*
  日志开关
  在"Target > Build Settings > Preprocessor Macros > Debug"增加DEGUG=1;即打开调试开关，打开日志。
  特别的:可以设置DEBGU_SONGSONG = 1;标示SONGSONG打印的日志。
  */
 #ifdef DEBUG
-#define debugLog(...) NSLog(__VA_ARGS__)
-#define debugMethod() NSLog(@"%s", __func__)
+#define ZSLog(...) NSLog(__VA_ARGS__)
+#define ZSLogMethod() NSLog(@"%s", __func__)
 #else
-#define debugLog(...)
-#define debugMethod()
+#define ZSLog(...)
+#define ZSLogMethod()
 
 #endif
 

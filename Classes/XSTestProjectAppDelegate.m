@@ -59,10 +59,7 @@
 //    [MyPrint printA];
 //    [MyLibTwo printB];
     
-    debugLog(@"1-123");
-    NSLog(@"2-123");
-    debugMethod();
-    NSLog(@"2-%s",__func__);
+
     //初始化Tracker
     [[GAConfiger shareInStrance] addAndStartGA];
     
