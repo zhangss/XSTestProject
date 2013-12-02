@@ -37,6 +37,10 @@
         //QQAPI相关介绍
         tempStr = @"QQ Open API";
         [tableData addObject:tempStr];
+        
+        //IOS JSON相关介绍
+        tempStr = @"IOS JSON";
+        [tableData addObject:tempStr];
     }
     return self;
 }
@@ -121,6 +125,11 @@
         viewController = testFlightVC;
     }
     else if (2 == indexPath.row)
+    {
+        QQLoginViewController *testFlightVC = [[QQLoginViewController alloc] init];
+        viewController = testFlightVC;
+    }
+    else if (3 == indexPath.row)
     {
         QQLoginViewController *testFlightVC = [[QQLoginViewController alloc] init];
         viewController = testFlightVC;
