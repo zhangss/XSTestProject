@@ -13,6 +13,10 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		333374C718F5163200160344 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 333374C418F5163200160344 /* AsyncSocket.m */; };
+		333374C818F5163200160344 /* CRVStompClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 333374C618F5163200160344 /* CRVStompClient.m */; };
+		333374CB18F5179800160344 /* XSIMClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 333374CA18F5179800160344 /* XSIMClient.m */; };
+		339EC3DF18F51D5B001002FD /* StompService.m in Sources */ = {isa = PBXBuildFile; fileRef = 339EC3DE18F51D5B001002FD /* StompService.m */; };
 		36148B3116539A9400B2E267 /* PNGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36148B3016539A9400B2E267 /* PNGViewController.m */; };
 		36148B4216539A9400B2E267 /* loadingbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 36148B3C16539A9400B2E267 /* loadingbutton.png */; };
 		36148B4316539A9400B2E267 /* pausebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 36148B3D16539A9400B2E267 /* pausebutton.png */; };
@@ -207,6 +211,14 @@
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		333374C318F5163200160344 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		333374C418F5163200160344 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		333374C518F5163200160344 /* CRVStompClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRVStompClient.h; sourceTree = "<group>"; };
+		333374C618F5163200160344 /* CRVStompClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRVStompClient.m; sourceTree = "<group>"; };
+		333374C918F5179800160344 /* XSIMClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSIMClient.h; sourceTree = "<group>"; };
+		333374CA18F5179800160344 /* XSIMClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSIMClient.m; sourceTree = "<group>"; };
+		339EC3DD18F51D5B001002FD /* StompService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StompService.h; sourceTree = "<group>"; };
+		339EC3DE18F51D5B001002FD /* StompService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StompService.m; sourceTree = "<group>"; };
 		36148B2F16539A9400B2E267 /* PNGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PNGViewController.h; path = JPG/PNGViewController.h; sourceTree = "<group>"; };
 		36148B3016539A9400B2E267 /* PNGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PNGViewController.m; path = JPG/PNGViewController.m; sourceTree = "<group>"; };
 		36148B3C16539A9400B2E267 /* loadingbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loadingbutton.png; sourceTree = "<group>"; };
@@ -595,6 +607,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				333374B918F4EF6000160344 /* IM */,
 				BF6DD35E17AA568E0041489E /* VC */,
 				849E073914FCE0B500E34D41 /* Usually */,
 				361F703716606776005C555C /* ThirdParty */,
@@ -688,6 +701,37 @@
 				BF845FD2183E21B600AE05CD /* XCTest.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		333374B918F4EF6000160344 /* IM */ = {
+			isa = PBXGroup;
+			children = (
+				333374BC18F4EF7900160344 /* Stomp */,
+				333374BA18F4EF6900160344 /* XMPP */,
+				333374C918F5179800160344 /* XSIMClient.h */,
+				333374CA18F5179800160344 /* XSIMClient.m */,
+				339EC3DD18F51D5B001002FD /* StompService.h */,
+				339EC3DE18F51D5B001002FD /* StompService.m */,
+			);
+			name = IM;
+			sourceTree = "<group>";
+		};
+		333374BA18F4EF6900160344 /* XMPP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = XMPP;
+			sourceTree = "<group>";
+		};
+		333374BC18F4EF7900160344 /* Stomp */ = {
+			isa = PBXGroup;
+			children = (
+				333374C318F5163200160344 /* AsyncSocket.h */,
+				333374C418F5163200160344 /* AsyncSocket.m */,
+				333374C518F5163200160344 /* CRVStompClient.h */,
+				333374C618F5163200160344 /* CRVStompClient.m */,
+			);
+			name = Stomp;
 			sourceTree = "<group>";
 		};
 		36148B3B16539A9400B2E267 /* Audio */ = {
@@ -1569,12 +1613,15 @@
 				849E073C14FCE0B500E34D41 /* UILabel+Extra.m in Sources */,
 				849E078414FCE0B500E34D41 /* XSTestUtils.m in Sources */,
 				8494447E14FCEADD004C679C /* ThemeManager.m in Sources */,
+				339EC3DF18F51D5B001002FD /* StompService.m in Sources */,
+				333374C718F5163200160344 /* AsyncSocket.m in Sources */,
 				8494448514FCECA1004C679C /* BaseController.m in Sources */,
 				849444A814FCF383004C679C /* LocalSettings.m in Sources */,
 				849444BD14FCF666004C679C /* NSData+Base64.m in Sources */,
 				369EBA5D1622CFF700C47F81 /* AudioPlayerView.m in Sources */,
 				369EBA5E1622CFF700C47F81 /* AudioSliderView.m in Sources */,
 				369EBA5F1622CFF700C47F81 /* AudioStreamer.m in Sources */,
+				333374CB18F5179800160344 /* XSIMClient.m in Sources */,
 				369EBA601622CFF700C47F81 /* UIDevice+Hardware.m in Sources */,
 				369EBA651622D00100C47F81 /* AudioViewController.m in Sources */,
 				369EBA661622D00100C47F81 /* MediaViewController.m in Sources */,
@@ -1633,6 +1680,7 @@
 				BFD68A2A17B5E65C002554E1 /* BlockViewController.m in Sources */,
 				5008190E17E19E6800B3634A /* CoreGraphicView.m in Sources */,
 				5095259F17F1B3580027A0C8 /* ASIAuthenticationDialog.m in Sources */,
+				333374C818F5163200160344 /* CRVStompClient.m in Sources */,
 				509525A017F1B3580027A0C8 /* ASIDataCompressor.m in Sources */,
 				509525A117F1B3580027A0C8 /* ASIDataDecompressor.m in Sources */,
 				509525A217F1B3580027A0C8 /* ASIDownloadCache.m in Sources */,
@@ -1914,6 +1962,7 @@
 				BF845FE2183E21B600AE05CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "XSTestProject" */ = {
 			isa = XCConfigurationList;
