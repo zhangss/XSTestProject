@@ -13,10 +13,14 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		330A54231933900E0010DB0E /* UserDefaultInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 330A54221933900E0010DB0E /* UserDefaultInfo.m */; };
+		330B050F18F7D6F7006F630F /* libGoogleAnalytics_debug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 330B050E18F7D6F7006F630F /* libGoogleAnalytics_debug.a */; };
 		333374C718F5163200160344 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 333374C418F5163200160344 /* AsyncSocket.m */; };
 		333374C818F5163200160344 /* CRVStompClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 333374C618F5163200160344 /* CRVStompClient.m */; };
 		333374CB18F5179800160344 /* XSIMClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 333374CA18F5179800160344 /* XSIMClient.m */; };
+		335845291940146600D32FA4 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 335845281940146600D32FA4 /* TimerViewController.m */; };
 		339EC3DF18F51D5B001002FD /* StompService.m in Sources */ = {isa = PBXBuildFile; fileRef = 339EC3DE18F51D5B001002FD /* StompService.m */; };
+		33B4B5C218FD1955005B4021 /* URLRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B4B5C118FD1955005B4021 /* URLRequestViewController.m */; };
 		36148B3116539A9400B2E267 /* PNGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36148B3016539A9400B2E267 /* PNGViewController.m */; };
 		36148B4216539A9400B2E267 /* loadingbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 36148B3C16539A9400B2E267 /* loadingbutton.png */; };
 		36148B4316539A9400B2E267 /* pausebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 36148B3D16539A9400B2E267 /* pausebutton.png */; };
@@ -164,7 +168,6 @@
 		BF95B0A0183D98ED00A33186 /* GAITracker.html in Resources */ = {isa = PBXBuildFile; fileRef = BF95B08A183D98ED00A33186 /* GAITracker.html */; };
 		BF95B0A3183D98ED00A33186 /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = BF95B092183D98ED00A33186 /* Readme.txt */; };
 		BF95B0A6183D994600A33186 /* GZipUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BF95B0A5183D994600A33186 /* GZipUtil.m */; };
-		BF9A209F183D9E1D0031F4B1 /* libGoogleAnalytics_debug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF95B091183D98ED00A33186 /* libGoogleAnalytics_debug.a */; };
 		BF9A20A0183D9E1D0031F4B1 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF95B090183D98ED00A33186 /* libGoogleAnalytics.a */; };
 		BF9A20A1183D9E300031F4B1 /* libMyPrint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4F886F17AF44D3009CF75E /* libMyPrint.a */; };
 		BF9B7CC716DDF15600AEBAE8 /* XSLineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9B7CC616DDF15600AEBAE8 /* XSLineLayout.m */; };
@@ -211,14 +214,22 @@
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		330A54211933900E0010DB0E /* UserDefaultInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultInfo.h; sourceTree = "<group>"; };
+		330A54221933900E0010DB0E /* UserDefaultInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultInfo.m; sourceTree = "<group>"; };
+		330B050E18F7D6F7006F630F /* libGoogleAnalytics_debug.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalytics_debug.a; path = ThirdParty/GA/libGoogleAnalytics_debug.a; sourceTree = "<group>"; };
+		330B051018F7D703006F630F /* libNigra-Collector-IOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libNigra-Collector-IOS.a"; path = "StaticLibrary/libNigra-Collector-IOS.a"; sourceTree = "<group>"; };
 		333374C318F5163200160344 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
 		333374C418F5163200160344 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
 		333374C518F5163200160344 /* CRVStompClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRVStompClient.h; sourceTree = "<group>"; };
 		333374C618F5163200160344 /* CRVStompClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRVStompClient.m; sourceTree = "<group>"; };
 		333374C918F5179800160344 /* XSIMClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSIMClient.h; sourceTree = "<group>"; };
 		333374CA18F5179800160344 /* XSIMClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSIMClient.m; sourceTree = "<group>"; };
+		335845271940146600D32FA4 /* TimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
+		335845281940146600D32FA4 /* TimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
 		339EC3DD18F51D5B001002FD /* StompService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StompService.h; sourceTree = "<group>"; };
 		339EC3DE18F51D5B001002FD /* StompService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StompService.m; sourceTree = "<group>"; };
+		33B4B5C018FD1955005B4021 /* URLRequestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLRequestViewController.h; sourceTree = "<group>"; };
+		33B4B5C118FD1955005B4021 /* URLRequestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLRequestViewController.m; sourceTree = "<group>"; };
 		36148B2F16539A9400B2E267 /* PNGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PNGViewController.h; path = JPG/PNGViewController.h; sourceTree = "<group>"; };
 		36148B3016539A9400B2E267 /* PNGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PNGViewController.m; path = JPG/PNGViewController.m; sourceTree = "<group>"; };
 		36148B3C16539A9400B2E267 /* loadingbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loadingbutton.png; sourceTree = "<group>"; };
@@ -516,7 +527,6 @@
 		BF95B08E183D98ED00A33186 /* GAITransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITransaction.h; sourceTree = "<group>"; };
 		BF95B08F183D98ED00A33186 /* GAITransactionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITransactionItem.h; sourceTree = "<group>"; };
 		BF95B090183D98ED00A33186 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalytics.a; sourceTree = "<group>"; };
-		BF95B091183D98ED00A33186 /* libGoogleAnalytics_debug.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalytics_debug.a; sourceTree = "<group>"; };
 		BF95B092183D98ED00A33186 /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
 		BF95B0A4183D994600A33186 /* GZipUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZipUtil.h; sourceTree = "<group>"; };
 		BF95B0A5183D994600A33186 /* GZipUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZipUtil.m; sourceTree = "<group>"; };
@@ -569,8 +579,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				330B050F18F7D6F7006F630F /* libGoogleAnalytics_debug.a in Frameworks */,
 				BF9A20A1183D9E300031F4B1 /* libMyPrint.a in Frameworks */,
-				BF9A209F183D9E1D0031F4B1 /* libGoogleAnalytics_debug.a in Frameworks */,
 				BF9A20A0183D9E1D0031F4B1 /* libGoogleAnalytics.a in Frameworks */,
 				50FE4A9F17F26E4B008FDC2D /* libxml2.dylib in Frameworks */,
 				50FE4A9D17F26E1B008FDC2D /* libz.dylib in Frameworks */,
@@ -607,6 +617,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				330A542019338FC30010DB0E /* Cocoa */,
 				333374B918F4EF6000160344 /* IM */,
 				BF6DD35E17AA568E0041489E /* VC */,
 				849E073914FCE0B500E34D41 /* Usually */,
@@ -682,6 +693,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				330B051018F7D703006F630F /* libNigra-Collector-IOS.a */,
+				330B050E18F7D6F7006F630F /* libGoogleAnalytics_debug.a */,
 				50FE4A9E17F26E4B008FDC2D /* libxml2.dylib */,
 				50FE4A9C17F26E1B008FDC2D /* libz.dylib */,
 				509525BD17F1B7E90027A0C8 /* MobileCoreServices.framework */,
@@ -701,6 +714,15 @@
 				BF845FD2183E21B600AE05CD /* XCTest.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		330A542019338FC30010DB0E /* Cocoa */ = {
+			isa = PBXGroup;
+			children = (
+				330A54211933900E0010DB0E /* UserDefaultInfo.h */,
+				330A54221933900E0010DB0E /* UserDefaultInfo.m */,
+			);
+			path = Cocoa;
 			sourceTree = "<group>";
 		};
 		333374B918F4EF6000160344 /* IM */ = {
@@ -835,6 +857,8 @@
 				363FB07E1654950F00BF6EC5 /* UIButtonViewController.m */,
 				BF6DD35817AA48870041489E /* FileOperateViewController.h */,
 				BF6DD35917AA48870041489E /* FileOperateViewController.m */,
+				33B4B5C018FD1955005B4021 /* URLRequestViewController.h */,
+				33B4B5C118FD1955005B4021 /* URLRequestViewController.m */,
 			);
 			path = Other;
 			sourceTree = SOURCE_ROOT;
@@ -1115,6 +1139,8 @@
 				BFB472EB174C9D5100E2073F /* CAAnimation */,
 				BFD68A2817B5E65C002554E1 /* BlockViewController.h */,
 				BFD68A2917B5E65C002554E1 /* BlockViewController.m */,
+				335845271940146600D32FA4 /* TimerViewController.h */,
+				335845281940146600D32FA4 /* TimerViewController.m */,
 			);
 			path = IOSMechanism;
 			sourceTree = "<group>";
@@ -1322,7 +1348,6 @@
 				BF95B08E183D98ED00A33186 /* GAITransaction.h */,
 				BF95B08F183D98ED00A33186 /* GAITransactionItem.h */,
 				BF95B090183D98ED00A33186 /* libGoogleAnalytics.a */,
-				BF95B091183D98ED00A33186 /* libGoogleAnalytics_debug.a */,
 				BF95B092183D98ED00A33186 /* Readme.txt */,
 			);
 			path = GA;
@@ -1662,6 +1687,7 @@
 				BF845FEB183E258900AE05CD /* TestView.m in Sources */,
 				BF90C4DB17812A6800972F83 /* IOSExceptionViewController.m in Sources */,
 				BF30D747178412AB00FA6939 /* AssetsLibraryViewController.m in Sources */,
+				33B4B5C218FD1955005B4021 /* URLRequestViewController.m in Sources */,
 				BF48BFEC178517C300AC095D /* CoreDataViewController.m in Sources */,
 				BF48BFEF1785190900AC095D /* FecthResultsViewController.m in Sources */,
 				BF48BFF51785236000AC095D /* XSTestModel.xcdatamodeld in Sources */,
@@ -1675,6 +1701,7 @@
 				BFA642C4183DE10E00A1F22D /* IOSJSONViewController.m in Sources */,
 				BF4F886C17AF4341009CF75E /* GAConfiger.m in Sources */,
 				BF4F88A117AF4E8D009CF75E /* ThirdPartyLibraryViewController.m in Sources */,
+				335845291940146600D32FA4 /* TimerViewController.m in Sources */,
 				BF4F88A517AF5148009CF75E /* GAViewController.m in Sources */,
 				BF4F88A817AF5162009CF75E /* TestFlightViewController.m in Sources */,
 				BFD68A2A17B5E65C002554E1 /* BlockViewController.m in Sources */,
@@ -1701,6 +1728,7 @@
 				5029FE9317F3C76200760FF8 /* BusinessManager.m in Sources */,
 				5029FE9617F3C7DC00760FF8 /* BaseManager.m in Sources */,
 				5029FE9917F3C7EC00760FF8 /* BaseProcessor.m in Sources */,
+				330A54231933900E0010DB0E /* UserDefaultInfo.m in Sources */,
 				5029FE9C17F3C84200760FF8 /* ReturnCodeModel.m in Sources */,
 				5029FE9F17F3CA2000760FF8 /* ZSManager.m in Sources */,
 				5029FEA217F3CA2E00760FF8 /* ZSProcessor.m in Sources */,
@@ -1759,10 +1787,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\\\\\\\"$(SRCROOT)/StaticLibrary\\\\\\\"",
-					"\\\\\\\"$(SRCROOT)/ThirdParty/GA\\\\\\\"",
-					/Users/zhangss/Desktop/XSTestProject/ThirdParty/GA,
-					/Users/zhangss/Desktop/XSTestProject/StaticLibrary,
+					"$(PROJECT_DIR)/ThirdParty/GA",
+					"$(PROJECT_DIR)/StaticLibrary",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
@@ -1773,6 +1799,7 @@
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1791,10 +1818,8 @@
 				INFOPLIST_FILE = "XSTestProject-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\\\\\\\"$(SRCROOT)/StaticLibrary\\\\\\\"",
-					"\\\\\\\"$(SRCROOT)/ThirdParty/GA\\\\\\\"",
-					/Users/zhangss/Desktop/XSTestProject/ThirdParty/GA,
-					/Users/zhangss/Desktop/XSTestProject/StaticLibrary,
+					"$(PROJECT_DIR)/ThirdParty/GA",
+					"$(PROJECT_DIR)/StaticLibrary",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
@@ -1803,6 +1828,7 @@
 				);
 				PRODUCT_NAME = XSTestProject;
 				RUN_CLANG_STATIC_ANALYZER = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

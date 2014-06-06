@@ -10,6 +10,7 @@
 #import "CALayerViewController.h"
 #import "CoreAnimationViewController.h"
 #import "BlockViewController.h"
+#import "TimerViewController.h"
 
 @interface IOSMechanismViewController ()
 
@@ -35,6 +36,10 @@
         [m_tableData addObject:string];
         
         string = NSLocalizedString(@"Block", @"");
+        [m_tableData addObject:string];
+        
+        
+        string = NSLocalizedString(@"Timer", @"");
         [m_tableData addObject:string];
     }
     return  self;
@@ -113,15 +118,20 @@
         CALayerViewController *CALayerVC = [[CALayerViewController alloc] init];
         viewController = CALayerVC;
     }
-    if (1 == indexPath.row)
+    else if (1 == indexPath.row)
     {
         CoreAnimationViewController *coreAnimationVC = [[CoreAnimationViewController alloc] init];
         viewController = coreAnimationVC;
     }
-    if (1 == indexPath.row)
+    else if (2 == indexPath.row)
     {
         BlockViewController *blockVC = [[BlockViewController alloc] init];
         viewController = blockVC;
+    }
+    else if (3 == indexPath.row)
+    {
+        TimerViewController *timerVC = [[TimerViewController alloc] init];
+        viewController = timerVC;
     }
     
     if (viewController)

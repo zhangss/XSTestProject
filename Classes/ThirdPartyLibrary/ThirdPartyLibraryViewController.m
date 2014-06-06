@@ -10,6 +10,7 @@
 #import "GAViewController.h"
 #import "TestFlightViewController.h"
 #import "QQLoginViewController.h"
+#import "IOSJSONViewController.h"
 
 @interface ThirdPartyLibraryViewController ()
 
@@ -131,8 +132,8 @@
     }
     else if (3 == indexPath.row)
     {
-        QQLoginViewController *testFlightVC = [[QQLoginViewController alloc] init];
-        viewController = testFlightVC;
+        IOSJSONViewController *jsonVC = [[IOSJSONViewController alloc] init];
+        viewController = jsonVC;
     }
     
     if (viewController)

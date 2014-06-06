@@ -60,7 +60,8 @@
      To stop this load, use the stopLoading method. To see whether the receiver is done loading the content, use the loading property.
      URL需要加http://前缀
      */
-    NSURLRequest *aRequest = [[NSURLRequest alloc] initWithURL:[[[NSURL alloc] initWithString:@"http://www.baidu.com"] autorelease]];
+    NSURLRequest *aRequest = [[NSURLRequest alloc] initWithURL:[[[NSURL alloc] initWithString:@"http://portal.dds.com/mobileteam/SitePages/doReg.aspx"] autorelease]];
+//    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://portal.dds.com/mobileteam/SitePages/doReg.aspx"]];
     [webView loadRequest:aRequest];
     [aRequest release];
     

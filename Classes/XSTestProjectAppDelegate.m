@@ -16,7 +16,7 @@
 //#import "MyPrint.h"
 //#import "MyLibTwo.h"
 #import "TestData.h"
-
+//#import "NCMediator.h"
 
 @implementation XSTestProjectAppDelegate
 
@@ -58,7 +58,8 @@
     //静态方法
 //    [MyPrint printA];
 //    [MyLibTwo printB];
-    
+//    NCMediator *mediator = [NCMediator sharedInstance];
+//    [mediator setTrackingId:@"123"];
 
     //初始化Tracker
     [[GAConfiger shareInStrance] addAndStartGA];

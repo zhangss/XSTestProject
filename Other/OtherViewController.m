@@ -12,6 +12,7 @@
 #import "PNGViewController.h"
 #import "UIButtonViewController.h"
 #import "FileOperateViewController.h"
+#import "URLRequestViewController.h"
 
 @implementation OtherViewController
 
@@ -41,6 +42,10 @@
         //第四项 文件及文件夹操作
         NSString *fileString = [NSString stringWithString:NSLocalizedString(@"File Operation",@"文件操作")];
         [m_tableData addObject:fileString];
+        
+        //第五项 URL请求测试
+        NSString *requestString = [NSString stringWithString:NSLocalizedString(@"HTTP Request",@"Http 请求")];
+        [m_tableData addObject:requestString];
     }
     return self;
 }
@@ -224,7 +229,12 @@
         [self.navigationController pushViewController:btnVC animated:YES];
         [btnVC release];
     }
-
+    else if (indexPath.row == 4)
+    {
+        URLRequestViewController *urlVC = [[URLRequestViewController alloc] init];
+        [self.navigationController pushViewController:urlVC animated:YES];
+        [urlVC release];
+    }
 }
 
 @end
