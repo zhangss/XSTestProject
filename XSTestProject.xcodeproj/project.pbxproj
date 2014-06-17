@@ -19,8 +19,12 @@
 		333374C818F5163200160344 /* CRVStompClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 333374C618F5163200160344 /* CRVStompClient.m */; };
 		333374CB18F5179800160344 /* XSIMClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 333374CA18F5179800160344 /* XSIMClient.m */; };
 		335845291940146600D32FA4 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 335845281940146600D32FA4 /* TimerViewController.m */; };
+		3383DA5F194864060076EECA /* LocalNotificationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3383DA5E194864060076EECA /* LocalNotificationInfo.m */; };
+		3383DA62194864170076EECA /* RemoteNotificationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3383DA61194864170076EECA /* RemoteNotificationInfo.m */; };
+		33956FD419501037009DCFA7 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33956FD319501037009DCFA7 /* AdSupport.framework */; };
 		339EC3DF18F51D5B001002FD /* StompService.m in Sources */ = {isa = PBXBuildFile; fileRef = 339EC3DE18F51D5B001002FD /* StompService.m */; };
 		33B4B5C218FD1955005B4021 /* URLRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B4B5C118FD1955005B4021 /* URLRequestViewController.m */; };
+		33B6390E194EEF0500EE4B93 /* DeviceIdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B6390D194EEF0500EE4B93 /* DeviceIdViewController.m */; };
 		36148B3116539A9400B2E267 /* PNGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36148B3016539A9400B2E267 /* PNGViewController.m */; };
 		36148B4216539A9400B2E267 /* loadingbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 36148B3C16539A9400B2E267 /* loadingbutton.png */; };
 		36148B4316539A9400B2E267 /* pausebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 36148B3D16539A9400B2E267 /* pausebutton.png */; };
@@ -226,10 +230,17 @@
 		333374CA18F5179800160344 /* XSIMClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSIMClient.m; sourceTree = "<group>"; };
 		335845271940146600D32FA4 /* TimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
 		335845281940146600D32FA4 /* TimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
+		3383DA5D194864060076EECA /* LocalNotificationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalNotificationInfo.h; sourceTree = "<group>"; };
+		3383DA5E194864060076EECA /* LocalNotificationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalNotificationInfo.m; sourceTree = "<group>"; };
+		3383DA60194864170076EECA /* RemoteNotificationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteNotificationInfo.h; sourceTree = "<group>"; };
+		3383DA61194864170076EECA /* RemoteNotificationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteNotificationInfo.m; sourceTree = "<group>"; };
+		33956FD319501037009DCFA7 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		339EC3DD18F51D5B001002FD /* StompService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StompService.h; sourceTree = "<group>"; };
 		339EC3DE18F51D5B001002FD /* StompService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StompService.m; sourceTree = "<group>"; };
 		33B4B5C018FD1955005B4021 /* URLRequestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLRequestViewController.h; sourceTree = "<group>"; };
 		33B4B5C118FD1955005B4021 /* URLRequestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLRequestViewController.m; sourceTree = "<group>"; };
+		33B6390C194EEEFE00EE4B93 /* DeviceIdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceIdViewController.h; sourceTree = "<group>"; };
+		33B6390D194EEF0500EE4B93 /* DeviceIdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceIdViewController.m; sourceTree = "<group>"; };
 		36148B2F16539A9400B2E267 /* PNGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PNGViewController.h; path = JPG/PNGViewController.h; sourceTree = "<group>"; };
 		36148B3016539A9400B2E267 /* PNGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PNGViewController.m; path = JPG/PNGViewController.m; sourceTree = "<group>"; };
 		36148B3C16539A9400B2E267 /* loadingbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loadingbutton.png; sourceTree = "<group>"; };
@@ -579,6 +590,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33956FD419501037009DCFA7 /* AdSupport.framework in Frameworks */,
 				330B050F18F7D6F7006F630F /* libGoogleAnalytics_debug.a in Frameworks */,
 				BF9A20A1183D9E300031F4B1 /* libMyPrint.a in Frameworks */,
 				BF9A20A0183D9E1D0031F4B1 /* libGoogleAnalytics.a in Frameworks */,
@@ -693,6 +705,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				33956FD319501037009DCFA7 /* AdSupport.framework */,
 				330B051018F7D703006F630F /* libNigra-Collector-IOS.a */,
 				330B050E18F7D6F7006F630F /* libGoogleAnalytics_debug.a */,
 				50FE4A9E17F26E4B008FDC2D /* libxml2.dylib */,
@@ -754,6 +767,17 @@
 				333374C618F5163200160344 /* CRVStompClient.m */,
 			);
 			name = Stomp;
+			sourceTree = "<group>";
+		};
+		3383DA5C194863EB0076EECA /* NotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				3383DA5D194864060076EECA /* LocalNotificationInfo.h */,
+				3383DA5E194864060076EECA /* LocalNotificationInfo.m */,
+				3383DA60194864170076EECA /* RemoteNotificationInfo.h */,
+				3383DA61194864170076EECA /* RemoteNotificationInfo.m */,
+			);
+			path = NotificationService;
 			sourceTree = "<group>";
 		};
 		36148B3B16539A9400B2E267 /* Audio */ = {
@@ -1141,6 +1165,9 @@
 				BFD68A2917B5E65C002554E1 /* BlockViewController.m */,
 				335845271940146600D32FA4 /* TimerViewController.h */,
 				335845281940146600D32FA4 /* TimerViewController.m */,
+				3383DA5C194863EB0076EECA /* NotificationService */,
+				33B6390C194EEEFE00EE4B93 /* DeviceIdViewController.h */,
+				33B6390D194EEF0500EE4B93 /* DeviceIdViewController.m */,
 			);
 			path = IOSMechanism;
 			sourceTree = "<group>";
@@ -1646,6 +1673,8 @@
 				369EBA5D1622CFF700C47F81 /* AudioPlayerView.m in Sources */,
 				369EBA5E1622CFF700C47F81 /* AudioSliderView.m in Sources */,
 				369EBA5F1622CFF700C47F81 /* AudioStreamer.m in Sources */,
+				33B6390E194EEF0500EE4B93 /* DeviceIdViewController.m in Sources */,
+				3383DA62194864170076EECA /* RemoteNotificationInfo.m in Sources */,
 				333374CB18F5179800160344 /* XSIMClient.m in Sources */,
 				369EBA601622CFF700C47F81 /* UIDevice+Hardware.m in Sources */,
 				369EBA651622D00100C47F81 /* AudioViewController.m in Sources */,
@@ -1669,6 +1698,7 @@
 				BFC8167A16DF3EF20051000D /* UILineLayoutViewController.m in Sources */,
 				BFC8167D16DF41650051000D /* UICircleLayoutViewController.m in Sources */,
 				BFC8168016DF42530051000D /* CircleLayoutCell.m in Sources */,
+				3383DA5F194864060076EECA /* LocalNotificationInfo.m in Sources */,
 				BFC8168616DF59CB0051000D /* XSSmallLayout.m in Sources */,
 				BFC8168916DF59DD0051000D /* XSLagerLayout.m in Sources */,
 				BFC8168C16DF5C740051000D /* ToogleCollectionViewController.m in Sources */,

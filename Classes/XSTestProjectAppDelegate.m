@@ -18,6 +18,9 @@
 #import "TestData.h"
 //#import "NCMediator.h"
 
+#define LOCAL_NOTIFICATION
+#define REMOTE_NOTIFICATION
+
 @implementation XSTestProjectAppDelegate
 
 @synthesize window;
@@ -63,6 +66,26 @@
 
     //初始化Tracker
     [[GAConfiger shareInStrance] addAndStartGA];
+    
+#pragma mark Register Local Notification
+#ifdef LOCAL_NOTIFICATION
+    self.localNoti = [[LocalNotificationInfo alloc] init];
+    //检测是否是本地通知触发了启动
+    if (![_localNoti receiveNotificationAppLaunch:launchOptions])
+    {
+        //注册通知
+        [_localNoti registerLocalNotification];
+    }
+#endif
+    
+#pragma mark Register Remote Notification
+#ifdef REMOTE_NOTIFICATION
+    self.remoteNoti = [[RemoteNotificationInfo alloc] init];
+    //检测是否是远程通知触发了启动
+    [_remoteNoti receiveRemoteNotificationLaunch:launchOptions];
+    //注册远程通知
+    [_remoteNoti registerRemoteNotification];
+#endif
     
     return YES;
 }
@@ -122,6 +145,40 @@
      */
 }
 
+#pragma mark -
+#pragma mark Notificaiton Service
+#pragma mark Local Notification
+//本地通知回调
+- (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification
+{
+    [_localNoti receiveNoticiationDelegate:notification];
+}
+
+#pragma mark Remote Notification
+//注册远程通知成功回调
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
+{
+    //处理Token
+    [_remoteNoti receiveDeviceToken:deviceToken];
+}
+
+//注册远程通知失败回调
+- (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error
+{
+    [_remoteNoti receiveError:error];
+}
+
+//接收到APNS通知的回调 iOS3
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo
+{
+    [_remoteNoti receiveRemoteNotificationDelegate:userInfo];
+}
+
+//接收到APNS通知的回调 iOS7
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
+{
+    [_remoteNoti receiveRemoteNotificationDelegate:userInfo];
+}
 
 #pragma mark -
 #pragma mark Memory management

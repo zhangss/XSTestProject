@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LocalNotificationInfo.h"
+#import "RemoteNotificationInfo.h"
 
 @interface XSTestProjectAppDelegate : NSObject <UIApplicationDelegate,UITabBarControllerDelegate> {
     UIWindow *window;
@@ -19,6 +21,8 @@
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) UITabBarController *tabbarController;
+@property (nonatomic, strong) LocalNotificationInfo *localNoti;
+@property (nonatomic, strong) RemoteNotificationInfo *remoteNoti;
 
 //初始化TabBar控制器
 - (void)initTabbarController;

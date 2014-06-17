@@ -104,7 +104,10 @@
         self.timer = nil;
     }
 #else
+    //暂停
     dispatch_suspend(_gcdTimer);
+    //销毁
+    dispatch_source_cancel(_gcdTimer);
 #endif
 
 }
@@ -143,8 +146,12 @@
     
     //设置定时器参数
 //    dispatch_time_t timerType = dispatch_walltime(kTimerInterval * NSEC_PER_SEC, 0);
+    //设置timer立即启动，kTimerInterval之后执行第一次
     dispatch_time_t timerType = dispatch_time(DISPATCH_TIME_NOW, kTimerInterval * NSEC_PER_SEC);
-    dispatch_source_set_timer(_gcdTimer, timerType, kTimerInterval * NSEC_PER_SEC, 0);
+    //循环的Timer 每kTimerInterval秒执行一次
+//    dispatch_source_set_timer(_gcdTimer, timerType, kTimerInterval * NSEC_PER_SEC, 0);
+    //DISPATCH_TIME_FOREVER 表示一直阻塞，只会执行一次的timer
+    dispatch_source_set_timer(_gcdTimer, timerType, DISPATCH_TIME_FOREVER, 0);
     
     //回调
     dispatch_source_set_event_handler(_gcdTimer, ^{
