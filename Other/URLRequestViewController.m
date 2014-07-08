@@ -14,6 +14,7 @@
 
 //#define BASE_URL @"http://portal.dds.com/mobileteam/_layouts/15/start.aspx#/SitePages/getRecoBrandList.aspx"
 #define BASE_URL @"http://www.baidu.com"
+#define IS_ASYNC
 
 @implementation URLRequestViewController
 
@@ -59,11 +60,34 @@
 
 - (void)startUrlConnection
 {
-    NSURLConnection *connection = [[NSURLConnection alloc] initWithRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:BASE_URL]] delegate:self];
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:BASE_URL]];
+#ifdef IS_ASYNC
+    //异步请求
+    NSURLConnection *connection = [[NSURLConnection alloc] initWithRequest:request delegate:self];
     [connection start];
-    
+#else
     //同步方法
-//    NSData *data = [NSURLConnection sendSynchronousRequest:<#(NSURLRequest *)#> returningResponse:<#(NSURLResponse **)#> error:<#(NSError **)#>];
+    NSError *error = nil;
+    NSHTTPURLResponse *response = nil;
+    NSData *data = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
+    if (error)
+    {
+        NSLog(@"NSURLConnection Error:%@",error);
+    }
+    else
+    {
+        if (response.statusCode != 200)
+        {
+            //如404错误在UrlConnection中不被认为是失败
+            NSLog(@"NSURLConnection FailedCode:%@",response);
+        }
+        else
+        {
+            NSString *responseString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+            NSLog(@"%@",responseString);
+        }
+    }
+#endif
 }
 
 #pragma mark -

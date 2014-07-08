@@ -23,8 +23,12 @@
 		3383DA62194864170076EECA /* RemoteNotificationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3383DA61194864170076EECA /* RemoteNotificationInfo.m */; };
 		33956FD419501037009DCFA7 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33956FD319501037009DCFA7 /* AdSupport.framework */; };
 		339EC3DF18F51D5B001002FD /* StompService.m in Sources */ = {isa = PBXBuildFile; fileRef = 339EC3DE18F51D5B001002FD /* StompService.m */; };
+		33B03854196B9EB400EC3C51 /* MutiTaskingTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B46F83196A7AE7003FF194 /* MutiTaskingTester.m */; };
+		33B46F84196A7AE7003FF194 /* MutiTaskingTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B46F83196A7AE7003FF194 /* MutiTaskingTester.m */; };
+		33B46F86196A8D62003FF194 /* IOSMachanismTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B46F85196A8D62003FF194 /* IOSMachanismTest.m */; };
 		33B4B5C218FD1955005B4021 /* URLRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B4B5C118FD1955005B4021 /* URLRequestViewController.m */; };
 		33B6390E194EEF0500EE4B93 /* DeviceIdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B6390D194EEF0500EE4B93 /* DeviceIdViewController.m */; };
+		33EF9F43196405F6001D220E /* RunTimeTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EF9F42196405F6001D220E /* RunTimeTester.m */; };
 		36148B3116539A9400B2E267 /* PNGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36148B3016539A9400B2E267 /* PNGViewController.m */; };
 		36148B4216539A9400B2E267 /* loadingbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 36148B3C16539A9400B2E267 /* loadingbutton.png */; };
 		36148B4316539A9400B2E267 /* pausebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 36148B3D16539A9400B2E267 /* pausebutton.png */; };
@@ -237,10 +241,15 @@
 		33956FD319501037009DCFA7 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		339EC3DD18F51D5B001002FD /* StompService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StompService.h; sourceTree = "<group>"; };
 		339EC3DE18F51D5B001002FD /* StompService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StompService.m; sourceTree = "<group>"; };
+		33B46F82196A7AE7003FF194 /* MutiTaskingTester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutiTaskingTester.h; sourceTree = "<group>"; };
+		33B46F83196A7AE7003FF194 /* MutiTaskingTester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutiTaskingTester.m; sourceTree = "<group>"; };
+		33B46F85196A8D62003FF194 /* IOSMachanismTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOSMachanismTest.m; sourceTree = "<group>"; };
 		33B4B5C018FD1955005B4021 /* URLRequestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLRequestViewController.h; sourceTree = "<group>"; };
 		33B4B5C118FD1955005B4021 /* URLRequestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLRequestViewController.m; sourceTree = "<group>"; };
 		33B6390C194EEEFE00EE4B93 /* DeviceIdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceIdViewController.h; sourceTree = "<group>"; };
 		33B6390D194EEF0500EE4B93 /* DeviceIdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceIdViewController.m; sourceTree = "<group>"; };
+		33EF9F41196405F6001D220E /* RunTimeTester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunTimeTester.h; sourceTree = "<group>"; };
+		33EF9F42196405F6001D220E /* RunTimeTester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunTimeTester.m; sourceTree = "<group>"; };
 		36148B2F16539A9400B2E267 /* PNGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PNGViewController.h; path = JPG/PNGViewController.h; sourceTree = "<group>"; };
 		36148B3016539A9400B2E267 /* PNGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PNGViewController.m; path = JPG/PNGViewController.m; sourceTree = "<group>"; };
 		36148B3C16539A9400B2E267 /* loadingbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loadingbutton.png; sourceTree = "<group>"; };
@@ -780,6 +789,25 @@
 			path = NotificationService;
 			sourceTree = "<group>";
 		};
+		33B46F81196A7ACA003FF194 /* MutiTasking */ = {
+			isa = PBXGroup;
+			children = (
+				33B46F82196A7AE7003FF194 /* MutiTaskingTester.h */,
+				33B46F83196A7AE7003FF194 /* MutiTaskingTester.m */,
+			);
+			name = MutiTasking;
+			path = Classes/IOSMechanism/MutiTasking;
+			sourceTree = SOURCE_ROOT;
+		};
+		33EF9F40196405B2001D220E /* RunTime */ = {
+			isa = PBXGroup;
+			children = (
+				33EF9F41196405F6001D220E /* RunTimeTester.h */,
+				33EF9F42196405F6001D220E /* RunTimeTester.m */,
+			);
+			path = RunTime;
+			sourceTree = "<group>";
+		};
 		36148B3B16539A9400B2E267 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
@@ -1168,6 +1196,8 @@
 				3383DA5C194863EB0076EECA /* NotificationService */,
 				33B6390C194EEEFE00EE4B93 /* DeviceIdViewController.h */,
 				33B6390D194EEF0500EE4B93 /* DeviceIdViewController.m */,
+				33EF9F40196405B2001D220E /* RunTime */,
+				33B46F81196A7ACA003FF194 /* MutiTasking */,
 			);
 			path = IOSMechanism;
 			sourceTree = "<group>";
@@ -1330,6 +1360,7 @@
 		BF845FD6183E21B600AE05CD /* XSTestProject Tests */ = {
 			isa = PBXGroup;
 			children = (
+				33B46F85196A8D62003FF194 /* IOSMachanismTest.m */,
 				BF845FED183E25B900AE05CD /* TestViewTest.m */,
 				BF845FDC183E21B600AE05CD /* XSTestProject_Tests.m */,
 				BF845FD7183E21B600AE05CD /* Supporting Files */,
@@ -1550,6 +1581,13 @@
 			isa = PBXProject;
 			attributes = {
 				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
 					BF845FD0183E21B600AE05CD = {
 						TestTargetID = 1D6058900D05DD3D006BFB54;
 					};
@@ -1685,6 +1723,7 @@
 				36148B3116539A9400B2E267 /* PNGViewController.m in Sources */,
 				363FB07F1654950F00BF6EC5 /* UIButtonViewController.m in Sources */,
 				361F70331660619D005C555C /* UIViewInfoController.m in Sources */,
+				33EF9F43196405F6001D220E /* RunTimeTester.m in Sources */,
 				361F7036166066C1005C555C /* UIlabelInfoViewController.m in Sources */,
 				36DF835C16637A6100C02F93 /* UIImageViewInfoViewController.m in Sources */,
 				36DF835F16637C4C00C02F93 /* UIBigImageView.m in Sources */,
@@ -1708,6 +1747,7 @@
 				BF53DD7716E0858F00F4AA5F /* TransitionSecondViewController.m in Sources */,
 				BF53DD7A16E0859F00F4AA5F /* TransitionThirdViewController.m in Sources */,
 				BFFF76D5171805900088C8DA /* ImageSplitViewController.m in Sources */,
+				33B46F84196A7AE7003FF194 /* MutiTaskingTester.m in Sources */,
 				BF4524AD1744CACA0083456C /* IOSMechanismViewController.m in Sources */,
 				BFC19BDC1749CA11001907A4 /* CALayerViewController.m in Sources */,
 				BF9F7795174B698C00D7265D /* CoreAnimationViewController.m in Sources */,
@@ -1769,7 +1809,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33B03854196B9EB400EC3C51 /* MutiTaskingTester.m in Sources */,
 				BF845FEE183E25B900AE05CD /* TestViewTest.m in Sources */,
+				33B46F86196A8D62003FF194 /* IOSMachanismTest.m in Sources */,
 				BF845FEC183E258900AE05CD /* TestView.m in Sources */,
 				BF845FDD183E21B600AE05CD /* XSTestProject_Tests.m in Sources */,
 			);

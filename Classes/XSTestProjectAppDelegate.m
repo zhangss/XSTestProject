@@ -12,6 +12,7 @@
 #import "TestTableViewController.h" //测试列表
 #import "TestViewController.h"
 #import "GAConfiger.h"
+#import "MutiTaskingTester.h"
 
 //#import "MyPrint.h"
 //#import "MyLibTwo.h"
@@ -106,6 +107,8 @@
      Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
      If your application supports background execution, called instead of applicationWillTerminate: when the user quits.
      */
+    MutiTaskingTester *tester = [[MutiTaskingTester alloc] init];
+    [tester startBackgroundTask];
 }
 
 
@@ -178,6 +181,111 @@
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
 {
     [_remoteNoti receiveRemoteNotificationDelegate:userInfo];
+}
+
+#pragma mark -
+#pragma mark Background Fetch iOS7
+- (BOOL)isSupportBackgroundRefresh
+{
+    /*
+     This property reflects whether the app can be launched into the background to handle background behaviors, such as processing background location updates and performing background fetches. If your app relies on being launched into the background to perform tasks, you can use the value of this property to determine if doing so is possible and to warn the user if it is not. Do not warn the user if the value of this property is set to UIBackgroundRefreshStatusRestricted; a restricted user does not have the ability to enable multitasking for the app.
+     当用户处在UIBackgroundRefreshStatusRestricted状态下时不应该提示用户
+     当处在UIBackgroundRefreshStatusDenied状态时可以提示用户开启后台更新数据
+     */
+    
+    //iOS7
+    UIBackgroundRefreshStatus status = [[UIApplication sharedApplication] backgroundRefreshStatus];
+    if (status == UIBackgroundRefreshStatusRestricted)
+    {
+        /*
+         Background updates are unavailable and the user cannot enable them again. For example, this status can occur when parental controls are in effect for the current user.
+         这种状态下属于设备配置了不支持后台更新的权限。如家长控制了该设备用户权限。
+         */
+        NSLog(@"UIBackgroundRefreshStatusRestricted");
+        return NO;
+    }
+    else if (status == UIBackgroundRefreshStatusDenied)
+    {
+        /*
+         The user explicitly disabled background behavior for this app or for the whole system.
+         用户明确禁止了这个APP或者这个系统不能进行后台更新
+         */
+        NSLog(@"UIBackgroundRefreshStatusDenied");
+        return NO;
+    }
+    else if (status == UIBackgroundRefreshStatusAvailable)
+    {
+        /*
+         这个APP可以进行后台更新
+         */
+        NSLog(@"UIBackgroundRefreshStatusAvailable");
+        return YES;
+    }
+    return NO;
+}
+
+- (void)setMinimumBackgroundFetchInterval
+{
+    //iOS7
+    /*
+     后台获取的意思是:当应用处于后台时，系统会给出一定的时间使APP在后台能够运行一些代码去更新数据刷新UI，这样在用户回到前台之后就能看到最新的数据，增加用户体验。
+     配置步骤：
+     1.首先是修改应用的Info.plist:在UIBackgroundModes中加入fetch，即可告诉系统应用需要后台获取的权限。另外一种更简单的方式，利用Xcode5的Capabilities特性，打开Capabilities页面下的Background Modes选项，并勾选Background fetch选项即可。注意：依照苹果一贯的做法来看，如果声明了需要某项后台权限，但是结果却没有相关实现的话，被拒掉的可能性还是比较大的。
+     2.设置获取时间间隔：这个时间只对设置了UIBackgroundModes的APP生效。默认设置为UIApplicationBackgroundFetchIntervalNever,从不进行后台获取。这里所指定的时间间隔只是代表了“在上一次获取或者关闭应用之后，在这一段时间内一定不会去做后台获取”，而真正具体到什么时候会进行后台获取，系统将根据你的设定，选择比如接收邮件的时候顺便为你的应用获取一下，或者也有可能专门为你的应用唤醒一下设备。作为开发者，我们应该做的是为用户的电池考虑，尽可能地选择合适自己应用的后台获取间隔。设置为UIApplicationBackgroundFetchIntervalMinimum的话，系统会尽可能多尽可能快地 为你的应用进行后台获取，但是比如对于一个天气应用，可能对实时的数据并不会那么关心，就完全不必设置为 UIApplicationBackgroundFetchIntervalMinimum，也许1小时会是一个更好的选择。新的Mac OSX 10.9上已经出现了功耗监测，用于让用户确定什么应用是能耗大户，有理由相信同样的东西也可能出现在iOS上。如果不想让用户因为你的应用是耗电大户而怒删的话，从现在开始注意一下应用的能耗还是蛮有必要的（做绿色环保低碳的iOS app，从今天开始～）。
+     */
+    if ([self isSupportBackgroundRefresh])
+    {
+        [[UIApplication sharedApplication] setMinimumBackgroundFetchInterval:UIApplicationBackgroundFetchIntervalMinimum];
+    }
+}
+
+- (void)application:(UIApplication *)application performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
+{
+    /**
+     *  系统将会在执行fetch的时候调用这个方法，然后开发者需要做的是在这个方法里完成获取的工作，然后刷新UI，并通知系统获取结束，以便系统尽快回到休眠状态。
+     *  获取数据这是应用相关的内容，在此不做赘述，应用在前台能完成的工作在这里都能做，唯一的限制是系统不会给你很长时间来做fetch，一般会小于一分钟，而且fetch在绝大多数情况下将和别的应用共用网络连接。这些时间对于fetch一些简单数据来说是足够的了，比如微博的新条目（大图除外），接下来一小时的天气情况等。如果涉及到较大文件的传输的话，用后台获取的API就不合适了，而应该使用另一个新的文件传输的API，我们稍后再说。
+     *  类似前面提到的后台任务完成时必须通知系统一样，在在获取完成后，也必须通知系统获取完成，方法是调用-application:performFetchWithCompletionHandler:的handler。这个CompletionHandler接收一个UIBackgroundFetchResult作为参数，可供选择的结果有UIBackgroundFetchResultNewData,UIBackgroundFetchResultNoData,UIBackgroundFetchResultFailed三种，分别表示获取到了新数据（此时系统将对现在的UI状态截图并更新App Switcher中你的应用的截屏），没有新数据，以及获取失败。
+     
+     *  当然，实际情况中会比这要复杂得多，用户当前的ViewController是否合适做获取，获取后的数据如何处理都需要考虑。另外要说明的是上面的代码在获取成功后直接在appDelegate里更新UI，这只是为了能在同一处进行说明，但却是不正确的结构。比较好的做法是将获取和更新UI的业务 逻辑都放到fetchViewController里，然后向其发送获取消息的时候将completionHandler作为参数传入，并在 fetchViewController里完成获取结束的报告。
+     *  另一个比较神奇的地方是系统将追踪用户的使用习惯，并根据对每个应用的使用时刻给一个合理的fetch时间。比如系统将记录你在每天早上9点上班的 电车上，中午12点半吃饭时，以及22点睡觉前会刷一下微博，只要这个习惯持续个三四天，系统便会将应用的后台获取时刻调节为9点，12点和22点前一点。这样在每次你打开应用都直接有最新内容的同时，也节省了电量和流量。
+     *
+     */
+    
+    /*
+     如何模拟
+     1.可以复制一个Run的Scheme，然后勾选Background Fetch，然后运行该Scheme。
+     2.可以从Xcode5-Debug-Simulate Background Fetch，模拟完成一次
+     */
+    
+    UINavigationController *navigationController = (UINavigationController*)self.window.rootViewController;
+    id fetchViewController = navigationController.topViewController;
+    if ([fetchViewController respondsToSelector:@selector(fetchDataResult:)]) {
+        [fetchViewController fetchDataResult:^(NSError *error, NSArray *results)
+        {
+            if (!error)
+            {
+                if (results.count != 0)
+                {
+                    //Update UI with results.
+                    //Tell system all done.
+                    completionHandler(UIBackgroundFetchResultNewData);
+                }
+                else
+                {
+                    completionHandler(UIBackgroundFetchResultNoData);
+                }
+            }
+            else
+            {
+                completionHandler(UIBackgroundFetchResultFailed);
+            }
+        }];
+    }
+    else
+    {
+        completionHandler(UIBackgroundFetchResultFailed);
+    }
+
 }
 
 #pragma mark -

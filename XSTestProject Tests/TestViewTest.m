@@ -30,9 +30,6 @@
 - (void)testView
 {
     
-    TestView *view = [[TestView alloc]initWithFrame:CGRectMake(0, 0, 320, 480)];
-    XCTAssertEqual(view.frame.origin, CGPointZero, @"View Location Success!");
-    XCTAssertEqual(view.frame.size, CGSizeZero, @"View Size Success!");
 }
 
 
