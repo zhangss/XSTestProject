@@ -27,6 +27,8 @@
 		33B46F84196A7AE7003FF194 /* MutiTaskingTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B46F83196A7AE7003FF194 /* MutiTaskingTester.m */; };
 		33B46F86196A8D62003FF194 /* IOSMachanismTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B46F85196A8D62003FF194 /* IOSMachanismTest.m */; };
 		33B4B5C218FD1955005B4021 /* URLRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B4B5C118FD1955005B4021 /* URLRequestViewController.m */; };
+		33B55C9D197E85FF00DA0AEB /* ReachabilityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B55C9A197E85FF00DA0AEB /* ReachabilityViewController.m */; };
+		33B55C9E197E85FF00DA0AEB /* XSReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B55C9C197E85FF00DA0AEB /* XSReachability.m */; };
 		33B6390E194EEF0500EE4B93 /* DeviceIdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B6390D194EEF0500EE4B93 /* DeviceIdViewController.m */; };
 		33EF9F43196405F6001D220E /* RunTimeTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EF9F42196405F6001D220E /* RunTimeTester.m */; };
 		36148B3116539A9400B2E267 /* PNGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36148B3016539A9400B2E267 /* PNGViewController.m */; };
@@ -93,7 +95,6 @@
 		509525B017F1B3980027A0C8 /* OHAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 509525AB17F1B3980027A0C8 /* OHAttributedLabel.m */; };
 		509525B717F1B3CE0027A0C8 /* RegexKitLite in Resources */ = {isa = PBXBuildFile; fileRef = 509525B417F1B3CE0027A0C8 /* RegexKitLite */; };
 		509525B817F1B3CE0027A0C8 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 509525B617F1B3CE0027A0C8 /* RegexKitLite.m */; };
-		509525BC17F1B7AB0027A0C8 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 509525BB17F1B7AB0027A0C8 /* Reachability.m */; };
 		509525BE17F1B7E90027A0C8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 509525BD17F1B7E90027A0C8 /* MobileCoreServices.framework */; };
 		50FE4A9D17F26E1B008FDC2D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 50FE4A9C17F26E1B008FDC2D /* libz.dylib */; };
 		50FE4A9F17F26E4B008FDC2D /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 50FE4A9E17F26E4B008FDC2D /* libxml2.dylib */; };
@@ -246,6 +247,10 @@
 		33B46F85196A8D62003FF194 /* IOSMachanismTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOSMachanismTest.m; sourceTree = "<group>"; };
 		33B4B5C018FD1955005B4021 /* URLRequestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLRequestViewController.h; sourceTree = "<group>"; };
 		33B4B5C118FD1955005B4021 /* URLRequestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLRequestViewController.m; sourceTree = "<group>"; };
+		33B55C99197E85FF00DA0AEB /* ReachabilityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachabilityViewController.h; sourceTree = "<group>"; };
+		33B55C9A197E85FF00DA0AEB /* ReachabilityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachabilityViewController.m; sourceTree = "<group>"; };
+		33B55C9B197E85FF00DA0AEB /* XSReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSReachability.h; sourceTree = "<group>"; };
+		33B55C9C197E85FF00DA0AEB /* XSReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSReachability.m; sourceTree = "<group>"; };
 		33B6390C194EEEFE00EE4B93 /* DeviceIdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceIdViewController.h; sourceTree = "<group>"; };
 		33B6390D194EEF0500EE4B93 /* DeviceIdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceIdViewController.m; sourceTree = "<group>"; };
 		33EF9F41196405F6001D220E /* RunTimeTester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunTimeTester.h; sourceTree = "<group>"; };
@@ -355,8 +360,6 @@
 		509525B417F1B3CE0027A0C8 /* RegexKitLite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RegexKitLite; sourceTree = "<group>"; };
 		509525B517F1B3CE0027A0C8 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
 		509525B617F1B3CE0027A0C8 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
-		509525BA17F1B7AB0027A0C8 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		509525BB17F1B7AB0027A0C8 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		509525BD17F1B7E90027A0C8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		50FE4A9C17F26E1B008FDC2D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		50FE4A9E17F26E4B008FDC2D /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
@@ -976,8 +979,10 @@
 		509525B917F1B7AB0027A0C8 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				509525BA17F1B7AB0027A0C8 /* Reachability.h */,
-				509525BB17F1B7AB0027A0C8 /* Reachability.m */,
+				33B55C99197E85FF00DA0AEB /* ReachabilityViewController.h */,
+				33B55C9A197E85FF00DA0AEB /* ReachabilityViewController.m */,
+				33B55C9B197E85FF00DA0AEB /* XSReachability.h */,
+				33B55C9C197E85FF00DA0AEB /* XSReachability.m */,
 			);
 			path = Reachability;
 			sourceTree = "<group>";
@@ -1785,16 +1790,17 @@
 				509525A417F1B3580027A0C8 /* ASIHTTPRequest.m in Sources */,
 				509525A517F1B3580027A0C8 /* ASIInputStream.m in Sources */,
 				509525A617F1B3580027A0C8 /* ASINetworkQueue.m in Sources */,
+				33B55C9D197E85FF00DA0AEB /* ReachabilityViewController.m in Sources */,
 				509525AF17F1B3980027A0C8 /* NSAttributedString+Attributes.m in Sources */,
 				509525B017F1B3980027A0C8 /* OHAttributedLabel.m in Sources */,
 				509525B817F1B3CE0027A0C8 /* RegexKitLite.m in Sources */,
-				509525BC17F1B7AB0027A0C8 /* Reachability.m in Sources */,
 				50FE4AA817F2737E008FDC2D /* QQLoginViewController.m in Sources */,
 				50FE4ABC17F287BA008FDC2D /* AttributedLabel.m in Sources */,
 				50FE4ABF17F28854008FDC2D /* StrikeThroughLabel.m in Sources */,
 				50FE4AC217F28878008FDC2D /* RatingView.m in Sources */,
 				50FE4AC517F288FA008FDC2D /* WaitingView.m in Sources */,
 				50FE4AC917F28D22008FDC2D /* MBProgressHUD.m in Sources */,
+				33B55C9E197E85FF00DA0AEB /* XSReachability.m in Sources */,
 				5029FE9317F3C76200760FF8 /* BusinessManager.m in Sources */,
 				5029FE9617F3C7DC00760FF8 /* BaseManager.m in Sources */,
 				5029FE9917F3C7EC00760FF8 /* BaseProcessor.m in Sources */,

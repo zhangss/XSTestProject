@@ -1,7 +1,7 @@
 /*
      File: Reachability.m
  Abstract: Basic demonstration of how to use the SystemConfiguration Reachablity APIs.
-  Version: 3.0
+  Version: 3.5
  
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
  Inc. ("Apple") in consideration of your agreement to the following
@@ -41,7 +41,7 @@
  STRICT LIABILITY OR OTHERWISE, EVEN IF APPLE HAS BEEN ADVISED OF THE
  POSSIBILITY OF SUCH DAMAGE.
  
- Copyright (C) 2013 Apple Inc. All Rights Reserved.
+ Copyright (C) 2014 Apple Inc. All Rights Reserved.
  
  */
 
@@ -52,7 +52,7 @@
 
 #import <CoreFoundation/CoreFoundation.h>
 
-#import "Reachability.h"
+#import "XSReachability.h"
 
 
 NSString *kReachabilityChangedNotification = @"kNetworkReachabilityChangedNotification";
@@ -69,7 +69,6 @@ static void PrintReachabilityFlags(SCNetworkReachabilityFlags flags, const char*
     NSLog(@"Reachability Flag Status: %c%c %c%c%c%c%c%c%c %s\n",
           (flags & kSCNetworkReachabilityFlagsIsWWAN)				? 'W' : '-',
           (flags & kSCNetworkReachabilityFlagsReachable)            ? 'R' : '-',
-
           (flags & kSCNetworkReachabilityFlagsTransientConnection)  ? 't' : '-',
           (flags & kSCNetworkReachabilityFlagsConnectionRequired)   ? 'c' : '-',
           (flags & kSCNetworkReachabilityFlagsConnectionOnTraffic)  ? 'C' : '-',
@@ -87,9 +86,9 @@ static void ReachabilityCallback(SCNetworkReachabilityRef target, SCNetworkReach
 {
 #pragma unused (target, flags)
 	NSCAssert(info != NULL, @"info was NULL in ReachabilityCallback");
-	NSCAssert([(__bridge NSObject*) info isKindOfClass: [Reachability class]], @"info was wrong class in ReachabilityCallback");
+	NSCAssert([(__bridge NSObject*) info isKindOfClass: [XSReachability class]], @"info was wrong class in ReachabilityCallback");
 
-    Reachability* noteObject = (__bridge Reachability *)info;
+    XSReachability* noteObject = (__bridge XSReachability *)info;
     // Post a notification to notify the client that the network reachability changed.
     [[NSNotificationCenter defaultCenter] postNotificationName: kReachabilityChangedNotification object: noteObject];
 }
@@ -97,43 +96,42 @@ static void ReachabilityCallback(SCNetworkReachabilityRef target, SCNetworkReach
 
 #pragma mark - Reachability implementation
 
-@implementation Reachability
+@implementation XSReachability
 {
-	BOOL localWiFiRef;
-	SCNetworkReachabilityRef reachabilityRef;
+	BOOL _alwaysReturnLocalWiFiStatus; //default is NO
+	SCNetworkReachabilityRef _reachabilityRef;
 }
 
-
-+ (instancetype)reachabilityWithHostName:(NSString *)hostName;
++ (instancetype)reachabilityWithHostName:(NSString *)hostName
 {
-	Reachability* returnValue = NULL;
+	XSReachability* returnValue = NULL;
 	SCNetworkReachabilityRef reachability = SCNetworkReachabilityCreateWithName(NULL, [hostName UTF8String]);
 	if (reachability != NULL)
 	{
 		returnValue= [[self alloc] init];
 		if (returnValue != NULL)
 		{
-			returnValue->reachabilityRef = reachability;
-			returnValue->localWiFiRef = NO;
+			returnValue->_reachabilityRef = reachability;
+			returnValue->_alwaysReturnLocalWiFiStatus = NO;
 		}
 	}
 	return returnValue;
 }
 
 
-+ (instancetype)reachabilityWithAddress:(const struct sockaddr_in *)hostAddress;
++ (instancetype)reachabilityWithAddress:(const struct sockaddr_in *)hostAddress
 {
 	SCNetworkReachabilityRef reachability = SCNetworkReachabilityCreateWithAddress(kCFAllocatorDefault, (const struct sockaddr *)hostAddress);
 
-	Reachability* returnValue = NULL;
+	XSReachability* returnValue = NULL;
 
 	if (reachability != NULL)
 	{
 		returnValue = [[self alloc] init];
 		if (returnValue != NULL)
 		{
-			returnValue->reachabilityRef = reachability;
-			returnValue->localWiFiRef = NO;
+			returnValue->_reachabilityRef = reachability;
+			returnValue->_alwaysReturnLocalWiFiStatus = NO;
 		}
 	}
 	return returnValue;
@@ -141,7 +139,7 @@ static void ReachabilityCallback(SCNetworkReachabilityRef target, SCNetworkReach
 
 
 
-+ (instancetype)reachabilityForInternetConnection;
++ (instancetype)reachabilityForInternetConnection
 {
 	struct sockaddr_in zeroAddress;
 	bzero(&zeroAddress, sizeof(zeroAddress));
@@ -152,7 +150,7 @@ static void ReachabilityCallback(SCNetworkReachabilityRef target, SCNetworkReach
 }
 
 
-+ (instancetype)reachabilityForLocalWiFi;
++ (instancetype)reachabilityForLocalWiFi
 {
 	struct sockaddr_in localWifiAddress;
 	bzero(&localWifiAddress, sizeof(localWifiAddress));
@@ -162,10 +160,10 @@ static void ReachabilityCallback(SCNetworkReachabilityRef target, SCNetworkReach
 	// IN_LINKLOCALNETNUM is defined in <netinet/in.h> as 169.254.0.0.
 	localWifiAddress.sin_addr.s_addr = htonl(IN_LINKLOCALNETNUM);
 
-	Reachability* returnValue = [self reachabilityWithAddress: &localWifiAddress];
+	XSReachability* returnValue = [self reachabilityWithAddress: &localWifiAddress];
 	if (returnValue != NULL)
 	{
-		returnValue->localWiFiRef = YES;
+		returnValue->_alwaysReturnLocalWiFiStatus = YES;
 	}
     
 	return returnValue;
@@ -179,9 +177,9 @@ static void ReachabilityCallback(SCNetworkReachabilityRef target, SCNetworkReach
 	BOOL returnValue = NO;
 	SCNetworkReachabilityContext context = {0, (__bridge void *)(self), NULL, NULL, NULL};
 
-	if (SCNetworkReachabilitySetCallback(reachabilityRef, ReachabilityCallback, &context))
+	if (SCNetworkReachabilitySetCallback(_reachabilityRef, ReachabilityCallback, &context))
 	{
-		if (SCNetworkReachabilityScheduleWithRunLoop(reachabilityRef, CFRunLoopGetCurrent(), kCFRunLoopDefaultMode))
+		if (SCNetworkReachabilityScheduleWithRunLoop(_reachabilityRef, CFRunLoopGetCurrent(), kCFRunLoopDefaultMode))
 		{
 			returnValue = YES;
 		}
@@ -193,9 +191,9 @@ static void ReachabilityCallback(SCNetworkReachabilityRef target, SCNetworkReach
 
 - (void)stopNotifier
 {
-	if (reachabilityRef != NULL)
+	if (_reachabilityRef != NULL)
 	{
-		SCNetworkReachabilityUnscheduleFromRunLoop(reachabilityRef, CFRunLoopGetCurrent(), kCFRunLoopDefaultMode);
+		SCNetworkReachabilityUnscheduleFromRunLoop(_reachabilityRef, CFRunLoopGetCurrent(), kCFRunLoopDefaultMode);
 	}
 }
 
@@ -203,9 +201,9 @@ static void ReachabilityCallback(SCNetworkReachabilityRef target, SCNetworkReach
 - (void)dealloc
 {
 	[self stopNotifier];
-	if (reachabilityRef != NULL)
+	if (_reachabilityRef != NULL)
 	{
-		CFRelease(reachabilityRef);
+		CFRelease(_reachabilityRef);
 	}
 }
 
@@ -215,7 +213,7 @@ static void ReachabilityCallback(SCNetworkReachabilityRef target, SCNetworkReach
 - (NetworkStatus)localWiFiStatusForFlags:(SCNetworkReachabilityFlags)flags
 {
 	PrintReachabilityFlags(flags, "localWiFiStatusForFlags");
-	BOOL returnValue = NotReachable;
+	NetworkStatus returnValue = NotReachable;
 
 	if ((flags & kSCNetworkReachabilityFlagsReachable) && (flags & kSCNetworkReachabilityFlagsIsDirect))
 	{
@@ -235,7 +233,7 @@ static void ReachabilityCallback(SCNetworkReachabilityRef target, SCNetworkReach
 		return NotReachable;
 	}
 
-	BOOL returnValue = NotReachable;
+    NetworkStatus returnValue = NotReachable;
 
 	if ((flags & kSCNetworkReachabilityFlagsConnectionRequired) == 0)
 	{
@@ -275,10 +273,10 @@ static void ReachabilityCallback(SCNetworkReachabilityRef target, SCNetworkReach
 
 - (BOOL)connectionRequired
 {
-	NSAssert(reachabilityRef != NULL, @"connectionRequired called with NULL reachabilityRef");
+	NSAssert(_reachabilityRef != NULL, @"connectionRequired called with NULL reachabilityRef");
 	SCNetworkReachabilityFlags flags;
 
-	if (SCNetworkReachabilityGetFlags(reachabilityRef, &flags))
+	if (SCNetworkReachabilityGetFlags(_reachabilityRef, &flags))
 	{
 		return (flags & kSCNetworkReachabilityFlagsConnectionRequired);
 	}
@@ -289,13 +287,13 @@ static void ReachabilityCallback(SCNetworkReachabilityRef target, SCNetworkReach
 
 - (NetworkStatus)currentReachabilityStatus
 {
-	NSAssert(reachabilityRef != NULL, @"currentNetworkStatus called with NULL reachabilityRef");
+	NSAssert(_reachabilityRef != NULL, @"currentNetworkStatus called with NULL SCNetworkReachabilityRef");
 	NetworkStatus returnValue = NotReachable;
 	SCNetworkReachabilityFlags flags;
     
-	if (SCNetworkReachabilityGetFlags(reachabilityRef, &flags))
+	if (SCNetworkReachabilityGetFlags(_reachabilityRef, &flags))
 	{
-		if (localWiFiRef)
+		if (_alwaysReturnLocalWiFiStatus)
 		{
 			returnValue = [self localWiFiStatusForFlags:flags];
 		}
