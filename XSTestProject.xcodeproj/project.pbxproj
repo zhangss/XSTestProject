@@ -451,70 +451,6 @@
 		BF62BB7516DC49E000F24C5E /* UICollectionViewInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewInfoViewController.h; sourceTree = "<group>"; };
 		BF6DD35817AA48870041489E /* FileOperateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileOperateViewController.h; sourceTree = "<group>"; };
 		BF6DD35917AA48870041489E /* FileOperateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileOperateViewController.m; sourceTree = "<group>"; };
-		BF6DD35F17AA568F0041489E /* AboutContrView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutContrView.h; sourceTree = "<group>"; };
-		BF6DD36017AA568F0041489E /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
-		BF6DD36117AA568F0041489E /* AddServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddServiceViewController.h; sourceTree = "<group>"; };
-		BF6DD36217AA568F0041489E /* AddThirdPartyFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddThirdPartyFriendViewController.h; sourceTree = "<group>"; };
-		BF6DD36317AA568F0041489E /* AllServicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllServicesViewController.h; sourceTree = "<group>"; };
-		BF6DD36417AA568F0041489E /* AutoReplySMSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoReplySMSViewController.h; sourceTree = "<group>"; };
-		BF6DD36517AA568F0041489E /* BlackWhiteListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackWhiteListViewController.h; sourceTree = "<group>"; };
-		BF6DD36617AA568F0041489E /* CABMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CABMainViewController.h; sourceTree = "<group>"; };
-		BF6DD36717AA568F0041489E /* ChooseReceiverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseReceiverController.h; sourceTree = "<group>"; };
-		BF6DD36817AA568F0041489E /* ConnectionServerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionServerViewController.h; sourceTree = "<group>"; };
-		BF6DD36917AA568F0041489E /* ContactAssistantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactAssistantViewController.h; sourceTree = "<group>"; };
-		BF6DD36A17AA568F0041489E /* ContactDetailforContactRefViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDetailforContactRefViewController.h; sourceTree = "<group>"; };
-		BF6DD36B17AA568F0041489E /* ContactFeedsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactFeedsViewController.h; sourceTree = "<group>"; };
-		BF6DD36C17AA568F0041489E /* ContactsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsDetailViewController.h; sourceTree = "<group>"; };
-		BF6DD36D17AA568F0041489E /* ContactSetAvavtarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactSetAvavtarViewController.h; sourceTree = "<group>"; };
-		BF6DD36E17AA568F0041489E /* ConversationListViewCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversationListViewCtl.h; sourceTree = "<group>"; };
-		BF6DD36F17AA568F0041489E /* DayTimeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayTimeController.h; sourceTree = "<group>"; };
-		BF6DD37017AA568F0041489E /* DirectMessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectMessageController.h; sourceTree = "<group>"; };
-		BF6DD37117AA568F0041489E /* DMSessionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMSessionController.h; sourceTree = "<group>"; };
-		BF6DD37217AA568F0041489E /* EditTrustDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditTrustDeviceViewController.h; sourceTree = "<group>"; };
-		BF6DD37317AA568F0041489E /* EditUMSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditUMSViewController.h; sourceTree = "<group>"; };
-		BF6DD37417AA568F0041489E /* FeedBackController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedBackController.h; sourceTree = "<group>"; };
-		BF6DD37517AA568F0041489E /* ForwardMessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForwardMessageController.h; sourceTree = "<group>"; };
-		BF6DD37617AA568F0041489E /* GuideThirdPartyBindingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideThirdPartyBindingViewController.h; sourceTree = "<group>"; };
-		BF6DD37717AA568F0041489E /* GuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideViewController.h; sourceTree = "<group>"; };
-		BF6DD37817AA568F0041489E /* ImStateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImStateViewController.h; sourceTree = "<group>"; };
-		BF6DD37917AA568F0041489E /* LinkedTFFriendListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedTFFriendListViewController.h; sourceTree = "<group>"; };
-		BF6DD37A17AA568F0041489E /* LinkTFFriendListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkTFFriendListViewController.h; sourceTree = "<group>"; };
-		BF6DD37B17AA568F0041489E /* LinkThirdPartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkThirdPartViewController.h; sourceTree = "<group>"; };
-		BF6DD37C17AA568F0041489E /* LocationMsgTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationMsgTypeViewController.h; sourceTree = "<group>"; };
-		BF6DD37D17AA568F0041489E /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		BF6DD37E17AA568F0041489E /* MergeToContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeToContactViewController.h; sourceTree = "<group>"; };
-		BF6DD37F17AA568F0041489E /* MessageSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageSettingViewController.h; sourceTree = "<group>"; };
-		BF6DD38017AA568F0041489E /* MixConversationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixConversationViewController.h; sourceTree = "<group>"; };
-		BF6DD38117AA568F0041489E /* MultiChatViewCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiChatViewCtl.h; sourceTree = "<group>"; };
-		BF6DD38217AA568F0041489E /* MyProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyProfileViewController.h; sourceTree = "<group>"; };
-		BF6DD38317AA568F0041489E /* NewChatViewCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewChatViewCtl.h; sourceTree = "<group>"; };
-		BF6DD38417AA568F0041489E /* NewDirectorMessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewDirectorMessageController.h; sourceTree = "<group>"; };
-		BF6DD38517AA568F0041489E /* NewSNSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewSNSViewController.h; sourceTree = "<group>"; };
-		BF6DD38617AA568F0041489E /* NoNetworkDetailViewCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoNetworkDetailViewCtl.h; sourceTree = "<group>"; };
-		BF6DD38717AA568F0041489E /* PersonalPrivacyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalPrivacyViewController.h; sourceTree = "<group>"; };
-		BF6DD38817AA568F0041489E /* PrivacyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivacyViewController.h; sourceTree = "<group>"; };
-		BF6DD38917AA568F0041489E /* RCSTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCSTabBarViewController.h; sourceTree = "<group>"; };
-		BF6DD38A17AA568F0041489E /* RegisterVerificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterVerificationViewController.h; sourceTree = "<group>"; };
-		BF6DD38B17AA568F0041489E /* RulesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RulesViewController.h; sourceTree = "<group>"; };
-		BF6DD38C17AA568F0041489E /* SecondPhraseLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondPhraseLoginViewController.h; sourceTree = "<group>"; };
-		BF6DD38D17AA568F0041489E /* SecuritySettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecuritySettingsViewController.h; sourceTree = "<group>"; };
-		BF6DD38E17AA568F0041489E /* SharedLocationDetailViewCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedLocationDetailViewCtl.h; sourceTree = "<group>"; };
-		BF6DD38F17AA568F0041489E /* ShowLocationMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowLocationMapViewController.h; sourceTree = "<group>"; };
-		BF6DD39017AA568F0041489E /* ShowMMSBigImageCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowMMSBigImageCtl.h; sourceTree = "<group>"; };
-		BF6DD39117AA568F0041489E /* SignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignViewController.h; sourceTree = "<group>"; };
-		BF6DD39217AA568F0041489E /* SNSBindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNSBindViewController.h; sourceTree = "<group>"; };
-		BF6DD39317AA568F0041489E /* SNSDetailViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNSDetailViewer.h; sourceTree = "<group>"; };
-		BF6DD39417AA568F0041489E /* SNSFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNSFriendsViewController.h; sourceTree = "<group>"; };
-		BF6DD39517AA568F0041489E /* SNSOtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNSOtherViewController.h; sourceTree = "<group>"; };
-		BF6DD39617AA568F0041489E /* SNSShowBigImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNSShowBigImageViewController.h; sourceTree = "<group>"; };
-		BF6DD39717AA568F0041489E /* SNSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNSViewController.h; sourceTree = "<group>"; };
-		BF6DD39817AA568F0041489E /* TFSNSFriendProfileViewCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFSNSFriendProfileViewCtl.h; sourceTree = "<group>"; };
-		BF6DD39917AA568F0041489E /* ThirdPartyFriendProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdPartyFriendProfileViewController.h; sourceTree = "<group>"; };
-		BF6DD39A17AA568F0041489E /* TrustDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrustDeviceViewController.h; sourceTree = "<group>"; };
-		BF6DD39B17AA568F0041489E /* UMSContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSContactViewController.h; sourceTree = "<group>"; };
-		BF6DD39C17AA568F0041489E /* UMSDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSDetailViewController.h; sourceTree = "<group>"; };
-		BF6DD39D17AA568F0041489E /* VerificationGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerificationGuideViewController.h; sourceTree = "<group>"; };
-		BF6DD39E17AA568F0041489E /* WeekDaysController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekDaysController.h; sourceTree = "<group>"; };
 		BF82193D1761D5EE00650386 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
 		BF82193E1761D5EE00650386 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
 		BF8219421761D77B00650386 /* test_movie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test_movie.mp4; sourceTree = "<group>"; };
@@ -643,7 +579,6 @@
 			children = (
 				330A542019338FC30010DB0E /* Cocoa */,
 				333374B918F4EF6000160344 /* IM */,
-				BF6DD35E17AA568E0041489E /* VC */,
 				849E073914FCE0B500E34D41 /* Usually */,
 				361F703716606776005C555C /* ThirdParty */,
 				50FE4AAD17F2862A008FDC2D /* CommonUI */,
@@ -1281,77 +1216,6 @@
 				BF4F88A717AF5162009CF75E /* TestFlightViewController.m */,
 			);
 			path = TestFlight;
-			sourceTree = "<group>";
-		};
-		BF6DD35E17AA568E0041489E /* VC */ = {
-			isa = PBXGroup;
-			children = (
-				BF6DD35F17AA568F0041489E /* AboutContrView.h */,
-				BF6DD36017AA568F0041489E /* AccountViewController.h */,
-				BF6DD36117AA568F0041489E /* AddServiceViewController.h */,
-				BF6DD36217AA568F0041489E /* AddThirdPartyFriendViewController.h */,
-				BF6DD36317AA568F0041489E /* AllServicesViewController.h */,
-				BF6DD36417AA568F0041489E /* AutoReplySMSViewController.h */,
-				BF6DD36517AA568F0041489E /* BlackWhiteListViewController.h */,
-				BF6DD36617AA568F0041489E /* CABMainViewController.h */,
-				BF6DD36717AA568F0041489E /* ChooseReceiverController.h */,
-				BF6DD36817AA568F0041489E /* ConnectionServerViewController.h */,
-				BF6DD36917AA568F0041489E /* ContactAssistantViewController.h */,
-				BF6DD36A17AA568F0041489E /* ContactDetailforContactRefViewController.h */,
-				BF6DD36B17AA568F0041489E /* ContactFeedsViewController.h */,
-				BF6DD36C17AA568F0041489E /* ContactsDetailViewController.h */,
-				BF6DD36D17AA568F0041489E /* ContactSetAvavtarViewController.h */,
-				BF6DD36E17AA568F0041489E /* ConversationListViewCtl.h */,
-				BF6DD36F17AA568F0041489E /* DayTimeController.h */,
-				BF6DD37017AA568F0041489E /* DirectMessageController.h */,
-				BF6DD37117AA568F0041489E /* DMSessionController.h */,
-				BF6DD37217AA568F0041489E /* EditTrustDeviceViewController.h */,
-				BF6DD37317AA568F0041489E /* EditUMSViewController.h */,
-				BF6DD37417AA568F0041489E /* FeedBackController.h */,
-				BF6DD37517AA568F0041489E /* ForwardMessageController.h */,
-				BF6DD37617AA568F0041489E /* GuideThirdPartyBindingViewController.h */,
-				BF6DD37717AA568F0041489E /* GuideViewController.h */,
-				BF6DD37817AA568F0041489E /* ImStateViewController.h */,
-				BF6DD37917AA568F0041489E /* LinkedTFFriendListViewController.h */,
-				BF6DD37A17AA568F0041489E /* LinkTFFriendListViewController.h */,
-				BF6DD37B17AA568F0041489E /* LinkThirdPartViewController.h */,
-				BF6DD37C17AA568F0041489E /* LocationMsgTypeViewController.h */,
-				BF6DD37D17AA568F0041489E /* LoginViewController.h */,
-				BF6DD37E17AA568F0041489E /* MergeToContactViewController.h */,
-				BF6DD37F17AA568F0041489E /* MessageSettingViewController.h */,
-				BF6DD38017AA568F0041489E /* MixConversationViewController.h */,
-				BF6DD38117AA568F0041489E /* MultiChatViewCtl.h */,
-				BF6DD38217AA568F0041489E /* MyProfileViewController.h */,
-				BF6DD38317AA568F0041489E /* NewChatViewCtl.h */,
-				BF6DD38417AA568F0041489E /* NewDirectorMessageController.h */,
-				BF6DD38517AA568F0041489E /* NewSNSViewController.h */,
-				BF6DD38617AA568F0041489E /* NoNetworkDetailViewCtl.h */,
-				BF6DD38717AA568F0041489E /* PersonalPrivacyViewController.h */,
-				BF6DD38817AA568F0041489E /* PrivacyViewController.h */,
-				BF6DD38917AA568F0041489E /* RCSTabBarViewController.h */,
-				BF6DD38A17AA568F0041489E /* RegisterVerificationViewController.h */,
-				BF6DD38B17AA568F0041489E /* RulesViewController.h */,
-				BF6DD38C17AA568F0041489E /* SecondPhraseLoginViewController.h */,
-				BF6DD38D17AA568F0041489E /* SecuritySettingsViewController.h */,
-				BF6DD38E17AA568F0041489E /* SharedLocationDetailViewCtl.h */,
-				BF6DD38F17AA568F0041489E /* ShowLocationMapViewController.h */,
-				BF6DD39017AA568F0041489E /* ShowMMSBigImageCtl.h */,
-				BF6DD39117AA568F0041489E /* SignViewController.h */,
-				BF6DD39217AA568F0041489E /* SNSBindViewController.h */,
-				BF6DD39317AA568F0041489E /* SNSDetailViewer.h */,
-				BF6DD39417AA568F0041489E /* SNSFriendsViewController.h */,
-				BF6DD39517AA568F0041489E /* SNSOtherViewController.h */,
-				BF6DD39617AA568F0041489E /* SNSShowBigImageViewController.h */,
-				BF6DD39717AA568F0041489E /* SNSViewController.h */,
-				BF6DD39817AA568F0041489E /* TFSNSFriendProfileViewCtl.h */,
-				BF6DD39917AA568F0041489E /* ThirdPartyFriendProfileViewController.h */,
-				BF6DD39A17AA568F0041489E /* TrustDeviceViewController.h */,
-				BF6DD39B17AA568F0041489E /* UMSContactViewController.h */,
-				BF6DD39C17AA568F0041489E /* UMSDetailViewController.h */,
-				BF6DD39D17AA568F0041489E /* VerificationGuideViewController.h */,
-				BF6DD39E17AA568F0041489E /* WeekDaysController.h */,
-			);
-			path = VC;
 			sourceTree = "<group>";
 		};
 		BF8219411761D77B00650386 /* Video */ = {

@@ -10,29 +10,29 @@
 	<string>XSTestProject</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>9B921393-A3A2-4F0E-A6DB-E09A06A6A2F9</key>
+		<key>85E428A3FFB945B60BB36420F50D5D8CED7D0BF6</key>
 		<string>https://github.com/zhangss/XSTestProject</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>XSTestProject.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>9B921393-A3A2-4F0E-A6DB-E09A06A6A2F9</key>
+		<key>85E428A3FFB945B60BB36420F50D5D8CED7D0BF6</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/zhangss/XSTestProject</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>9B921393-A3A2-4F0E-A6DB-E09A06A6A2F9</string>
+	<string>85E428A3FFB945B60BB36420F50D5D8CED7D0BF6</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>9B921393-A3A2-4F0E-A6DB-E09A06A6A2F9</string>
+			<string>85E428A3FFB945B60BB36420F50D5D8CED7D0BF6</string>
 			<key>IDESourceControlWCCName</key>
 			<string>XSTestProject</string>
 		</dict>
