@@ -142,7 +142,7 @@ static GAConfiger *gaConfiger = nil;
      是否需要打印日志在Consonle中
      默认NO;
      */
-    gai.debug = NO;
+//    gai.debug = NO;
     
     /*
      是否停止向GA发送数据
@@ -177,21 +177,21 @@ static GAConfiger *gaConfiger = nil;
     tracker = [gai trackerWithTrackingId:kTrackerID];
     
 #pragma mark GATraker 部分设置
-    tracker.appName = @"XSTest";
-    tracker.appId = @"com.easier.test";
-    tracker.appVersion = @"0.9.0.1";
-    //是否匿名被采样者IP 默认false
-    tracker.anonymize = NO;
-    //是否使用https协议 默认True
-    tracker.useHttps = YES;
-    //被采样的比例，如果不在比例范围内的用户不会被提交任何信息
-    tracker.sampleRate = 100.0;
-    //客户端进入后台多长时间之后 开始一个新的采集任务
-    tracker.sessionTimeout = 10*60;
-        
-    //Tracking ID 和 Client ID
-    NSLog(@"trackingId:%@",tracker.trackingId);
-    NSLog(@"clientId:%@",tracker.clientId);
+//    tracker.appName = @"XSTest";
+//    tracker.appId = @"com.easier.test";
+//    tracker.appVersion = @"0.9.0.1";
+//    //是否匿名被采样者IP 默认false
+//    tracker.anonymize = NO;
+//    //是否使用https协议 默认True
+//    tracker.useHttps = YES;
+//    //被采样的比例，如果不在比例范围内的用户不会被提交任何信息
+//    tracker.sampleRate = 100.0;
+//    //客户端进入后台多长时间之后 开始一个新的采集任务
+//    tracker.sessionTimeout = 10*60;
+//        
+//    //Tracking ID 和 Client ID
+//    NSLog(@"trackingId:%@",tracker.trackingId);
+//    NSLog(@"clientId:%@",tracker.clientId);
 }
 
 /******************************************************************************

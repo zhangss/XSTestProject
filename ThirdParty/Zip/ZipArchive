@@ -1,0 +1,7 @@
+关于ZipArchive
+SVN地址:http://ziparchive.googlecode.com/svn/trunk/ziparchive-read-only
+下载地址:http://ziparchive.googlecode.com/files/ZipArchive.zip
+编译需求:
+1.因为ZipArchive不支持ARC，所以如果你的工程开启了ARC，那么就需要对ZipArchive设置一下。在ZipArchive.mm编译选项中，增加-fno-objc-arc即可。
+2.需要为工程链接libz动态链接库。
+

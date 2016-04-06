@@ -85,11 +85,11 @@ static NSMutableDictionary *timmingDic = nil;
 //    self.tracker = [GAConfiger shareInStrance].tracker;
     if (className.length > 0)
     {
-        self.trackedViewName = className;
+        self.screenName = className;
     }
     else
     {
-        self.trackedViewName = @"something";
+        self.screenName = @"something";
     }
 }
 

@@ -56,7 +56,8 @@
 
     // Add the view controller's view to the window and display.
 	[self initTabbarController];
-    [self.window addSubview:tabbarController.view];
+//    [self.window addSubview:tabbarController.view];
+    self.window.rootViewController = tabbarController;
     [self.window makeKeyAndVisible];
     
     //静态方法

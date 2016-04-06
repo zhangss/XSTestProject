@@ -14,7 +14,7 @@
 		<string>https://github.com/zhangss/XSTestProject</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>XSTestProject.xcodeproj/project.xcworkspace</string>
+	<string>XSTestProject.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>85E428A3FFB945B60BB36420F50D5D8CED7D0BF6</key>

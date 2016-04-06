@@ -2,7 +2,7 @@
 //  DateFormatViewController.m
 //  XSTestProject
 //
-//  Created by 张永亮 on 12-10-8.
+//  Created by 张松松 on 12-10-8.
 //  Copyright 2012 __MyCompanyName__. All rights reserved.
 //
 
@@ -14,30 +14,12 @@
 
 @implementation DateFormatViewController
 
-// The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-/*
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization.
-    }
-    return self;
-}
-*/
-
-/*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView {
-}
-*/
-
-
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad 
 {
     [super viewDidLoad];
     
-    self.navigationItem.titleView = [XSTestUtils navigationTitleWithString:NSLocalizedString(@"Other",@"")];
+    self.navigationItem.titleView = [XSTestUtils navigationTitleWithString:NSLocalizedString(@"DateFormate",@"")];
     
     //现在的时间格式
     UILabel *timeNowLabel = [[[UILabel alloc] initWithFrame:CGRectMake(10, 10, 300, 30)] autorelease];
@@ -50,6 +32,8 @@
     
     //NSDate
     [self logNSDate];
+    
+    [self getNowDateFromatAnDate:[NSDate date]];
     
     //NSLocale
     [self logNSLocaleValue:nil];
@@ -373,6 +357,15 @@
     
     NSString *localeQuotationBeginDelimiterKey = [aLocale objectForKey:NSLocaleQuotationBeginDelimiterKey];
     NSLog(@"%@ %@",kNSLocaleLog,localeQuotationBeginDelimiterKey);
+}
+
+- (NSString *)stringFromDate24:(NSDate *)date
+{
+    NSDateFormatter *dateFromatter=[[NSDateFormatter alloc] init];
+    [dateFromatter setTimeStyle:NSDateFormatterShortStyle];
+    [dateFromatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
+    NSString *strDate = [dateFromatter stringFromDate:date];
+    return strDate;
 }
 
 
