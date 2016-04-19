@@ -159,12 +159,10 @@
 		BF5B021A177AC6EC00227FAF /* LineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC8167216DF3BA50051000D /* LineLayout.m */; };
 		BF5B021B177AC6F600227FAF /* CircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC8168216DF4C930051000D /* CircleLayout.m */; };
 		BF62BB7416DC49C300F24C5E /* UIRefreshControlInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF62BB7316DC49C300F24C5E /* UIRefreshControlInfoViewController.m */; };
-		BF6DD35A17AA48870041489E /* FileOperateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6DD35917AA48870041489E /* FileOperateViewController.m */; };
 		BF82193F1761D5EE00650386 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF82193E1761D5EE00650386 /* VideoViewController.m */; };
 		BF8219431761D77B00650386 /* test_movie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF8219421761D77B00650386 /* test_movie.mp4 */; };
 		BF8219451761DB9300650386 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF8219441761DB9300650386 /* MediaPlayer.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		BF845FEB183E258900AE05CD /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF845FEA183E258900AE05CD /* TestView.m */; };
-		BF90C4DB17812A6800972F83 /* IOSExceptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF90C4DA17812A6800972F83 /* IOSExceptionViewController.m */; };
 		BF95B093183D98ED00A33186 /* GAI.html in Resources */ = {isa = PBXBuildFile; fileRef = BF95B07A183D98ED00A33186 /* GAI.html */; };
 		BF95B094183D98ED00A33186 /* GAITrackedViewController.html in Resources */ = {isa = PBXBuildFile; fileRef = BF95B07B183D98ED00A33186 /* GAITrackedViewController.html */; };
 		BF95B095183D98ED00A33186 /* GAITransaction.html in Resources */ = {isa = PBXBuildFile; fileRef = BF95B07C183D98ED00A33186 /* GAITransaction.html */; };
@@ -478,16 +476,12 @@
 		BF62BB7216DC49C300F24C5E /* UIRefreshControlInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIRefreshControlInfoViewController.h; sourceTree = "<group>"; };
 		BF62BB7316DC49C300F24C5E /* UIRefreshControlInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIRefreshControlInfoViewController.m; sourceTree = "<group>"; };
 		BF62BB7516DC49E000F24C5E /* UICollectionViewInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewInfoViewController.h; sourceTree = "<group>"; };
-		BF6DD35817AA48870041489E /* FileOperateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileOperateViewController.h; sourceTree = "<group>"; };
-		BF6DD35917AA48870041489E /* FileOperateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileOperateViewController.m; sourceTree = "<group>"; };
 		BF82193D1761D5EE00650386 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
 		BF82193E1761D5EE00650386 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
 		BF8219421761D77B00650386 /* test_movie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test_movie.mp4; sourceTree = "<group>"; };
 		BF8219441761DB9300650386 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		BF845FE9183E258900AE05CD /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
 		BF845FEA183E258900AE05CD /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
-		BF90C4D917812A6800972F83 /* IOSExceptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSExceptionViewController.h; sourceTree = "<group>"; };
-		BF90C4DA17812A6800972F83 /* IOSExceptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOSExceptionViewController.m; sourceTree = "<group>"; };
 		BF95B07A183D98ED00A33186 /* GAI.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = GAI.html; sourceTree = "<group>"; };
 		BF95B07B183D98ED00A33186 /* GAITrackedViewController.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = GAITrackedViewController.html; sourceTree = "<group>"; };
 		BF95B07C183D98ED00A33186 /* GAITransaction.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = GAITransaction.html; sourceTree = "<group>"; };
@@ -600,7 +594,6 @@
 				369EBA481622CF4E00C47F81 /* Media */,
 				361F703016606164005C555C /* UIView */,
 				BF4524AA1744CA620083456C /* IOSMechanism */,
-				BF90C4D717812A4100972F83 /* IOSException */,
 				BF48BFE9178517A400AC095D /* CoreData */,
 				BF3F8D48178D36E500F9E105 /* SimpleCrashRecord */,
 				BF6DD35117AA43020041489E /* ThirdPartyLibrary */,
@@ -910,8 +903,6 @@
 				36148B3016539A9400B2E267 /* PNGViewController.m */,
 				363FB07D1654950F00BF6EC5 /* UIButtonViewController.h */,
 				363FB07E1654950F00BF6EC5 /* UIButtonViewController.m */,
-				BF6DD35817AA48870041489E /* FileOperateViewController.h */,
-				BF6DD35917AA48870041489E /* FileOperateViewController.m */,
 				33B4B5C018FD1955005B4021 /* URLRequestViewController.h */,
 				33B4B5C118FD1955005B4021 /* URLRequestViewController.m */,
 			);
@@ -1292,15 +1283,6 @@
 			path = Video;
 			sourceTree = "<group>";
 		};
-		BF90C4D717812A4100972F83 /* IOSException */ = {
-			isa = PBXGroup;
-			children = (
-				BF90C4D917812A6800972F83 /* IOSExceptionViewController.h */,
-				BF90C4DA17812A6800972F83 /* IOSExceptionViewController.m */,
-			);
-			path = IOSException;
-			sourceTree = "<group>";
-		};
 		BF95B064183D98D800A33186 /* GZip */ = {
 			isa = PBXGroup;
 			children = (
@@ -1678,7 +1660,6 @@
 				BF82193F1761D5EE00650386 /* VideoViewController.m in Sources */,
 				BFFAB41A177949B600F06620 /* UICollectionViewInfoViewController.m in Sources */,
 				BF845FEB183E258900AE05CD /* TestView.m in Sources */,
-				BF90C4DB17812A6800972F83 /* IOSExceptionViewController.m in Sources */,
 				BF30D747178412AB00FA6939 /* AssetsLibraryViewController.m in Sources */,
 				33B4B5C218FD1955005B4021 /* URLRequestViewController.m in Sources */,
 				BF48BFEC178517C300AC095D /* CoreDataViewController.m in Sources */,
@@ -1690,7 +1671,6 @@
 				BF48C04A1785535A00AC095D /* TestData.m in Sources */,
 				BF3F8D51178D40C700F9E105 /* SimpleCrashViewController.m in Sources */,
 				BF3F8D57178D614200F9E105 /* UIWebViewController.m in Sources */,
-				BF6DD35A17AA48870041489E /* FileOperateViewController.m in Sources */,
 				BFA642C4183DE10E00A1F22D /* IOSJSONViewController.m in Sources */,
 				BF4F886C17AF4341009CF75E /* GAConfiger.m in Sources */,
 				334772ED19E7A83D00A1AE84 /* XSNotificationCenter.m in Sources */,
